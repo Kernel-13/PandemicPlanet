@@ -3,10 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Ederson/Documents/NetBeansProjects/Pandemic%20Planet/src/Model/Node.java</file>
-            <file>file:/C:/Users/Ederson/Documents/NetBeansProjects/Pandemic%20Planet/src/pandemic/planet/PandemicPlanet.java</file>
-            <file>file:/C:/Users/Ederson/Documents/NetBeansProjects/Pandemic%20Planet/src/Model/Network.java</file>
-            <file>file:/C:/Users/Ederson/Documents/NetBeansProjects/Pandemic%20Planet/src/View/Interfaz.java</file>
+            <file>file:/C:/Users/Ederson/Documents/GitHub/PandemicPlanet/src/Model/Node.java</file>
+            <file>file:/C:/Users/Ederson/Documents/GitHub/PandemicPlanet/src/Controller/Controller.java</file>
+            <file>file:/C:/Users/Ederson/Documents/GitHub/PandemicPlanet/src/Model/Network.java</file>
+            <file>file:/C:/Users/Ederson/Documents/GitHub/PandemicPlanet/src/Model/State.java</file>
         </group>
     </open-files>
 </project-private>

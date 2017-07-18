@@ -20,26 +20,18 @@ import java.util.Random;
  */
 public class Network {
 
-    protected HashMap<String, Node> airports;	// Collection of nodes
-    protected ArrayList<String> inQuarantine;
-    protected int infected;			// Number of infected nodes
-    protected int healthy;			// Number of healthy nodes
-    protected double infectionRate;		// Infection Rate
-    protected double recoveryRate;		// Recovery Rate
-    protected String nodeFile;
-    protected String edgeFile;
-    protected ArrayList<String> bigHubs;
-    protected ArrayList<String> smallHubs;
+    protected int infected;                     // Number of infected nodes
+    protected int healthy;                      // Number of healthy nodes
+    protected HashMap<String, Node> airports;   // All the Nodes
+    protected ArrayList<String> quarantine;     // Nodes that may go into Quarantine
+    protected ArrayList<String> bigHubs;        // Nodes with > 170 Edges
+    protected ArrayList<String> smallHubs;      // Nodes with < 6 edges
 
-    public Network(double rate, double reco, String nodeFile, String edgeFile) {
+    public Network() {
         this.infected = 0;
         this.healthy = 0;
-        this.infectionRate = rate;
-        this.recoveryRate = reco;
         this.airports = new HashMap<>();
-        this.inQuarantine = new ArrayList<>();
-        this.nodeFile = nodeFile;
-        this.edgeFile = edgeFile;
+        this.quarantine = new ArrayList<>();
         this.bigHubs = new ArrayList<>();
         this.smallHubs = new ArrayList<>();
     }
@@ -50,83 +42,86 @@ public class Network {
     }
 
     /**
-     * * Inicializacion de Nuestra Red **
+     * * Network Initialization
+     *
+     * Method that fills our 'airport' map with data from 2 text files provided
+     * by the user
      */
-    protected void initializeCollection() {
+    public void initializeNetwork(String nodeFile, String edgeFile) {
         try {
-            BufferedReader reader = new BufferedReader(new FileReader(nodeFile));
-            String line;
-            line = reader.readLine();
-            while ((line = reader.readLine()) != null) {
-                String[] parts = line.split(";");
+            BufferedReader readerNodes = new BufferedReader(new FileReader(nodeFile));
+            BufferedReader readerEdges = new BufferedReader(new FileReader(edgeFile));
+
+            String lineNodes = readerNodes.readLine();
+            while ((lineNodes = readerNodes.readLine()) != null) {
+                String[] parts = lineNodes.split(";");
                 airports.put(parts[0], new Node(parts[0]));
                 healthy++;
             }
-            reader.close();
-        } catch (IOException e) {
-            // WAT
-        }
-    }
 
-    protected void initializeRelations() {
-        try {
-            BufferedReader reader = new BufferedReader(new FileReader(edgeFile));
-            String line = reader.readLine();
-            line = reader.readLine();
-            while (line != null) {
-                String[] parts = line.split(";");
-                Node one = addingFriends(parts[0], parts[1]);
-                Node two = addingFriends(parts[1], parts[0]);
+            String lineEdges = readerEdges.readLine();
+            while (lineEdges != null) {
+                String[] parts = lineEdges.split(";");
+                Node one = addingNeighbors(parts[0], parts[1]);
+                Node two = addingNeighbors(parts[1], parts[0]);
                 airports.put(parts[0], one);
                 airports.put(parts[1], two);
 
-                if (one.getFriendsSize() > 170 && !bigHubs.contains(one.getId())) {
+                if (one.getNeighborSize() > 170 && !bigHubs.contains(one.getId())) {
                     bigHubs.add(one.getId());
                 }
 
-                line = reader.readLine();
+                lineEdges = readerEdges.readLine();
             }
-            reader.close();
+
+            readerNodes.close();
+            readerEdges.close();
         } catch (IOException e) {
             // WAT
         }
     }
 
-    protected void InitQuarantineList(int grad_q) {
+    /**
+     * * Quarantine Initialization
+     *
+     * Method that fills our 'quarantine' List with nodes that meet some
+     * requirements
+     *
+     * @param num_edges
+     */
+    public void initializeQuarantineList(int num_edges) {
         for (Entry<String, Node> entry : airports.entrySet()) {
-            if (entry.getValue().getFriendsSize() > grad_q) {
-                inQuarantine.add(entry.getKey());
+            if (entry.getValue().getNeighborSize() > num_edges) {
+                quarantine.add(entry.getKey());
             }
         }
     }
 
-    protected void ActivateQuarantine() {
-        for (int i = 0; i < inQuarantine.size(); i++) {
-            if (airports.get(inQuarantine.get(i)).getState() != State.INFECTED && airports.get(inQuarantine.get(i)).getState() != State.RECOVERED) {
-                Node nodo = airports.get(inQuarantine.get(i));
+    /**
+     * * Quarantine Activation
+     *
+     * Method that changes the 'state' of the nodes from the 'quarantine' list
+     * which haven't been infected yet.
+     */
+    public void activateQuarantine() {
+        for (int i = 0; i < quarantine.size(); i++) {
+            if (airports.get(quarantine.get(i)).getState() != State.INFECTED
+                    && airports.get(quarantine.get(i)).getState() != State.REMOVED) {
+                Node nodo = airports.get(quarantine.get(i));
                 nodo.setState(State.QUARANTINE);
-                airports.put(inQuarantine.get(i), nodo);
+                airports.put(quarantine.get(i), nodo);
                 healthy--;
             }
         }
     }
 
-    private Node addingFriends(String s1, String s2) {
-        Node node = airports.get(s1);
-        int pos = node.getFriends().indexOf(s2);	// Buscamos el otro nodo en la lista
-        if (pos == -1) {								// Si no esta en su lista de amigos ...
-            node.addFriend(s2);						// ... Nos aseguramos de incluirlo
-        }
-        return node;
-    }
-
     /**
-     * * Primer Contagio
+     * * Random Infection
      *
      **
      * @param left
      */
-    protected void pickUnfortunate(ArrayList<String> left) {
+    public void pickUnfortunate(ArrayList<String> left) {
         List<String> keys;
         if (left == null) {
             keys = new ArrayList<>(airports.keySet());
@@ -146,67 +141,50 @@ public class Network {
         }
     }
 
-    protected boolean chance(boolean inf) {
-        boolean ok = false;
-        Random rand = new Random();
-        int chance = rand.nextInt(1000);
-        double res = (double) chance / (double) 1000;
-        if (inf && res < infectionRate) {
-            ok = true;
-        } else if (!inf && res < recoveryRate) {
-            ok = true;
-        }
-        return ok;
-    }
-
     /**
-     * * Resto del Mundo **
+     * * Pathogen Transmission
+     * Method that will spread the pathogen through the network
+     **
+     * @param rate
      */
-    protected void transmission() {
-        HashMap<String, Node> aux = deepCopy();
-        for (Entry<String, Node> entry : aux.entrySet()) {                      // Iteramos sobre la copia de la lista
-            String id = entry.getKey();						// Obtenemos el id DEL MAPA AUXILIAR
-            Node node = aux.get(id);						// Obtenemos el nodo asociado DEL MAPA AUXILIAR
-            if (node.getState() == State.INFECTED) {				// Si el NODO AUXILIAR esta infectado
-                node = airports.get(id);					// Si lo es, entonces actuamos sobre el NODO ORIGINAL	
-                ArrayList<String> friends = node.getFriends();                  // Obtenemos los vecinos del NODO ORIGINAL
-                for (int i = 0; i < friends.size(); i++) {                      // Iteramos sobre sus vecinos
-                    Node friend = airports.get(friends.get(i));                 // Obtenemos uno de los vecinos
-                    if (chance(true) && friend.getState() == State.HEALTHY) {   // Infectamos si no lo esta
-                        friend.setState(State.INFECTED);			// Infectamos el vecino
-                        airports.put(friends.get(i), friend);                   // Lo volvemos a colocar en el mapa
-                        infected++;						// Actualizamos la poblacion	
-                        healthy--;
+    public void transmission(Double rate) {
+        ArrayList<String> newInfected = new ArrayList<>();
+        //HashMap<String, Node> aux = deepCopy();
+        for (Entry<String, Node> entry : airports.entrySet()) {                 // Iterate over our nodes
+            Node node = airports.get(entry.getKey());				// We get one node
+            if (node.getState() == State.INFECTED) {				// Check if its infected
+                ArrayList<String> friends = node.getNeighbors();                  // If so, then we get his neighbors
+                for (int i = 0; i < friends.size(); i++) {                      // Iterate over the neighbors
+                    Node friend = airports.get(friends.get(i));                 // We work with each neighbor
+                    if (luck(rate)
+                            && friend.getState() == State.HEALTHY
+                            && !newInfected.contains(friend.getId())) {
+                        newInfected.add(friend.getId());                        // We add it so we can infect it later
+                        infected++;						// One More Infected
+                        healthy--;                                              // One Healthy Less
                     }
                 }
             }
         }
+
+        for (String node : newInfected) {
+            Node aux = airports.get(node);
+            aux.setState(State.INFECTED);
+            airports.put(node, aux);
+        }
+
     }
 
-    protected void recovery() {
+    public void recovery() {
         //ABSTRACT
     }
 
-    protected HashMap<String, Node> deepCopy() {
-        HashMap<String, Node> copy = new HashMap<>();
-        airports.entrySet().forEach((entry) -> {
-            Node node = new Node(entry.getKey());
-            node.setState(entry.getValue().getState());
-            for (int i = 0; i < entry.getValue().getFriends().size(); i++) {
-                node.addFriend(entry.getValue().getFriends().get(i));
-            }
-            copy.put(entry.getKey(), node);
-        });
-        return copy;
-    }
-
-    protected void printStatus(int i) {
-        //ABSTRACT
-    }
-
+    /**
+     * Method that fills our SmallHubs List
+     */
     protected void smallHubs() {
         for (Entry<String, Node> entry : airports.entrySet()) {
-            if (entry.getValue().getFriendsSize() < 6) {
+            if (entry.getValue().getNeighborSize() < 6) {
                 smallHubs.add(entry.getKey());
             }
             if (smallHubs.size() > 50) {
@@ -214,4 +192,30 @@ public class Network {
             }
         }
     }
+
+    /**
+     * * Adding Neighbors
+     *
+     * Method that links 2 different nodes
+     *
+     */
+    private Node addingNeighbors(String s1, String s2) {
+        Node node = airports.get(s1);
+        int pos = node.getNeighbors().indexOf(s2);    // Buscamos el otro nodo en la lista
+        if (pos == -1) {                            // Si no esta en su lista de amigos ...
+            node.addNeighbor(s2);                     // ... Nos aseguramos de incluirlo
+        }
+        return node;
+    }
+
+    private boolean luck(Double rate) {
+        boolean ok = false;
+        Random rand = new Random();
+        double res = rand.nextDouble();
+        if (res < rate) {
+            ok = true;
+        }
+        return ok;
+    }
+
 }

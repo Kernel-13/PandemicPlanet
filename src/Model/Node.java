@@ -10,12 +10,12 @@ public class Node {
 
     private String id;
     private State state;
-    private final ArrayList<String> friends;
+    private final ArrayList<String> neighbors;
 
     public Node(String id) {
         this.id = id;
         this.state = State.HEALTHY;
-        this.friends = new ArrayList<>();
+        this.neighbors = new ArrayList<>();
     }
 
     public String getId() {
@@ -34,16 +34,16 @@ public class Node {
         this.state = s;
     }
     
-    public void addFriend(String f) {
-        this.friends.add(f);
+    public void addNeighbor(String f) {
+        this.neighbors.add(f);
     }
 
-    public ArrayList<String> getFriends() {
-        return friends;
+    public ArrayList<String> getNeighbors() {
+        return neighbors;
     }
 
-    public int getFriendsSize() {
-        return this.friends.size();
+    public int getNeighborSize() {
+        return this.neighbors.size();
     }
 
 }
