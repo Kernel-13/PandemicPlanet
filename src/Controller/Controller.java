@@ -23,6 +23,20 @@ public class Controller {
     private int quarantineSchedule;
     private String firstInfected;
 
+    public Controller() {
+        epidemicModel = "SI";
+        nodesFile = "";
+        edgesFile = "";
+        infectionRate = 50;
+        recoveryRate = 50;
+        numberOfDays = 100;
+        randomWalks = true;
+        rwFrequency = 5;
+        quarantine = true;
+        quarantineSchedule = 5;
+        firstInfected = "HIGH";
+    }
+
     /**
      * @param epidemicModel the epidemicModel to set
      */
@@ -147,11 +161,11 @@ public class Controller {
             try {
                 int aux = Integer.parseInt(rwFrequency);
                 if (aux < 1 || aux >= this.numberOfDays) {
-                    log += "* The Number of Days must be an integer between 1 and the Number of Days.\n";
+                    log += "* The Frequency of the Random Walks must be an integer between 1 and the Number of Days.\n";
                 }
                 this.rwFrequency = aux;
             } catch (NumberFormatException e) {
-                log += "* The Number of Days must be an integer between 1 and the Number of Days.\n";
+                log += "* The Frequency of the Random Walks must be an integer between 1 and the Number of Days.\n";
             }
         }
         return log;
@@ -190,15 +204,26 @@ public class Controller {
     /**
      * @param firstInfected the firstInfected to set
      */
-    public void setFirstInfected(String firstInfected) {
+    public void setFirstInfected(int choice) {
+        switch (choice) {
+            case 0:
+                this.firstInfected = "HUB";
+                break;
+            case 1:
+                this.firstInfected = "ANTI-HUB";
+                break;
+            case 2:
+                this.firstInfected = "RANDOM";
+                break;
+        }
         this.firstInfected = firstInfected;
     }
 
-    public void beginSimulation(){
+    public void beginSimulation() {
         /*
         AlgoritmoGenetico algo = new AlgoritmoGenetico(funcion, poblacion, iteraciones,
                 probCruces, probMutacion,maxDepth,seleccion,nvars,elitismo,cruce,mutacion,inv,ifs);
         return algo.ejecuta(semilla);
-        */
+         */
     }
 }
