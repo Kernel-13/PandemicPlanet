@@ -5,6 +5,9 @@
  */
 package Controller;
 
+import Model.Network;
+import Tools.Graph;
+
 /**
  *
  * @author Ederson
@@ -219,11 +222,11 @@ public class Controller {
         this.firstInfected = firstInfected;
     }
 
-    public void beginSimulation() {
-        /*
-        AlgoritmoGenetico algo = new AlgoritmoGenetico(funcion, poblacion, iteraciones,
-                probCruces, probMutacion,maxDepth,seleccion,nvars,elitismo,cruce,mutacion,inv,ifs);
-        return algo.ejecuta(semilla);
-         */
+    public Graph beginSimulation() {
+
+        Network net = new Network();
+        return net.startEpidemic(nodesFile, nodesFile, edgesFile, infectionRate,
+                recoveryRate, numberOfDays, randomWalks, rwFrequency,
+                quarantine, quarantineSchedule, firstInfected);
     }
 }

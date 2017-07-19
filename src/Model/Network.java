@@ -5,6 +5,7 @@
  */
 package Model;
 
+import Tools.Graph;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -20,25 +21,36 @@ import java.util.Random;
  */
 public class Network {
 
-    protected int infected;                     // Number of infected nodes
-    protected int healthy;                      // Number of healthy nodes
-    protected HashMap<String, Node> airports;   // All the Nodes
-    protected ArrayList<String> quarantine;     // Nodes that may go into Quarantine
-    protected ArrayList<String> bigHubs;        // Nodes with > 170 Edges
-    protected ArrayList<String> smallHubs;      // Nodes with < 6 edges
+    private int infected;                           // Number of infected nodes
+    private int healthy;                            // Number of healthy nodes
+    private HashMap<String, Node> airports;         // All the Nodes
+    private ArrayList<String> quarantine;           // Nodes that may go into Quarantine
+    private ArrayList<String> nodesWithBigDegree;   // Nodes with a lot of neighbors
+    private ArrayList<String> nodesWithSmallDegree; // Nodes with few neighbors
 
     public Network() {
         this.infected = 0;
         this.healthy = 0;
         this.airports = new HashMap<>();
         this.quarantine = new ArrayList<>();
-        this.bigHubs = new ArrayList<>();
-        this.smallHubs = new ArrayList<>();
+        this.nodesWithBigDegree = new ArrayList<>();
+        this.nodesWithSmallDegree = new ArrayList<>();
     }
 
-    public void doAll(int iter, boolean RW, int RW_F, boolean cheats,
-            double Q, int grad_q, boolean SM, boolean BG, String directory, String fileName) {
-        //ABSTRACT
+    public Graph startEpidemic(String model, String nodesFile, String edgesFile,
+            int infectionRate, int recoveryRate, int numberOfDays, boolean RW,
+            int rwFrequency, boolean quarantine, int quarantineSchedule,
+            String firstInfected) {
+
+        // Lists Initialization
+        initializeNetwork(nodesFile, edgesFile);
+        initializeQuarantineList(numberOfDays);
+        initializeOtherLists();
+
+        // Begin Spread - First Day
+        pickUnfortunate(null);
+
+        return null;
     }
 
     /**
@@ -47,7 +59,7 @@ public class Network {
      * Method that fills our 'airport' map with data from 2 text files provided
      * by the user
      */
-    public void initializeNetwork(String nodeFile, String edgeFile) {
+    private void initializeNetwork(String nodeFile, String edgeFile) {
         try {
             BufferedReader readerNodes = new BufferedReader(new FileReader(nodeFile));
             BufferedReader readerEdges = new BufferedReader(new FileReader(edgeFile));
@@ -67,10 +79,6 @@ public class Network {
                 airports.put(parts[0], one);
                 airports.put(parts[1], two);
 
-                if (one.getNeighborSize() > 170 && !bigHubs.contains(one.getId())) {
-                    bigHubs.add(one.getId());
-                }
-
                 lineEdges = readerEdges.readLine();
             }
 
@@ -89,7 +97,7 @@ public class Network {
      *
      * @param num_edges
      */
-    public void initializeQuarantineList(int num_edges) {
+    private void initializeQuarantineList(int num_edges) {
         for (Entry<String, Node> entry : airports.entrySet()) {
             if (entry.getValue().getNeighborSize() > num_edges) {
                 quarantine.add(entry.getKey());
@@ -103,7 +111,7 @@ public class Network {
      * Method that changes the 'state' of the nodes from the 'quarantine' list
      * which haven't been infected yet.
      */
-    public void activateQuarantine() {
+    private void activateQuarantine() {
         for (int i = 0; i < quarantine.size(); i++) {
             if (airports.get(quarantine.get(i)).getState() != State.INFECTED
                     && airports.get(quarantine.get(i)).getState() != State.REMOVED) {
@@ -121,7 +129,7 @@ public class Network {
      **
      * @param left
      */
-    public void pickUnfortunate(ArrayList<String> left) {
+    private void pickUnfortunate(ArrayList<String> left) {
         List<String> keys;
         if (left == null) {
             keys = new ArrayList<>(airports.keySet());
@@ -142,18 +150,16 @@ public class Network {
     }
 
     /**
-     * * Pathogen Transmission
-     * Method that will spread the pathogen through the network
-     **
-     * @param rate
+     * * Pathogen Transmission Method that will spread the pathogen through the
+     * network * @param rate
      */
-    public void transmission(Double rate) {
+    private void transmission(Double rate) {
         ArrayList<String> newInfected = new ArrayList<>();
         //HashMap<String, Node> aux = deepCopy();
         for (Entry<String, Node> entry : airports.entrySet()) {                 // Iterate over our nodes
             Node node = airports.get(entry.getKey());				// We get one node
             if (node.getState() == State.INFECTED) {				// Check if its infected
-                ArrayList<String> friends = node.getNeighbors();                  // If so, then we get his neighbors
+                ArrayList<String> friends = node.getNeighbors();                // If so, then we get his neighbors
                 for (int i = 0; i < friends.size(); i++) {                      // Iterate over the neighbors
                     Node friend = airports.get(friends.get(i));                 // We work with each neighbor
                     if (luck(rate)
@@ -175,19 +181,64 @@ public class Network {
 
     }
 
-    public void recovery() {
+    private void recovery() {
         //ABSTRACT
     }
 
-    /**
-     * Method that fills our SmallHubs List
-     */
-    protected void smallHubs() {
+    private void initializeOtherLists() {
+
+        int minDegree = Integer.MAX_VALUE;
+        int maxDegree = Integer.MIN_VALUE;
+
         for (Entry<String, Node> entry : airports.entrySet()) {
-            if (entry.getValue().getNeighborSize() < 6) {
-                smallHubs.add(entry.getKey());
+            if (entry.getValue().getNeighborSize() < minDegree) {
+                minDegree = entry.getValue().getNeighborSize();
             }
-            if (smallHubs.size() > 50) {
+            if (entry.getValue().getNeighborSize() > maxDegree) {
+                maxDegree = entry.getValue().getNeighborSize();
+            }
+        }
+
+        if (minDegree == maxDegree) {   // If all nodes have the same degree
+            initializeNodesWithSmallDegree(minDegree);
+            initializeNodesWithBigDegree(maxDegree);
+        } else {
+            double gap = (double) minDegree + (double) maxDegree;
+            gap = gap / 3;
+            initializeNodesWithSmallDegree((int) (gap));
+            initializeNodesWithBigDegree((int) (maxDegree - gap));
+        }
+
+    }
+
+    /**
+     * Method that fills our nodesWithSmallDegree List
+     */
+    private void initializeNodesWithSmallDegree(int range) {
+
+        if (range <= 0) {
+            range = 1;
+        }
+
+        for (Entry<String, Node> entry : airports.entrySet()) {
+            if (entry.getValue().getNeighborSize() <= range) {
+                nodesWithSmallDegree.add(entry.getKey());
+            }
+            if (nodesWithSmallDegree.size() > 50) {
+                break;
+            }
+        }
+    }
+
+    /**
+     * Method that fills our nodesWithBigDegree List
+     */
+    private void initializeNodesWithBigDegree(int range) {
+        for (Entry<String, Node> entry : airports.entrySet()) {
+            if (entry.getValue().getNeighborSize() >= range) {
+                nodesWithBigDegree.add(entry.getKey());
+            }
+            if (nodesWithBigDegree.size() > 50) {
                 break;
             }
         }

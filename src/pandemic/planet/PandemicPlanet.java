@@ -23,11 +23,6 @@ public class PandemicPlanet {
         Interfaz view = new Interfaz(controller);
         view.setVisible(true);
 
-        /*
-        Controller c = new Controller();
-        Interfaz i = new Interfaz(c);
-        i.setVisible(true);
-         */
     }
     
 }

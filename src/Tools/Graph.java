@@ -13,22 +13,51 @@ import java.util.ArrayList;
  */
 public class Graph {
 
-    public ArrayList<Integer> infectedPeople;
-    public ArrayList<Integer> healthyPeople;
-    public ArrayList<Integer> recoveredPeople;
-    public int tam;
+    private ArrayList<Integer> infectedPeople;
+    private ArrayList<Integer> healthyPeople;
+    private ArrayList<Integer> recoveredPeople;
+    private int count;
 
-    public Graph(ArrayList<Integer> mejoresTodo, int tam,
-             ArrayList<Integer> mejoresIt, ArrayList<Integer> mediaPobIt) {
-        infectedPeople = mejoresTodo;
-        healthyPeople = mejoresIt;
-        recoveredPeople = mediaPobIt;
-        this.tam = tam;
+    public Graph(ArrayList<Integer> infectedPeople,
+            ArrayList<Integer> healthyPeople, ArrayList<Integer> recoveredPeople) {
+        this.infectedPeople = infectedPeople;
+        this.healthyPeople = healthyPeople;
+        this.recoveredPeople = recoveredPeople;
+        this.count = healthyPeople.size();
     }
 
-    public String toString() {
-        return this.infectedPeople.toString() + " " + this.healthyPeople.toString()
-                + " " + this.recoveredPeople.toString();
+    public Graph(ArrayList<Integer> infectedPeople, ArrayList<Integer> healthyPeople) {
+        this.infectedPeople = infectedPeople;
+        this.healthyPeople = healthyPeople;
+        this.count = healthyPeople.size();
+    }
+
+    /**
+     * @return the infectedPeople
+     */
+    public ArrayList<Integer> getInfectedPeople() {
+        return infectedPeople;
+    }
+
+    /**
+     * @return the healthyPeople
+     */
+    public ArrayList<Integer> getHealthyPeople() {
+        return healthyPeople;
+    }
+
+    /**
+     * @return the recoveredPeople
+     */
+    public ArrayList<Integer> getRecoveredPeople() {
+        return recoveredPeople;
+    }
+    
+    /**
+     * @return the count
+     */
+    public int getCount() {
+        return count;
     }
 
 }
