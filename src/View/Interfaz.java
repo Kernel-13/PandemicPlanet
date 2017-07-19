@@ -389,7 +389,7 @@ public class Interfaz extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(25, 25, 25)
+                .addContainerGap(25, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -448,7 +448,7 @@ public class Interfaz extends javax.swing.JFrame {
                                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(jPanel3, javax.swing.GroupLayout.Alignment.CENTER, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(1, 1, 1)))
-                .addGap(33, 33, 33)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
                 .addComponent(jInternalFrame1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         layout.setVerticalGroup(
@@ -533,8 +533,9 @@ public class Interfaz extends javax.swing.JFrame {
         controller.setEpidemicModel(jComboBox1.getSelectedItem().toString());
 
         // Files
-        errorLog += controller.setEdgesFile(jTextField8.getText());
-        errorLog += controller.setNodesFile(jTextField9.getText());
+        errorLog += controller.setNodesFile(jTextField8.getText());
+        errorLog += controller.setEdgesFile(jTextField9.getText());
+        
 
         // Rates & Days
         errorLog += controller.setInfectionRate(jTextField1.getText());
@@ -552,7 +553,7 @@ public class Interfaz extends javax.swing.JFrame {
         // Quarantine
         controller.setQuarantine(jCheckBox2.isSelected());
         if (jCheckBox2.isSelected()) {
-            errorLog += controller.setRwFrequency(jTextField5.getText());
+            errorLog += controller.setQuarantineSchedule(jTextField6.getText());
         }
 
         // First Infection
@@ -620,15 +621,15 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void drawGraph(Graph g) {
         double[] x = new double[g.getCount()];
-        double[] y = new double[g.getCount()];
-        double[] y2 = new double[g.getCount()];
-        double[] y3 = new double[g.getCount()];
+        double[] healthy = new double[g.getCount()];
+        double[] infected = new double[g.getCount()];
+        double[] removed = new double[g.getCount()];
 
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < g.getCount(); i++) {
             x[i] = i;
-            y[i] = g.getHealthyPeople().get(i);
-            y2[i] = g.getInfectedPeople().get(i);
-            y3[i] = g.getRecoveredPeople().get(i);
+            healthy[i] = g.getHealthyPeople().get(i);
+            infected[i] = g.getInfectedPeople().get(i);
+            removed[i] = g.getRecoveredPeople().get(i);
         }
 
         // create your PlotPanel (you can use it as a JPanel)
@@ -638,10 +639,10 @@ public class Interfaz extends javax.swing.JFrame {
         plot.addLegend("SOUTH");
 
         // add a line plot to the PlotPanel
-        plot.addLinePlot("Healthy People", Color.GREEN, x, y);
-        plot.addLinePlot("Infected People", Color.RED, x, y2);
-        plot.addLinePlot("Recovered People", Color.BLACK, x, y3);
-        
+        plot.addLinePlot("Healthy People", Color.GREEN, x, healthy);
+        plot.addLinePlot("Infected People", Color.RED, x, infected);
+        plot.addLinePlot("Recovered People", Color.BLACK, x, removed);
+
         // put the PlotPanel in a JFrame like a JPanel
         this.jInternalFrame1.setSize(600, 600);
         this.jInternalFrame1.setContentPane(plot);

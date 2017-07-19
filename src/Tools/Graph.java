@@ -18,6 +18,19 @@ public class Graph {
     private ArrayList<Integer> recoveredPeople;
     private int count;
 
+    public Graph() {
+        this.infectedPeople = new ArrayList<>();
+        this.healthyPeople = new ArrayList<>();
+        this.recoveredPeople = new ArrayList<>();
+        this.count = 0;
+    }
+    
+    public Graph(ArrayList<Integer> infectedPeople, ArrayList<Integer> healthyPeople) {
+        this.infectedPeople = infectedPeople;
+        this.healthyPeople = healthyPeople;
+        this.count = healthyPeople.size();
+    }
+    
     public Graph(ArrayList<Integer> infectedPeople,
             ArrayList<Integer> healthyPeople, ArrayList<Integer> recoveredPeople) {
         this.infectedPeople = infectedPeople;
@@ -26,11 +39,7 @@ public class Graph {
         this.count = healthyPeople.size();
     }
 
-    public Graph(ArrayList<Integer> infectedPeople, ArrayList<Integer> healthyPeople) {
-        this.infectedPeople = infectedPeople;
-        this.healthyPeople = healthyPeople;
-        this.count = healthyPeople.size();
-    }
+    
 
     /**
      * @return the infectedPeople

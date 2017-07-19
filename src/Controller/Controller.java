@@ -225,7 +225,7 @@ public class Controller {
     public Graph beginSimulation() {
 
         Network net = new Network();
-        return net.startEpidemic(nodesFile, nodesFile, edgesFile, infectionRate,
+        return net.startEpidemic(epidemicModel, nodesFile, edgesFile, infectionRate,
                 recoveryRate, numberOfDays, randomWalks, rwFrequency,
                 quarantine, quarantineSchedule, firstInfected);
     }

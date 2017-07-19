@@ -23,24 +23,33 @@ public class Network {
 
     private int infected;                           // Number of infected nodes
     private int healthy;                            // Number of healthy nodes
+    private int recovered;                          // Number of recovered nodes
     private HashMap<String, Node> airports;         // All the Nodes
     private ArrayList<String> quarantine;           // Nodes that may go into Quarantine
     private ArrayList<String> nodesWithBigDegree;   // Nodes with a lot of neighbors
     private ArrayList<String> nodesWithSmallDegree; // Nodes with few neighbors
+    private ArrayList<String> healthyNodesLeft;     // Nodes That Hasn't Been Infected
 
     public Network() {
         this.infected = 0;
         this.healthy = 0;
+        this.recovered = 0;
         this.airports = new HashMap<>();
         this.quarantine = new ArrayList<>();
         this.nodesWithBigDegree = new ArrayList<>();
         this.nodesWithSmallDegree = new ArrayList<>();
+        this.healthyNodesLeft = new ArrayList<>();
     }
 
     public Graph startEpidemic(String model, String nodesFile, String edgesFile,
             int infectionRate, int recoveryRate, int numberOfDays, boolean RW,
             int rwFrequency, boolean quarantine, int quarantineSchedule,
             String firstInfected) {
+
+        ArrayList<Integer> infectedPeople = new ArrayList<>();
+        ArrayList<Integer> healthyPeople = new ArrayList<>();
+        ArrayList<Integer> recoveredPeople = new ArrayList<>();
+        int daysPassed = 0;
 
         // Lists Initialization
         initializeNetwork(nodesFile, edgesFile);
@@ -49,8 +58,40 @@ public class Network {
 
         // Begin Spread - First Day
         pickUnfortunate(null);
+        healthyPeople.add(healthy);
+        infectedPeople.add(infected);
+        recoveredPeople.add(recovered);
+        daysPassed++;
 
-        return null;
+        // Rest of Days
+        while (daysPassed < numberOfDays) {
+
+            if (quarantine && daysPassed == quarantineSchedule) {
+                activateQuarantine();
+            }
+
+            transmission((double) ((double)infectionRate / 100));
+
+            if (!model.equals("SI")) {
+                recovery(model);
+            }
+
+            if (RW && daysPassed % rwFrequency == 0) {
+                pickUnfortunate(healthyNodesLeft);
+            }
+
+            healthyPeople.add(healthy);
+            infectedPeople.add(infected);
+            recoveredPeople.add(recovered);
+
+            if((healthy == 0 && model.equals("SI")) || infected == 0){
+                break;
+            }
+            
+            daysPassed++;
+        }
+
+        return new Graph(infectedPeople, healthyPeople, recoveredPeople);
     }
 
     /**
@@ -68,10 +109,12 @@ public class Network {
             while ((lineNodes = readerNodes.readLine()) != null) {
                 String[] parts = lineNodes.split(";");
                 airports.put(parts[0], new Node(parts[0]));
+                healthyNodesLeft.add(parts[0]);
                 healthy++;
             }
 
             String lineEdges = readerEdges.readLine();
+            lineEdges = readerEdges.readLine();
             while (lineEdges != null) {
                 String[] parts = lineEdges.split(";");
                 Node one = addingNeighbors(parts[0], parts[1]);
@@ -155,7 +198,6 @@ public class Network {
      */
     private void transmission(Double rate) {
         ArrayList<String> newInfected = new ArrayList<>();
-        //HashMap<String, Node> aux = deepCopy();
         for (Entry<String, Node> entry : airports.entrySet()) {                 // Iterate over our nodes
             Node node = airports.get(entry.getKey());				// We get one node
             if (node.getState() == State.INFECTED) {				// Check if its infected
@@ -177,11 +219,11 @@ public class Network {
             Node aux = airports.get(node);
             aux.setState(State.INFECTED);
             airports.put(node, aux);
+            healthyNodesLeft.remove(aux.getId());
         }
-
     }
 
-    private void recovery() {
+    private void recovery(String model) {
         //ABSTRACT
     }
 
