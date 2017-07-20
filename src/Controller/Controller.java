@@ -37,7 +37,7 @@ public class Controller {
         rwFrequency = 5;
         quarantine = true;
         quarantineSchedule = 5;
-        firstInfected = "HIGH";
+        firstInfected = "HUB";
     }
 
     /**
@@ -205,7 +205,7 @@ public class Controller {
     }
 
     /**
-     * @param firstInfected the firstInfected to set
+     * @param choice
      */
     public void setFirstInfected(int choice) {
         switch (choice) {
@@ -219,7 +219,6 @@ public class Controller {
                 this.firstInfected = "RANDOM";
                 break;
         }
-        this.firstInfected = firstInfected;
     }
 
     public Graph beginSimulation() {

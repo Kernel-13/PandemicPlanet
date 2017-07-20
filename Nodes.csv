@@ -1,0 +1,3282 @@
+id;label;Latitude;Longitude;status
+1;"Goroka";-6.081689;145.391881;healthy
+2;"Madang";-5.207083;145.7887;healthy
+3;"Mount Hagen";-5.826789;144.295861;healthy
+4;"Nadzab";-6.569828;146.726242;healthy
+5;"Port Moresby";-9.443383;147.22005;healthy
+6;"Wewak";-3.583828;143.669186;healthy
+7;"Narssarssuaq";61.160517;-45.425978;healthy
+8;"Godthaab";64.190922;-51.678064;healthy
+9;"Sondrestrom";67.016969;-50.689325;healthy
+10;"Thule";76.531203;-68.703161;healthy
+11;"Akureyri";65.659994;-18.072703;healthy
+12;"Egilsstadir";65.283333;-14.401389;healthy
+15;"Isafjordur";66.058056;-23.135278;healthy
+16;"Keflavik";63.985;-22.605556;healthy
+18;"Reykjavik";64.13;-21.940556;healthy
+21;"Sault Sainte Marie";46.485001;-84.509445;healthy
+24;"St. Anthony";51.391944;-56.083056;healthy
+27;"Baie Comeau";49.1325;-68.204444;healthy
+28;"Bagotville";48.330555;-70.996391;healthy
+29;"Baker Lake";64.298889;-96.077778;healthy
+30;"Campbell River";49.950832;-125.270833;healthy
+31;"Brandon";49.91;-99.951944;healthy
+32;"Cambridge Bay";69.108055;-105.138333;healthy
+33;"Nanaimo";49.052333;-123.870167;healthy
+34;"Castlegar";49.296389;-117.6325;healthy
+36;"Charlo";47.990833;-66.330278;healthy
+37;"Coppermine";67.816667;-115.143889;healthy
+40;"Clyde River";70.486111;-68.516667;healthy
+41;"Coral Harbour";64.193333;-83.359444;healthy
+45;"Deer Lake";49.210833;-57.391388;healthy
+48;"Dawson Creek";55.742333;-120.183;healthy
+49;"Edmonton";53.309723;-113.579722;healthy
+50;"Eskimo Point";61.094166;-94.070833;healthy
+54;"Inuvik";68.304167;-133.482778;healthy
+55;"Iqaluit";63.75639;-68.555832;healthy
+56;"Fredericton";45.868889;-66.537222;healthy
+58;"Flin Flon";54.678055;-101.681667;healthy
+60;"Fort Simpson";61.760153;-121.236525;healthy
+61;"Kingston";44.225277;-76.596944;healthy
+62;"La Grande Riviere";53.625278;-77.704167;healthy
+63;"Gaspe";48.775278;-64.478611;healthy
+65;"Iles De La Madeleine";47.424721;-61.778056;healthy
+67;"Dryden";49.831667;-92.744167;healthy
+68;"Holman Island";70.762778;-117.806111;healthy
+69;"Gjoa Haven";68.635556;-95.849722;healthy
+70;"Hamilton";43.173611;-79.935;healthy
+71;"Montreal";45.5175;-73.416944;healthy
+72;"Hay River";60.839722;-115.782778;healthy
+73;"Halifax";44.880833;-63.50861;healthy
+75;"Pond Inlet";72.683334;-77.966667;healthy
+77;"Stephenville";48.544167;-58.549999;healthy
+78;"Kamloops";50.702222;-120.444444;healthy
+79;"Waterloo";43.460833;-80.378611;healthy
+80;"Schefferville";54.805278;-66.805278;healthy
+85;"Lloydminster";53.309166;-110.0725;healthy
+87;"Kelowna";49.956112;-119.377778;healthy
+90;"Fort Mcmurray";56.653333;-111.221944;healthy
+91;"Moosonee";51.291111;-80.607778;healthy
+94;"Natashquan";50.19;-61.789167;healthy
+99;"High Level";58.621389;-117.164722;healthy
+100;"Ottawa";45.3225;-75.669167;healthy
+105;"Pickle Lake";51.446388;-90.214167;healthy
+106;"Port Menier";49.836389;-64.288611;healthy
+108;"Prince Pupert";54.28611;-130.444722;healthy
+109;"Fort Chipewyan";58.767223;-111.117222;healthy
+111;"Quebec";46.791111;-71.393333;healthy
+112;"Red Deer Industrial";52.182222;-113.894444;healthy
+113;"Windsor";42.275556;-82.955556;healthy
+115;"Kenora";49.788334;-94.363056;healthy
+116;"Lethbridge";49.630278;-112.799722;healthy
+117;"Moncton";46.112221;-64.678611;healthy
+119;"Comox";49.710833;-124.886667;healthy
+120;"Regina";50.431944;-104.665833;healthy
+121;"Thunder Bay";48.371944;-89.323889;healthy
+122;"Grande Prairie";55.179722;-118.885;healthy
+125;"Gander";48.936944;-54.568056;healthy
+126;"Sydney";46.161388;-60.047779;healthy
+127;"Quesnel";53.026112;-122.510278;healthy
+128;"Resolute";74.716944;-94.969444;healthy
+132;"Rankin Inlet";62.81139;-92.115833;healthy
+133;"Sudbury";46.625;-80.798889;healthy
+135;"St. John";45.316111;-65.890278;healthy
+136;"Fort Smith";60.020278;-111.961944;healthy
+139;"Sachs Harbour";71.993889;-125.2425;healthy
+140;"Cape Dorset";64.23;-76.526667;healthy
+141;"Thompson";55.801111;-97.864166;healthy
+143;"Timmins";48.569721;-81.376667;healthy
+144;"Toronto";43.627499;-79.396167;healthy
+145;"Tuktoyaktuk";69.433334;-133.026389;healthy
+146;"Montreal";45.470556;-73.740833;healthy
+147;"Repulse Bay";66.521389;-86.224722;healthy
+148;"Hall Beach";68.776111;-81.243611;healthy
+149;"Rouyn";48.206111;-78.835556;healthy
+152;"Broughton Island";67.545833;-64.031389;healthy
+153;"Val D'or";48.053333;-77.782778;healthy
+154;"Quujjuaq";58.096111;-68.426944;healthy
+155;"Norman Wells";65.281617;-126.798219;healthy
+156;"Vancouver";49.193889;-123.184444;healthy
+160;"Winnipeg";49.910036;-97.239886;healthy
+161;"Wabush";52.921944;-66.864444;healthy
+162;"Williams Lake";52.183056;-122.054167;healthy
+164;"Cranbrook";49.612222;-115.781944;healthy
+166;"Saskatoon";52.170834;-106.699722;healthy
+167;"Medicine Hat";50.01889;-110.720833;healthy
+168;"Fort Saint John";56.238056;-120.740278;healthy
+169;"Sioux Lookout";50.113889;-91.905278;healthy
+170;"Pangnirtung";66.145;-65.713611;healthy
+172;"Prince George";53.889444;-122.678889;healthy
+173;"Terrace";54.468508;-128.576219;healthy
+174;"London";43.033056;-81.151111;healthy
+175;"Abbotsford";49.025278;-122.360556;healthy
+176;"Whitehorse";60.709553;-135.067269;healthy
+177;"North Bay";46.363611;-79.422778;healthy
+178;"Calgary";51.113888;-114.020278;healthy
+179;"Smithers";54.824722;-127.182778;healthy
+180;"Fort Nelson";58.836389;-122.596944;healthy
+181;"Penticton";49.463056;-119.602222;healthy
+182;"Charlottetown";46.290001;-63.121111;healthy
+183;"Spence Bay";69.546667;-93.576667;healthy
+184;"Victoria";48.646944;-123.425833;healthy
+187;"Churchill";58.739167;-94.065;healthy
+188;"Goose Bay";53.319168;-60.425833;healthy
+189;"St. John's";47.61861;-52.751945;healthy
+190;"Kapuskasing";49.413889;-82.4675;healthy
+192;"Mont Joli";48.608612;-68.208056;healthy
+193;"Toronto";43.677223;-79.630556;healthy
+196;"Yellowknife";62.462778;-114.440278;healthy
+198;"Sandspit";53.254333;-131.813833;healthy
+199;"Sarnia";42.999444;-82.308889;healthy
+200;"Port Hardy";50.680556;-127.366667;healthy
+202;"Sept-iles";50.223333;-66.265556;healthy
+206;"Fort Mcpherson";67.4075;-134.860556;healthy
+209;"Bejaja";36.711997;5.069922;healthy
+210;"Algier";36.691014;3.215408;healthy
+211;"Djanet";24.292767;9.452444;healthy
+216;"Tamanrasset";22.811461;5.451075;healthy
+220;"Annaba";36.822225;7.809167;healthy
+221;"Constantine";36.276028;6.620386;healthy
+222;"Tebessa";35.431611;8.120717;healthy
+224;"Tilrempt";32.930431;3.311542;healthy
+225;"Tiaret";35.341136;1.463147;healthy
+230;"Tlemcen";35.016667;-1.45;healthy
+231;"Oran";35.623858;-0.621183;healthy
+233;"Ghriss";35.207725;0.147142;healthy
+234;"Adrar";27.837589;-0.186414;healthy
+235;"Biskra";34.793289;5.738231;healthy
+236;"El Golea";30.571294;2.859586;healthy
+237;"Ghardaia";32.384106;3.794114;healthy
+238;"Hassi Messaoud";31.672972;6.140444;healthy
+239;"In Salah";27.251022;2.512017;healthy
+240;"Touggourt";33.067803;6.088672;healthy
+243;"Ouargla";31.917223;5.412778;healthy
+244;"Zarzaitine";28.05155;9.642911;healthy
+245;"Cotonou";6.357228;2.384353;healthy
+246;"Ouagadougou";12.353194;-1.512417;healthy
+247;"Bobo-dioulasso";11.160056;-4.330969;healthy
+248;"Accra";5.605186;-0.166786;healthy
+249;"Tamale";9.557192;-0.863214;healthy
+251;"Sunyani";7.361828;-2.328756;healthy
+252;"Takoradi";4.896056;-1.774756;healthy
+253;"Abidjan";5.261386;-3.926294;healthy
+260;"Abuja";9.006792;7.263172;healthy
+262;"Benin";6.316981;5.599503;healthy
+263;"Calabar";4.976019;8.347197;healthy
+264;"Enugu";6.474272;7.561961;healthy
+266;"Ibadan";7.362458;3.978333;healthy
+267;"Ilorin";8.440211;4.493919;healthy
+268;"Jos";9.639828;8.86905;healthy
+269;"Kaduna";10.696025;7.320114;healthy
+270;"Kano";12.047589;8.524622;healthy
+273;"Lagos";6.577369;3.321156;healthy
+275;"Port Hartcourt";5.015494;6.949594;healthy
+276;"Sokoto";12.916322;5.207189;healthy
+277;"Yola";9.257553;12.430422;healthy
+280;"Niamey";13.481547;2.183614;healthy
+286;"Monastir";35.758056;10.754722;healthy
+287;"Tunis";36.851033;10.227217;healthy
+290;"Gafsa";34.422022;8.822503;healthy
+291;"Gabes";33.876919;10.103333;healthy
+293;"Djerba";33.875031;10.775461;healthy
+295;"Sfax";34.717953;10.690972;healthy
+296;"Tozeur";33.939722;8.110556;healthy
+298;"Lome";6.165611;1.254511;healthy
+299;"Antwerp";51.189444;4.460278;healthy
+302;"Brussels";50.901389;4.484444;healthy
+304;"Charleroi";50.459197;4.453817;healthy
+309;"Liege";50.637417;5.443222;healthy
+310;"Ostend";51.198889;2.862222;healthy
+337;"Berlin";52.380001;13.5225;healthy
+338;"Dresden";51.132767;13.767161;healthy
+339;"Erfurt";50.979811;10.958106;healthy
+340;"Frankfurt";50.026421;8.543125;healthy
+341;"Munster";52.134642;7.684831;healthy
+342;"Hamburg";53.630389;9.988228;healthy
+344;"Cologne";50.865917;7.142744;healthy
+345;"Duesseldorf";51.289453;6.766775;healthy
+346;"Munich";48.353783;11.786086;healthy
+347;"Nuernberg";49.4987;11.066897;healthy
+348;"Leipzig";51.432447;12.241633;healthy
+349;"Saarbruecken";49.214553;7.109508;healthy
+350;"Stuttgart";48.689878;9.221964;healthy
+351;"Berlin";52.559686;13.287711;healthy
+352;"Hannover";52.461056;9.685078;healthy
+353;"Bremen";53.0475;8.786667;healthy
+355;"Hahn";49.948672;7.263892;healthy
+356;"Mannheim";49.472706;8.514264;healthy
+362;"Hamburg";53.535886;9.837025;healthy
+364;"Luebeck";53.805367;10.719222;healthy
+371;"Paderborn";51.614089;8.616317;healthy
+373;"Dortmund";51.518314;7.612242;healthy
+374;"Augsburg";48.425158;10.931764;healthy
+382;"Friedrichshafen";47.671317;9.511486;healthy
+400;"Kassel";51.408394;9.377631;healthy
+410;"Westerland";54.91325;8.340472;healthy
+413;"Kuressaare";58.229883;22.509494;healthy
+415;"Tallinn-ulemiste International";59.413317;24.832844;healthy
+416;"Tartu";58.307461;26.690428;healthy
+421;"Helsinki";60.317222;24.963333;healthy
+428;"Ivalo";68.607269;27.405328;healthy
+429;"Joensuu";62.662906;29.60755;healthy
+430;"Jyvaskyla";62.399453;25.678253;healthy
+432;"Kemi";65.781889;24.5991;healthy
+433;"Kajaani";64.285472;27.692414;healthy
+435;"Kruunupyy";63.721172;23.143131;healthy
+437;"Kuusamo";65.987575;29.239381;healthy
+438;"Kittila";67.701022;24.84685;healthy
+439;"Kuopio";63.00715;27.797756;healthy
+441;"Lappeenranta";61.044553;28.144397;healthy
+442;"Mariehamn";60.122203;19.898156;healthy
+446;"Oulu";64.930061;25.354564;healthy
+448;"Pori";61.461686;21.799983;healthy
+453;"Rovaniemi";66.564822;25.830411;healthy
+455;"Savonlinna";61.943064;28.945136;healthy
+458;"Tampere";61.414147;23.604392;healthy
+460;"Turku";60.514142;22.262808;healthy
+462;"Vaasa";63.05065;21.762175;healthy
+465;"Belfast";54.6575;-6.215833;healthy
+467;"Belfast";54.618056;-5.8725;healthy
+468;"Londonderry";55.042778;-7.161111;healthy
+469;"Birmingham";52.453856;-1.748028;healthy
+472;"Golouchestershire";51.894167;-2.167222;healthy
+478;"Manchester";53.353744;-2.27495;healthy
+481;"Newquai";50.440558;-4.995408;healthy
+488;"Cardiff";51.396667;-3.343333;healthy
+490;"Bristol";51.382669;-2.719089;healthy
+491;"Liverpool";53.333611;-2.849722;healthy
+492;"London";51.874722;-0.368333;healthy
+494;"Bournemouth";50.78;-1.8425;healthy
+495;"Southampton";50.950261;-1.356803;healthy
+497;"Alderney";49.706111;-2.214722;healthy
+498;"Guernsey";49.434956;-2.601969;healthy
+499;"Jersey";49.207947;-2.195508;healthy
+502;"London";51.148056;-0.190278;healthy
+503;"London";51.505278;0.055278;healthy
+507;"London";51.4775;-0.461389;healthy
+508;"Southend";51.571389;0.695556;healthy
+514;"Blackpool";53.771667;-3.028611;healthy
+515;"Humberside";53.574444;-0.350833;healthy
+517;"Leeds";53.865897;-1.660569;healthy
+519;"Hawarden";53.178056;-2.977778;healthy
+520;"Isle Of Man";54.083333;-4.623889;healthy
+521;"Newcastle";55.0375;-1.691667;healthy
+522;"Teesside";54.509189;-1.429406;healthy
+523;"East Midlands";52.831111;-1.328056;healthy
+529;"Kirkwall";58.957778;-2.905;healthy
+530;"Sumburgh";59.878889;-1.295556;healthy
+531;"Wick";58.458889;-3.093056;healthy
+532;"Aberdeen";57.201944;-2.197778;healthy
+533;"Inverness";57.5425;-4.0475;healthy
+534;"Glasgow";55.871944;-4.433056;healthy
+535;"Edinburgh";55.95;-3.3725;healthy
+536;"Islay";55.681944;-6.256667;healthy
+537;"Prestwick";55.509444;-4.586667;healthy
+538;"Benbecula";57.481111;-7.362778;healthy
+540;"Dundee";56.452499;-3.025833;healthy
+541;"Stornoway";58.215556;-6.331111;healthy
+542;"Tiree";56.499167;-6.869167;healthy
+547;"Norwich";52.675833;1.282778;healthy
+548;"London";51.885;0.235;healthy
+552;"Exeter";50.734444;-3.413889;healthy
+579;"Mount Pleasant";-51.822777;-58.447222;healthy
+580;"Amsterdam";52.308613;4.763889;healthy
+582;"Maastricht";50.911658;5.770144;healthy
+585;"Eindhoven";51.450139;5.374528;healthy
+586;"Groningen";53.11972;6.579444;healthy
+591;"Rotterdam";51.956944;4.437222;healthy
+596;"Cork";51.841269;-8.491111;healthy
+599;"Dublin";53.421333;-6.270075;healthy
+600;"Connaught";53.910297;-8.818492;healthy
+601;"Kerry";52.180878;-9.523783;healthy
+603;"Shannon";52.701978;-8.924817;healthy
+605;"Waterford";52.1872;-7.086964;healthy
+607;"Aarhus";56.300017;10.619008;healthy
+608;"Billund";55.740322;9.151778;healthy
+609;"Copenhagen";55.617917;12.655972;healthy
+610;"Esbjerg";55.525942;8.553403;healthy
+612;"Karup";56.297458;9.124628;healthy
+618;"Ronne";55.063267;14.759558;healthy
+619;"Soenderborg";54.964367;9.791731;healthy
+625;"Vagar";62.063628;-7.277219;healthy
+628;"Aalborg";57.092789;9.849164;healthy
+629;"Luxemburg";49.626575;6.211517;healthy
+630;"Alesund";62.560372;6.110164;healthy
+631;"Andoya";69.2925;16.144167;healthy
+632;"Alta";69.976111;23.371667;healthy
+634;"Bronnoysund";65.461111;12.2175;healthy
+635;"Bodo";67.269167;14.365278;healthy
+636;"Bergen";60.293386;5.218142;healthy
+637;"Batsfjord";70.600278;29.6925;healthy
+638;"Kristiansand";58.204214;8.085369;healthy
+640;"Bardufoss";69.055758;18.540356;healthy
+641;"Harstad/Narvik";68.4913;16.678108;healthy
+642;"Fagernes";61.015556;9.288056;healthy
+643;"Floro";61.583611;5.024722;healthy
+644;"Oslo";60.193917;11.100361;healthy
+645;"Haugesund";59.345267;5.208364;healthy
+646;"Hasvik";70.486675;22.139744;healthy
+647;"Kristiansund";63.111781;7.824522;healthy
+649;"Kirkenes";69.725781;29.891295;healthy
+651;"Molde";62.744722;7.2625;healthy
+652;"Mosjoen";65.783997;13.214914;healthy
+653;"Lakselv";70.068814;24.973489;healthy
+655;"Orland";63.698908;9.604003;healthy
+656;"Roros";62.578411;11.342347;healthy
+657;"Rygge";59.378933;10.785389;healthy
+658;"Svalbard";78.246111;15.465556;healthy
+659;"Skien";59.185;9.566944;healthy
+660;"Stord";59.791925;5.34085;healthy
+662;"Sandnessjoen";65.956828;12.468944;healthy
+663;"Tromso";69.683333;18.918919;healthy
+664;"Sandefjord";59.186703;10.258628;healthy
+665;"Trondheim";63.457556;10.92425;healthy
+666;"Stavanger";58.876778;5.637856;healthy
+668;"Gdansk";54.377569;18.466222;healthy
+669;"Krakow";50.077731;19.784836;healthy
+671;"Katowice";50.474253;19.080019;healthy
+674;"Poznan";52.421031;16.826325;healthy
+675;"Rzeszow";50.109958;22.019;healthy
+676;"Szczecin";53.584731;14.902206;healthy
+679;"Warsaw";52.16575;20.967122;healthy
+680;"Wroclaw";51.102683;16.885836;healthy
+685;"Ronneby";56.266667;15.265;healthy
+687;"Gothenborg";57.662836;12.279819;healthy
+688;"Joenkoeping";57.757594;14.068731;healthy
+691;"Gothenborg";57.774722;11.870372;healthy
+693;"Trollhattan";58.318056;12.345;healthy
+698;"Mora";60.957908;14.511383;healthy
+699;"Stockholm";58.788636;16.912189;healthy
+703;"Kristianstad";55.921686;14.085536;healthy
+707;"Kalkmar";56.685531;16.287578;healthy
+708;"Malmoe";55.530193;13.371639;healthy
+709;"Halmstad";56.691128;12.820211;healthy
+711;"Vaxjo";56.929144;14.727994;healthy
+714;"Sveg";62.047811;14.42295;healthy
+715;"Gallivare";67.132408;20.814636;healthy
+718;"Kramfors";63.048597;17.768856;healthy
+719;"Lycksele";64.548322;18.716219;healthy
+721;"Sundsvall";62.528125;17.443928;healthy
+722;"Ornskoldsvik";63.408339;18.990039;healthy
+724;"Kiruna";67.821986;20.336764;healthy
+726;"Skelleftea";64.624772;21.076892;healthy
+728;"Umea";63.791828;20.282758;healthy
+729;"Vilhelmina";64.579083;16.833575;healthy
+730;"Arvidsjaur";65.590278;19.281944;healthy
+731;"Orebro";59.223733;15.037956;healthy
+733;"Vasteras";59.589444;16.633611;healthy
+734;"Lulea";65.543758;22.121989;healthy
+737;"Stockholm";59.651944;17.918611;healthy
+738;"Stockholm";59.354372;17.94165;healthy
+739;"Borlange";60.422017;15.515211;healthy
+742;"Linkoeping";58.40615;15.680508;healthy
+743;"Norrkoeping";58.586253;16.250622;healthy
+746;"Visby";57.662797;18.346211;healthy
+772;"Laage";53.918167;12.278333;healthy
+794;"Bloemfontein";-29.092722;26.302444;healthy
+797;"Cape Town";-33.964806;18.601667;healthy
+799;"Durban";-29.970089;30.950519;healthy
+800;"East London";-33.035569;27.825939;healthy
+804;"George";-34.005553;22.378889;healthy
+811;"Hoedspruit";-24.368642;31.048744;healthy
+813;"Johannesburg";-26.139166;28.246;healthy
+815;"Kimberley";-28.802834;24.765167;healthy
+820;"Johannesburg";-25.938514;27.926133;healthy
+827;"Margate";-30.857408;30.343019;healthy
+838;"Port Elizabeth";-33.984919;25.617275;healthy
+840;"Phalaborwa";-23.937166;31.15539;healthy
+841;"Polokwane";-23.926089;29.484422;healthy
+843;"Pietermaritzburg";-29.648975;30.398667;healthy
+849;"Richard's Bay";-28.741039;32.092111;healthy
+865;"Upington";-28.399097;21.260239;healthy
+866;"Umtata";-31.547903;28.674289;healthy
+877;"Francistown";-21.159597;27.474525;healthy
+879;"Kasane";-17.832875;25.1624;healthy
+880;"Maun";-19.972564;23.431086;healthy
+881;"Gaberone";-24.555225;25.918208;healthy
+883;"Brazzaville";-4.2517;15.253031;healthy
+886;"Pointe-noire";-4.816028;11.886597;healthy
+887;"Manzini";-26.529022;31.307519;healthy
+888;"Bangui";4.398475;18.518786;healthy
+890;"Bata";1.905469;9.805681;healthy
+891;"Malabo";3.755267;8.708717;healthy
+893;"Plaisance";-20.430235;57.6836;healthy
+894;"Rodriguez Island";-19.757658;63.360983;healthy
+897;"Douala";4.006081;9.719481;healthy
+898;"Maroua";10.451392;14.257361;healthy
+900;"N'gaoundere";7.357011;13.559242;healthy
+901;"Garoua";9.335892;13.370103;healthy
+906;"Livingstone";-17.821756;25.822692;healthy
+907;"Lusaka";-15.330817;28.452628;healthy
+908;"Mfuwe";-13.258878;31.936581;healthy
+910;"Ndola";-12.998139;28.664944;healthy
+912;"Moroni";-11.533661;43.27185;healthy
+915;"Dzaoudzi";-12.804722;45.281113;healthy
+916;"St.-denis";-20.8871;55.510308;healthy
+917;"St.-pierre";-21.320039;55.423581;healthy
+918;"Antananarivo";-18.79695;47.478806;healthy
+920;"Sainte Marie";-17.093889;49.815834;healthy
+921;"Toamasina";-18.109517;49.392536;healthy
+922;"Morondava";-20.28475;44.317614;healthy
+923;"Antsiranana";-12.3494;49.291747;healthy
+924;"Mananara";-16.1639;49.773753;healthy
+927;"Antalaha";-14.999411;50.320233;healthy
+929;"Mahajanga";-15.667144;46.351828;healthy
+930;"Nosy-be";-13.312067;48.314822;healthy
+932;"Maroantsetra";-15.436666;49.688332;healthy
+933;"Sambava";-14.278611;50.174721;healthy
+937;"Tolagnaro";-25.038056;46.956111;healthy
+943;"Toliara";-23.383369;43.728453;healthy
+944;"M'banza-congo";-6.269897;14.247025;healthy
+946;"Cabinda";-5.596992;12.188353;healthy
+948;"Huambo";-12.808878;15.760547;healthy
+949;"Kuito";-12.404633;16.947414;healthy
+951;"Luanda";-8.858375;13.231178;healthy
+952;"Malanje";-9.525086;16.312406;healthy
+953;"Menongue";-14.657583;17.719833;healthy
+957;"Saurimo";-9.689067;20.431875;healthy
+958;"Soyo";-6.141086;12.371764;healthy
+959;"Lubango";-14.924733;13.575022;healthy
+960;"Luena";-11.768086;19.897672;healthy
+967;"Port Gentil";-0.711739;8.754383;healthy
+970;"Libreville";0.4586;9.412283;healthy
+973;"Sao Tome";0.378175;6.712153;healthy
+974;"Beira";-19.796419;34.907556;healthy
+976;"Inhambane";-23.876431;35.408544;healthy
+977;"Lichinga";-13.273986;35.266262;healthy
+979;"Maputo";-25.920836;32.572606;healthy
+984;"Nampula";-15.105611;39.2818;healthy
+985;"Pemba";-12.986753;40.522492;healthy
+986;"Quelimane";-17.8555;36.869106;healthy
+988;"Tete";-16.104817;33.640181;healthy
+990;"Vilankulu";-22.018431;35.313297;healthy
+994;"Mahe";-4.674342;55.521839;healthy
+995;"Praslin";-4.319292;55.691417;healthy
+999;"N'djamena";12.133689;15.034019;healthy
+1001;"Bulawayo";-20.017431;28.617869;healthy
+1004;"Victoria Falls";-18.095881;25.839006;healthy
+1005;"Harare";-17.931806;31.092847;healthy
+1013;"Blantyre";-15.679053;34.974014;healthy
+1016;"Lilongwe";-13.789378;33.781;healthy
+1018;"Maseru";-29.462256;27.552503;healthy
+1020;"Kinshasa";-4.38575;15.444569;healthy
+1026;"Mbandaka";0.0226;18.288744;healthy
+1028;"Gemena";3.235369;19.771258;healthy
+1031;"Kisangani";0.5175;25.155014;healthy
+1032;"Isiro";2.827606;27.588253;healthy
+1033;"Bunia";1.565719;30.220833;healthy
+1035;"Bukavu/kavumu";-2.308978;28.808803;healthy
+1036;"Goma";-1.670814;29.238464;healthy
+1037;"Kindu";-2.919178;25.915361;healthy
+1038;"Lubumashi";-11.591333;27.530889;healthy
+1042;"Kananga";-5.900055;22.469166;healthy
+1043;"Mbuji-mayi";-6.121236;23.569008;healthy
+1044;"Bamako";12.533544;-7.949944;healthy
+1050;"Banjul";13.337961;-16.652206;healthy
+1051;"Fuerteventura";28.452717;-13.863761;healthy
+1052;"Hierro";27.814847;-17.887056;healthy
+1053;"Santa Cruz De La Palma";28.626478;-17.755611;healthy
+1054;"Gran Canaria";27.931886;-15.386586;healthy
+1055;"Las Palmas";28.945464;-13.605225;healthy
+1056;"Tenerife";28.044475;-16.572489;healthy
+1057;"Tenerife";28.482653;-16.341536;healthy
+1058;"Melilla";35.279817;-2.956256;healthy
+1059;"Freetown";8.616444;-13.195489;healthy
+1062;"Monrovia";6.289061;-10.758722;healthy
+1063;"Monrovia";6.233789;-10.362311;healthy
+1064;"Agadir";30.381353;-9.546311;healthy
+1065;"Tan Tan";28.448194;-11.161347;healthy
+1066;"Fes";33.927261;-4.977958;healthy
+1070;"Oujda";34.78715;-1.923986;healthy
+1072;"Rabat";34.051467;-6.751519;healthy
+1074;"Casablanca";33.367467;-7.589967;healthy
+1075;"Marrakech";31.606886;-8.0363;healthy
+1077;"Ouarzazate";30.939053;-6.909431;healthy
+1078;"Al Hociema";35.177103;-3.839525;healthy
+1079;"Tetouan";35.594333;-5.320019;healthy
+1080;"Tanger";35.726917;-5.916889;healthy
+1081;"Ziguinchor";12.555617;-16.281783;healthy
+1082;"Cap Skiring";12.4102;-16.746125;healthy
+1084;"Dakar";14.739708;-17.490225;healthy
+1094;"Nouakschott";18.097856;-15.947956;healthy
+1097;"Nouadhibou";20.933067;-17.029956;healthy
+1102;"Amilcar Cabral";16.741389;-22.949444;healthy
+1103;"Boa Vista";16.136531;-22.888897;healthy
+1104;"Maio";15.155928;-23.213703;healthy
+1105;"Sao Nocolau Island";16.588356;-24.284656;healthy
+1106;"Sao Vicente Island";16.833689;-25.054661;healthy
+1107;"Addis Ababa";8.977889;38.799319;healthy
+1109;"Arba Minch";6.039389;37.590453;healthy
+1110;"Axum";14.14675;38.772833;healthy
+1111;"Bahar Dar";11.608075;37.321644;healthy
+1112;"Dire Dawa";9.6247;41.854203;healthy
+1113;"Gambella";8.128764;34.563131;healthy
+1114;"Gondar";12.5199;37.434047;healthy
+1116;"Jimma";7.666094;36.816639;healthy
+1117;"Lalibella";11.975014;38.979969;healthy
+1118;"Makale";13.467367;39.533464;healthy
+1119;"Asosa";10.01855;34.586253;healthy
+1120;"Bujumbura";-3.324019;29.318519;healthy
+1121;"Hargeisa";9.518167;44.088758;healthy
+1122;"Berbera";10.389167;44.941106;healthy
+1127;"Abu Simbel";22.375953;31.611722;healthy
+1128;"Cairo";30.121944;31.405556;healthy
+1130;"Hurghada";27.178317;33.799436;healthy
+1132;"Luxor";25.671028;32.706583;healthy
+1136;"Aswan";23.964356;32.819975;healthy
+1138;"Eldoret";0.404458;35.238928;healthy
+1140;"Kisumu";-0.086139;34.728892;healthy
+1141;"Kitale";0.971989;34.958556;healthy
+1143;"Lodwar";3.121967;35.608692;healthy
+1144;"Lamu";-2.252417;40.913097;healthy
+1145;"Mombasa";-4.034833;39.59425;healthy
+1147;"Nairobi";-1.321719;36.814833;healthy
+1149;"Wajir";1.733239;40.091606;healthy
+1152;"Ghat";25.145564;10.142647;healthy
+1153;"Kufra";24.178728;23.313958;healthy
+1154;"Benghazi";32.096786;20.269472;healthy
+1157;"Tripoli";32.663544;13.159011;healthy
+1162;"Ghadames";30.151695;9.715305;healthy
+1165;"Kigali";-1.968628;30.13945;healthy
+1166;"Kamembe";-2.462242;28.90795;healthy
+1169;"El Fasher";13.614892;25.32465;healthy
+1173;"Juba";4.872006;31.601117;healthy
+1175;"Khartoum";15.589497;32.553161;healthy
+1176;"Arusha";-3.367794;36.633333;healthy
+1177;"Dar Es Salaam";-6.878111;39.202625;healthy
+1180;"Kilimanjaro";-3.429406;37.074461;healthy
+1182;"Mtwara";-10.339058;40.181781;healthy
+1183;"Mwanza";-2.444486;32.932667;healthy
+1186;"Zanzibar";-6.222025;39.224886;healthy
+1187;"Entebbe";0.042386;32.443503;healthy
+1190;"Tirana";41.414742;19.720561;healthy
+1191;"Bourgas";42.569583;27.515236;healthy
+1193;"Plovdiv";42.067806;24.850833;healthy
+1194;"Sofia";42.695194;23.406167;healthy
+1196;"Varna";43.232072;27.825106;healthy
+1197;"Larnaca";34.875117;33.62485;healthy
+1198;"Paphos";34.718039;32.485731;healthy
+1200;"Dubrovnik";42.561353;18.268244;healthy
+1202;"Osijek";45.462667;18.810156;healthy
+1203;"Pula";44.893533;13.922192;healthy
+1205;"Rijeka";45.216889;14.570267;healthy
+1206;"Split";43.538944;16.297964;healthy
+1208;"Zagreb";45.742931;16.068778;healthy
+1209;"Zadar";44.108269;15.346697;healthy
+1212;"Alicante";38.282169;-0.558156;healthy
+1213;"Almeria";36.843936;-2.370097;healthy
+1214;"Aviles";43.563567;-6.034622;healthy
+1216;"Bilbao";43.301097;-2.910608;healthy
+1218;"Barcelona";41.297078;2.078464;healthy
+1219;"Badajoz";38.89125;-6.821333;healthy
+1220;"La Coruna";43.302061;-8.377256;healthy
+1222;"Gerona";41.900969;2.760547;healthy
+1223;"Granada";37.188731;-3.777356;healthy
+1225;"Ibiza";38.872858;1.373117;healthy
+1226;"Jerez";36.744622;-6.060111;healthy
+1227;"Murcia";37.774972;-0.812389;healthy
+1229;"Madrid";40.493556;-3.566764;healthy
+1230;"Malaga";36.6749;-4.499106;healthy
+1231;"Menorca";39.862597;4.218647;healthy
+1234;"Pamplona";42.770039;-1.646331;healthy
+1236;"Reus";41.147392;1.167172;healthy
+1238;"Salamanca";40.952117;-5.501986;healthy
+1242;"San Sebastian";43.356519;-1.790611;healthy
+1243;"Santiago";42.896333;-8.415144;healthy
+1246;"Valencia";39.489314;-0.481625;healthy
+1247;"Valladolid";41.706111;-4.851944;healthy
+1250;"Vigo";42.2318;-8.626775;healthy
+1251;"Santander";43.427064;-3.820006;healthy
+1252;"Zaragoza";41.666242;-1.041553;healthy
+1253;"Sevilla";37.418;-5.893106;healthy
+1262;"Agen";44.174721;0.590556;healthy
+1264;"Bordeaux";44.828335;-0.715556;healthy
+1265;"Bergerac";44.825279;0.518611;healthy
+1268;"Poitiers";46.587745;0.306666;healthy
+1270;"Limoges";45.862778;1.179444;healthy
+1273;"Toulouse";43.629075;1.363819;healthy
+1274;"Pau";43.38;-0.418611;healthy
+1276;"Tarbes";43.178675;-0.006439;healthy
+1277;"Angouleme";45.729247;0.221456;healthy
+1278;"Brive";45.150833;1.469167;healthy
+1279;"Perigueux";45.198055;0.815556;healthy
+1280;"Biarritz-bayonne";43.468419;-1.523325;healthy
+1285;"Castres";43.55625;2.289183;healthy
+1289;"Rodez";44.407869;2.482672;healthy
+1309;"Dole";47.039014;5.42725;healthy
+1313;"Le Puy";45.080689;3.762889;healthy
+1320;"Metz";48.982142;6.251319;healthy
+1321;"Bastia";42.552664;9.483731;healthy
+1322;"Calvi";42.530753;8.793189;healthy
+1323;"Figari";41.500557;9.097777;healthy
+1324;"Ajaccio";41.923637;8.802917;healthy
+1330;"Clermont-Ferrand";45.786661;3.169169;healthy
+1335;"Lyon";45.726387;5.090833;healthy
+1344;"Aurillac";44.891388;2.421944;healthy
+1350;"St-Etienne";45.540554;4.296389;healthy
+1352;"Carcassonne";43.215978;2.306317;healthy
+1353;"Marseille";43.435555;5.213611;healthy
+1354;"Nice";43.658411;7.215872;healthy
+1356;"Perpignan";42.740442;2.870667;healthy
+1359;"Montpellier";43.576194;3.963014;healthy
+1360;"Beziers";43.323522;3.353903;healthy
+1361;"Avignon";43.9073;4.901831;healthy
+1367;"Beauvais";49.454444;2.112778;healthy
+1371;"Le Havre";49.533889;0.088056;healthy
+1374;"Chalons";48.776072;4.184492;healthy
+1376;"Tours";47.432222;0.727606;healthy
+1382;"Paris";49.012779;2.55;healthy
+1386;"Paris";48.725278;2.359444;healthy
+1399;"Lille";50.561942;3.089444;healthy
+1403;"Brest";48.447911;-4.418539;healthy
+1405;"Dinard";48.587683;-2.079958;healthy
+1408;"Deauville";49.365339;0.154306;healthy
+1409;"Lorient";47.760555;-3.44;healthy
+1412;"Caen";49.173333;-0.45;healthy
+1415;"Rennes";48.069508;-1.734794;healthy
+1416;"Lannion";48.754378;-3.471656;healthy
+1417;"Quimper";47.974981;-4.167786;healthy
+1418;"Nantes";47.153189;-1.610725;healthy
+1423;"Mulhouse";47.589583;7.529914;healthy
+1425;"Dijon";47.26889;5.09;healthy
+1435;"Strasbourg";48.538319;7.628233;healthy
+1438;"Hyeres";43.0973;6.14603;healthy
+1439;"Nimes";43.757444;4.416347;healthy
+1441;"St.-pierre";46.762904;-56.173088;healthy
+1446;"Alexandroupolis";40.855869;25.956264;healthy
+1448;"Nea Anghialos";39.219619;22.794339;healthy
+1450;"Chios";38.343175;26.140572;healthy
+1451;"Ioannina";39.696388;20.8225;healthy
+1452;"Heraklion";35.339719;25.180297;healthy
+1453;"Kastoria";40.446294;21.282186;healthy
+1454;"Kithira";36.274258;23.016978;healthy
+1455;"Keffallinia";38.120069;20.500481;healthy
+1456;"Kalamata";37.068319;22.025525;healthy
+1458;"Kos";36.793335;27.091667;healthy
+1459;"Karpathos";35.421408;27.146008;healthy
+1460;"Kerkyra/corfu";39.601944;19.911667;healthy
+1461;"Kasos";35.421358;26.910047;healthy
+1462;"Kavala";40.913306;24.619223;healthy
+1463;"Kozani";40.28611;21.840834;healthy
+1464;"Leros";37.184903;26.800289;healthy
+1465;"Limnos";39.917072;25.236308;healthy
+1468;"Mykonos";37.435128;25.348103;healthy
+1469;"Mytilini";39.056667;26.598333;healthy
+1470;"Preveza";38.925467;20.765311;healthy
+1472;"Rhodos";36.405419;28.086192;healthy
+1473;"Patras";38.151111;21.425556;healthy
+1474;"Chania";35.531747;24.149678;healthy
+1475;"Skiathos";39.1771;23.503675;healthy
+1476;"Samos";37.689999;26.911667;healthy
+1479;"Thira";36.399169;25.479333;healthy
+1480;"Sitia";35.216108;26.101325;healthy
+1482;"Skiros";38.967553;24.487228;healthy
+1486;"Thessaloniki";40.519725;22.97095;healthy
+1488;"Zakynthos";37.750853;20.88425;healthy
+1489;"Budapest";47.436933;19.255592;healthy
+1490;"Debrecen";47.488917;21.615333;healthy
+1501;"Bari";41.138856;16.760594;healthy
+1505;"Pescara";42.431656;14.181067;healthy
+1506;"Brindisi";40.657633;17.947033;healthy
+1508;"Lamezia";38.905394;16.242269;healthy
+1509;"Catania";37.466781;15.0664;healthy
+1510;"Lampedusa";35.497914;12.618083;healthy
+1511;"Pantelleria";36.816519;11.968864;healthy
+1512;"Palermo";38.175958;13.091019;healthy
+1514;"Reggio Calabria";38.071206;15.651556;healthy
+1515;"Trapani";37.911403;12.487961;healthy
+1517;"Alghero";40.632133;8.290772;healthy
+1519;"Cagliari";39.251469;9.054283;healthy
+1520;"Olbia";40.898661;9.517628;healthy
+1524;"Milano";45.630606;8.728111;healthy
+1525;"Bergamo";45.673889;9.704166;healthy
+1526;"Torino";45.200761;7.649631;healthy
+1528;"Genoa";44.413333;8.8375;healthy
+1529;"Milan";45.445103;9.276739;healthy
+1531;"Parma";44.824483;10.296367;healthy
+1534;"Cuneo";44.547019;7.623217;healthy
+1536;"Bolzano";46.460194;11.326383;healthy
+1538;"Bologna";44.535444;11.288667;healthy
+1539;"Treviso";45.6484;12.194422;healthy
+1545;"Ronchi De Legionari";45.8275;13.472222;healthy
+1546;"Rimini";44.020292;12.611747;healthy
+1550;"Villafranca";45.395706;10.888533;healthy
+1551;"Venice";45.505278;12.351944;healthy
+1553;"Rome";41.799361;12.594936;healthy
+1555;"Rome";41.804475;12.250797;healthy
+1558;"Marina Di Campo";42.760277;10.239445;healthy
+1561;"Naples";40.886033;14.290781;healthy
+1562;"Pisa";43.683917;10.39275;healthy
+1563;"Florence";43.809953;11.2051;healthy
+1567;"Perugia";43.095906;12.513222;healthy
+1569;"Ljubljana";46.223686;14.457611;healthy
+1579;"Karlovy Vary";50.202978;12.914983;healthy
+1582;"Ostrava";49.696292;18.111053;healthy
+1584;"Pardubice";50.013419;15.738647;healthy
+1587;"Prague";50.100833;14.26;healthy
+1588;"Brno";49.151269;16.694433;healthy
+1590;"Tel-aviv";32.011389;34.886667;healthy
+1594;"Elat";29.561281;34.960081;healthy
+1596;"Haifa";32.809444;35.043056;healthy
+1602;"Ovda";29.94025;34.93585;healthy
+1605;"Tel-aviv";32.114661;34.782239;healthy
+1606;"Malta";35.857497;14.4775;healthy
+1609;"Graz";46.991067;15.439628;healthy
+1610;"Innsbruck";47.260219;11.343964;healthy
+1611;"Linz";48.233219;14.187511;healthy
+1612;"Salzburg";47.793304;13.004333;healthy
+1613;"Vienna";48.110278;16.569722;healthy
+1617;"Santa Maria (island)";36.97139;-25.170639;healthy
+1625;"Flores";39.455272;-31.131361;healthy
+1626;"Faro";37.014425;-7.965911;healthy
+1627;"Graciosa Island";39.092169;-28.029847;healthy
+1628;"Horta";38.519894;-28.715872;healthy
+1629;"Lajes (terceira Island)";38.761842;-27.090797;healthy
+1633;"Ponta Delgada";37.741184;-25.69787;healthy
+1634;"Pico";38.554333;-28.441333;healthy
+1636;"Porto";41.248055;-8.681389;healthy
+1637;"Porto Santo";33.073386;-16.349975;healthy
+1638;"Lisbon";38.781311;-9.135919;healthy
+1639;"Sao Jorge Island";38.6655;-28.175817;healthy
+1645;"Mostar";43.2829;17.845878;healthy
+1646;"Sarajevo";43.824583;18.331467;healthy
+1647;"Arad";46.17655;21.262022;healthy
+1649;"Baia Mare";47.658389;23.470022;healthy
+1651;"Constanta";44.362222;28.488333;healthy
+1652;"Cluj-napoca";46.785167;23.686167;healthy
+1654;"Craiova";44.318139;23.888611;healthy
+1655;"Iasi";47.178492;27.620631;healthy
+1656;"Oradea";47.025278;21.9025;healthy
+1657;"Bucharest";44.572161;26.102178;healthy
+1658;"Sibiu";45.785597;24.091342;healthy
+1659;"Satu Mare";47.703275;22.8857;healthy
+1662;"Tirgu Mures";46.467714;24.412525;healthy
+1663;"Timisoara";45.809861;21.337861;healthy
+1665;"Geneva";46.238064;6.10895;healthy
+1675;"Lugano";46.004275;8.910578;healthy
+1676;"Bern";46.9141;7.497153;healthy
+1678;"Zurich";47.464722;8.549167;healthy
+1679;"Altenrhein";47.485033;9.560775;healthy
+1682;"Ankara";40.128082;32.995083;healthy
+1685;"Adana";36.982166;35.280388;healthy
+1688;"Antalya";36.898731;30.800461;healthy
+1689;"Gaziantep";36.947183;37.478683;healthy
+1691;"Konya";37.979;32.561861;healthy
+1693;"Merzifon";40.829375;35.521992;healthy
+1694;"Sivas";39.813828;36.903497;healthy
+1695;"Malatya";38.435347;38.091006;healthy
+1696;"Kayseri";38.770386;35.495428;healthy
+1699;"Denizli";37.785567;29.701297;healthy
+1701;"Istanbul";40.976922;28.814606;healthy
+1706;"Izmir";38.292392;27.156953;healthy
+1715;"Dalaman";36.713056;28.7925;healthy
+1721;"Elazig";38.606925;39.291417;healthy
+1722;"Diyabakir";37.893897;40.201019;healthy
+1723;"Erzincan";39.710203;39.527003;healthy
+1724;"Erzurum";39.956501;41.170166;healthy
+1726;"Trabzon";40.995108;39.789728;healthy
+1728;"Van";38.468219;43.3323;healthy
+1729;"Batman";37.928969;41.116583;healthy
+1735;"Chisinau";46.927744;28.930978;healthy
+1737;"Skopje";41.961622;21.621381;healthy
+1738;"Gibraltar";36.151219;-5.349664;healthy
+1739;"Belgrade";44.818444;20.309139;healthy
+1741;"Podgorica";42.359392;19.251894;healthy
+1742;"Pristina";42.572778;21.035833;healthy
+1743;"Tivat";42.404664;18.723286;healthy
+1745;"Bratislava";48.170167;17.212667;healthy
+1746;"Kosice";48.663055;21.241112;healthy
+1754;"Providenciales";21.773625;-72.265886;healthy
+1755;"South Caicos";21.515739;-71.528528;healthy
+1759;"La Romana";18.450711;-68.911833;healthy
+1760;"Punta Cana";18.567367;-68.363431;healthy
+1761;"Puerto Plata";19.7579;-70.570033;healthy
+1762;"Santo Domingo";18.429664;-69.668925;healthy
+1764;"Santiago";19.406092;-70.604689;healthy
+1767;"Guatemala City";14.583272;-90.527475;healthy
+1771;"La Ceiba";15.742481;-86.853036;healthy
+1772;"San Pedro Sula";15.452639;-87.923556;healthy
+1773;"Guanaja";16.445367;-85.906611;healthy
+1774;"Roatan";16.316814;-86.522961;healthy
+1776;"Tegucigalpa";14.060883;-87.217197;healthy
+1779;"Kingston";17.935667;-76.7875;healthy
+1780;"Montego Bay";18.503717;-77.913358;healthy
+1783;"Acapulco";16.757061;-99.753953;healthy
+1785;"Aguascalientes";21.705558;-102.317858;healthy
+1786;"Huatulco";15.775317;-96.262572;healthy
+1789;"Ciudad Del Carmen";18.653739;-91.799017;healthy
+1792;"Culiacan";24.764547;-107.474717;healthy
+1793;"Chetumal";18.504667;-88.326847;healthy
+1794;"Ciudad Obregon";27.392639;-109.833111;healthy
+1795;"Campeche";19.816794;-90.500314;healthy
+1796;"Ciudad Juarez";31.636133;-106.428667;healthy
+1797;"Chihuahua";28.702875;-105.964567;healthy
+1798;"Ciudad Victoria";23.703336;-98.956486;healthy
+1800;"Cozumel";20.522403;-86.925644;healthy
+1801;"Durango";24.124194;-104.528014;healthy
+1802;"Tepic";21.419453;-104.842581;healthy
+1804;"Guadalajara";20.5218;-103.311167;healthy
+1807;"Hermosillo";29.095858;-111.047858;healthy
+1808;"Colima";19.277011;-103.577397;healthy
+1810;"Saltillo";25.549497;-100.928669;healthy
+1813;"Lazard Cardenas";18.001731;-102.220525;healthy
+1814;"Los Mochis";25.685194;-109.080806;healthy
+1815;"Del Bajio";20.993464;-101.480847;healthy
+1816;"La Paz";24.072694;-110.362475;healthy
+1817;"Loreto";25.989194;-111.348361;healthy
+1818;"Matamoros";25.769894;-97.525311;healthy
+1819;"Merida";20.936981;-89.657672;healthy
+1820;"Mexicali";32.630634;-115.241637;healthy
+1821;"Morelia";19.849944;-101.0255;healthy
+1822;"Minatitlan";18.103419;-94.580681;healthy
+1824;"Mexico City";19.436303;-99.072097;healthy
+1825;"Monterrey";25.778489;-100.106878;healthy
+1826;"Mazatlan";23.161356;-106.266072;healthy
+1828;"Nuevo Laredo";27.443918;-99.57046;healthy
+1829;"Oaxaca";16.999906;-96.726639;healthy
+1830;"Poza Rico";20.602671;-97.460839;healthy
+1831;"Puebla";19.158144;-98.371447;healthy
+1834;"Piedras Negras";28.627394;-100.535211;healthy
+1835;"Uruapan";19.396692;-102.039056;healthy
+1836;"Puerto Vallarta";20.680083;-105.254167;healthy
+1837;"Puerto Escondido";15.876861;-97.089117;healthy
+1838;"Queretaro";20.617289;-100.185658;healthy
+1839;"Reynosa";26.008908;-98.228513;healthy
+1840;"San Jose Del Cabo";23.15185;-109.721044;healthy
+1842;"San Luis Potosi";22.254303;-100.930806;healthy
+1845;"Torreon";25.568278;-103.410583;healthy
+1846;"Tuxtla Gutierrez";16.561822;-93.026081;healthy
+1847;"Tijuana";32.541064;-116.970158;healthy
+1848;"Tampico";22.29645;-97.865931;healthy
+1850;"Toluca";19.337072;-99.566008;healthy
+1851;"Tapachula";14.794339;-92.370025;healthy
+1852;"Cancun";21.036528;-86.877083;healthy
+1853;"Villahermosa";17.997;-92.817361;healthy
+1854;"Vera Cruz";19.145931;-96.187267;healthy
+1855;"Zacatecas";22.897112;-102.68689;healthy
+1856;"Zihuatanejo";17.601569;-101.460536;healthy
+1858;"Manzanillo";19.144778;-104.558631;healthy
+1863;"Managua";12.141494;-86.168178;healthy
+1865;"Bocas Del Toro";9.340853;-82.250842;healthy
+1866;"Changuinola";9.458636;-82.516806;healthy
+1867;"David";8.391003;-82.434992;healthy
+1869;"Panama";8.973339;-79.555583;healthy
+1871;"Panama City";9.071364;-79.383453;healthy
+1879;"Golfito";8.653775;-83.180544;healthy
+1881;"Liberia";10.593289;-85.544408;healthy
+1884;"Nosara Beach";9.97649;-85.653;healthy
+1885;"San Jose";9.993861;-84.208806;healthy
+1887;"Palmar Sur";8.951025;-83.468583;healthy
+1889;"Quepos";9.443164;-84.129772;healthy
+1892;"San Salvador";13.440947;-89.055728;healthy
+1895;"Cap Haitien";19.732989;-72.194739;healthy
+1897;"Port-au-prince";18.58005;-72.292542;healthy
+1903;"Cayo Largo del Sur";21.616453;-81.545989;healthy
+1904;"Camaguey";21.420428;-77.847433;healthy
+1905;"Santiago De Cuba";19.969769;-75.835414;healthy
+1908;"Guantanamo";20.085419;-75.158328;healthy
+1909;"Havana";22.989153;-82.409086;healthy
+1910;"Holguin";20.785589;-76.315108;healthy
+1918;"Santa Clara";22.492192;-79.943611;healthy
+1923;"Varadero";23.034445;-81.435278;healthy
+1925;"Cayman Barac";19.686981;-79.882789;healthy
+1926;"Georgetown";19.292778;-81.35775;healthy
+1930;"Marsh Harbor";26.511406;-77.083472;healthy
+1932;"Spring Point";22.441828;-73.970858;healthy
+1934;"Treasure Cay";26.745336;-77.391269;healthy
+1937;"Alice Town";25.699881;-79.264656;healthy
+1941;"Great Exuma";23.562631;-75.877958;healthy
+1943;"North Eleuthera";25.474861;-76.683489;healthy
+1944;"Governor's Harbor";25.284706;-76.331011;healthy
+1946;"Rock Sound";24.8917;-76.177739;healthy
+1948;"Freeport";26.558686;-78.695553;healthy
+1949;"Matthew Town";20.975;-73.666862;healthy
+1950;"Dead Man's Cay";23.179014;-75.093597;healthy
+1951;"Stella Maris";23.581444;-75.270475;healthy
+1952;"Mayaguana";22.379528;-73.0135;healthy
+1953;"Nassau";25.038958;-77.466231;healthy
+1956;"Cockburn Town";24.063275;-74.523967;healthy
+1957;"Belize City";17.539144;-88.308203;healthy
+1958;"Aitutaki";-18.830922;-159.764233;healthy
+1959;"Avarua";-21.202739;-159.805556;healthy
+1960;"Nandi";-17.755392;177.443378;healthy
+1961;"Nausori";-18.043267;178.559228;healthy
+1963;"Tongatapu";-21.241214;-175.149644;healthy
+1965;"Tarawa";1.381636;173.147036;healthy
+1968;"Wallis";-13.238281;-176.199228;healthy
+1969;"Faleolo";-13.829969;-172.008336;healthy
+1970;"Pago Pago";-14.331;-170.7105;healthy
+1971;"Rurutu";-22.434069;-151.360614;healthy
+1972;"Tubuai";-23.365353;-149.524072;healthy
+1975;"Tikehau";-15.119617;-148.230697;healthy
+1977;"Fakarava";-16.05415;-145.656994;healthy
+1978;"Manihi";-14.436764;-146.070056;healthy
+1979;"Totegegie";-23.079861;-134.890333;healthy
+1980;"Kaukura Atoll";-15.663333;-146.884769;healthy
+1981;"Makemo";-16.583919;-143.658369;healthy
+1983;"Takapoto";-14.709544;-145.245814;healthy
+1984;"Arutua";-15.248289;-146.616708;healthy
+1985;"Mataiva";-14.868055;-148.717225;healthy
+1986;"Takaroa";-14.455781;-145.024542;healthy
+1987;"Nuku Hiva";-8.795603;-140.228789;healthy
+1989;"Bora Bora";-16.444378;-151.751286;healthy
+1990;"Rangiroa";-14.954283;-147.6608;healthy
+1991;"Huahine Island";-16.687242;-151.021667;healthy
+1992;"Moorea";-17.489972;-149.761869;healthy
+1993;"Hao Island";-18.074814;-140.945886;healthy
+1994;"Maupiti";-16.426486;-152.243669;healthy
+1995;"Raiatea Island";-16.722861;-151.465856;healthy
+1997;"Port-vila";-17.699325;168.319794;healthy
+1998;"Kone";-21.053428;164.837806;healthy
+1999;"Koumac";-20.546314;164.255625;healthy
+2000;"Lifou";-20.7748;167.239864;healthy
+2001;"Noumea";-22.258278;166.472806;healthy
+2002;"Mare";-21.481678;168.037508;healthy
+2003;"Touho";-20.790028;165.259486;healthy
+2004;"Ouvea";-20.640556;166.572778;healthy
+2005;"Noumea";-22.014553;166.212972;healthy
+2006;"Auckland";-37.008056;174.791667;healthy
+2007;"Taupo";-38.739723;176.084444;healthy
+2009;"Christchurch";-43.489358;172.532225;healthy
+2011;"Dunedin";-45.928055;170.198333;healthy
+2012;"Gisborne";-38.663333;177.978333;healthy
+2014;"Hokitika";-42.713611;170.985278;healthy
+2015;"Hamilton";-37.866661;175.332056;healthy
+2017;"Kerikeri";-35.262779;173.911944;healthy
+2018;"Kaitaia";-35.07;173.285278;healthy
+2023;"New Plymouth";-39.008611;174.179167;healthy
+2024;"Nelson";-41.298333;173.221111;healthy
+2025;"Invercargill";-46.412408;168.312992;healthy
+2028;"Palmerston North";-40.320556;175.616944;healthy
+2029;"Paraparaumu";-40.904722;174.989167;healthy
+2030;"Queenstown International";-45.021111;168.739167;healthy
+2031;"Rotorua";-38.109167;176.317222;healthy
+2034;"Tauranga";-37.671944;176.19611;healthy
+2035;"Timaru";-44.302778;171.225278;healthy
+2037;"Woodbourne";-41.518333;173.870278;healthy
+2041;"Whakatane";-37.920556;176.914167;healthy
+2042;"Wellington";-41.327221;174.805278;healthy
+2045;"Whangarei";-35.768333;174.365;healthy
+2046;"Westport";-41.738056;171.580833;healthy
+2047;"Wanganui";-39.962222;175.025278;healthy
+2048;"Herat";34.210017;62.2283;healthy
+2050;"Kabul";34.565853;69.212328;healthy
+2051;"Kandahar";31.505756;65.847822;healthy
+2053;"Mazar-i-sharif";36.706914;67.209678;healthy
+2057;"Bahrain";26.270834;50.63361;healthy
+2059;"Abha";18.240367;42.656625;healthy
+2060;"Al-ahsa";25.285306;49.485189;healthy
+2061;"El-baha";20.296139;41.634277;healthy
+2062;"Bisha";19.98435;42.620881;healthy
+2064;"Dammam";26.471161;49.79789;healthy
+2066;"Gizan";16.901111;42.585833;healthy
+2067;"Gassim";26.302822;43.773911;healthy
+2068;"Guriat";31.411942;37.279469;healthy
+2069;"Hail";27.437917;41.686292;healthy
+2072;"Jeddah";21.679564;39.156536;healthy
+2074;"Madinah";24.553422;39.705061;healthy
+2075;"Nejran";17.611436;44.419169;healthy
+2076;"Hafr Al-batin";28.335192;46.125069;healthy
+2081;"Rafha";29.626419;43.490614;healthy
+2082;"Riyadh";24.95764;46.698776;healthy
+2084;"Arar";30.906589;41.138217;healthy
+2086;"Sharurah";17.466875;47.121431;healthy
+2089;"Tabuk";28.365417;36.618889;healthy
+2090;"Taif";21.483418;40.544334;healthy
+2093;"Turaif";31.692683;38.7312;healthy
+2095;"Wejh";26.198553;36.476381;healthy
+2096;"Yenbo";24.144244;38.06335;healthy
+2097;"Abadan";30.371111;48.228333;healthy
+2103;"Bandar Mahshahr";30.556192;49.151879;healthy
+2104;"Ahwaz";31.337431;48.76195;healthy
+2106;"Bushehr";28.944811;50.834637;healthy
+2109;"Kish Island";26.526156;53.980211;healthy
+2110;"Bandar Lengeh";26.532;54.824847;healthy
+2114;"Bakhtaran";34.345853;47.158128;healthy
+2117;"Sanandaj";35.245856;47.009247;healthy
+2123;"Rasht";37.325314;49.605817;healthy
+2131;"Teheran";35.689167;51.313416;healthy
+2134;"Bandar Abbas";27.218317;56.37785;healthy
+2136;"Kerman";30.274444;56.951111;healthy
+2142;"Birjand";32.898056;59.266111;healthy
+2151;"Ramsar";36.909908;50.679589;healthy
+2157;"Shiraz";29.539242;52.589786;healthy
+2162;"Tabriz";38.133889;46.235;healthy
+2164;"Yazd";31.904908;54.276503;healthy
+2166;"Chah Bahar";25.44335;60.382114;healthy
+2167;"Zahedan";29.475686;60.906189;healthy
+2170;"Amman";31.722556;35.993214;healthy
+2172;"Aqaba";29.611619;35.018067;healthy
+2176;"Kuwait";29.226567;47.968928;healthy
+2177;"Beirut";33.820931;35.488389;healthy
+2179;"Abu Dhabi";24.432972;54.651138;healthy
+2180;"Abu Dhabi";24.428333;54.458084;healthy
+2188;"Dubai";25.252778;55.364444;healthy
+2189;"Fujeirah";25.112225;56.323964;healthy
+2191;"Sharjah";25.328575;55.51715;healthy
+2192;"Khasab";26.170986;56.240569;healthy
+2194;"Muscat";23.593278;58.284444;healthy
+2195;"Salalah";17.038719;54.091297;healthy
+2202;"Faisalabad";31.365014;72.994842;healthy
+2203;"Gwadar";25.233308;62.329494;healthy
+2204;"Gilgit";35.918786;74.333644;healthy
+2206;"Karachi";24.906547;67.160797;healthy
+2207;"Lahore";31.521564;74.403594;healthy
+2212;"Moenjodaro";27.335156;68.143053;healthy
+2214;"Multan";30.203222;71.419111;healthy
+2217;"Panjgur";26.954547;64.132517;healthy
+2219;"Peshawar";33.993911;71.514581;healthy
+2221;"Quetta";30.251369;66.937764;healthy
+2222;"Rahim Yar Khan";28.3839;70.279572;healthy
+2223;"Islamabad";33.616653;73.099233;healthy
+2227;"Sukkur";27.721989;68.791683;healthy
+2233;"Zhob";31.358381;69.463606;healthy
+2234;"Basrah";30.549069;47.662142;healthy
+2241;"Doha";25.261125;51.565056;healthy
+2243;"Rota";14.174308;145.242536;healthy
+2244;"Saipan";15.119003;145.729356;healthy
+2246;"Agana";13.48345;144.795983;healthy
+2249;"Majuro";7.064758;171.272022;healthy
+2251;"Kwajalein";8.720122;167.731661;healthy
+2252;"Kiritimati";1.986161;-157.349778;healthy
+2254;"Chuuk";7.461869;151.843006;healthy
+2255;"Pohnpei";6.9851;158.208989;healthy
+2256;"Babelthuap";7.367303;134.544278;healthy
+2257;"Kosrae";5.356975;162.958386;healthy
+2258;"Yap";9.498911;138.082497;healthy
+2259;"Kinmen";24.427892;118.359197;healthy
+2262;"Fengnin";22.754986;121.101681;healthy
+2264;"Kaohsiung";22.577094;120.350006;healthy
+2268;"Taichung";24.264668;120.62058;healthy
+2270;"Tainan";22.950361;120.205778;healthy
+2272;"Makung";23.568669;119.628311;healthy
+2275;"Taipei";25.069722;121.5525;healthy
+2276;"Taipei";25.077731;121.232822;healthy
+2278;"Hualien";24.023725;121.616906;healthy
+2279;"Tokyo";35.764722;140.386389;healthy
+2280;"Matsumoto";36.166758;137.922669;healthy
+2281;"Ibaraki";36.181083;140.415444;healthy
+2284;"Nanki-shirahama";33.662222;135.364444;healthy
+2286;"Obihiro";42.733333;143.217222;healthy
+2287;"Sapporo";42.7752;141.692283;healthy
+2288;"Hakodate";41.77;140.821944;healthy
+2290;"Memanbetsu";43.880606;144.164053;healthy
+2291;"Nakashibetsu";43.5775;144.96;healthy
+2294;"Wakkanai";45.404167;141.800833;healthy
+2295;"Iki";33.749027;129.785417;healthy
+2296;"Yamaguchi";33.93;131.278611;healthy
+2297;"Tsushima";34.284889;129.33055;healthy
+2298;"Monbetsu";44.303914;143.404028;healthy
+2299;"Asahikawa";43.670833;142.4475;healthy
+2304;"Fukue";32.666269;128.832808;healthy
+2305;"Fukuoka";33.585942;130.450686;healthy
+2307;"Kagoshima";31.803397;130.719408;healthy
+2308;"Miyazaki";31.877222;131.448611;healthy
+2310;"Oita";33.479444;131.737222;healthy
+2311;"Kitakyushu";33.845942;131.034689;healthy
+2312;"Kumamoto";32.837319;130.85505;healthy
+2313;"Nagasaki";32.916944;129.913611;healthy
+2316;"Amami";28.430633;129.712542;healthy
+2322;"Kanazawa";36.394611;136.406544;healthy
+2324;"Toyama";36.648333;137.1875;healthy
+2326;"Hiroshima";34.436111;132.919444;healthy
+2327;"Okayama";34.756944;133.855278;healthy
+2328;"Izumo";35.413611;132.89;healthy
+2330;"Miho";35.492222;133.236389;healthy
+2332;"Kochi";33.546111;133.669444;healthy
+2333;"Matsuyama";33.827222;132.699722;healthy
+2334;"Osaka";34.785528;135.438222;healthy
+2335;"Tottori";35.530069;134.166553;healthy
+2336;"Tokushima";34.132808;134.606639;healthy
+2337;"Takamatsu";34.214167;134.015556;healthy
+2340;"Aomori";40.734722;140.690833;healthy
+2341;"Yamagata";38.411894;140.371331;healthy
+2344;"Hanamaki";39.428611;141.135278;healthy
+2345;"Akita";39.615556;140.218611;healthy
+2346;"Misawa";40.703222;141.368364;healthy
+2347;"Sendai";38.139722;140.916944;healthy
+2352;"Hachijojima";33.115;139.785833;healthy
+2356;"Oshima";34.782033;139.360306;healthy
+2359;"Tokyo";35.552258;139.779694;healthy
+2361;"Kwangju";35.126389;126.808889;healthy
+2365;"Yeosu";34.842328;127.61685;healthy
+2370;"Cheju";33.511306;126.493028;healthy
+2372;"Busan";35.179528;128.938222;healthy
+2374;"Ulsan";35.593494;129.351722;healthy
+2378;"Seoul";37.558311;126.790586;healthy
+2380;"Pohang";35.987858;129.420486;healthy
+2381;"Taegu";35.894108;128.658856;healthy
+2384;"Okinawa";26.195814;127.645869;healthy
+2387;"Ishigaki";24.344525;124.186983;healthy
+2388;"Kumejima";26.363506;126.713806;healthy
+2390;"Miyako";24.782833;125.295111;healthy
+2397;"Manila";14.508647;121.019581;healthy
+2399;"Cotabato";7.165242;124.209619;healthy
+2400;"Ladag";8.415619;124.611219;healthy
+2401;"Pagadian";7.827197;123.458294;healthy
+2404;"Zamboanga";6.922419;122.059633;healthy
+2422;"Tacloban";11.227628;125.027758;healthy
+2423;"Bacolod";10.642511;122.929617;healthy
+2425;"Dumaguete";9.333714;123.300472;healthy
+2429;"Iloilo";10.713044;122.545297;healthy
+2430;"Kalibo";11.679431;122.376294;healthy
+2433;"Puerto Princesa";9.742119;118.758731;healthy
+2435;"San Jose";10.766044;121.933439;healthy
+2439;"Parana";-31.794778;-60.480361;healthy
+2440;"Rosario";-32.903611;-60.785;healthy
+2441;"Santa Fe";-31.711666;-60.811668;healthy
+2442;"Buenos Aires";-34.559175;-58.415606;healthy
+2443;"Cordoba";-31.323619;-64.207953;healthy
+2452;"Mendoza";-32.831717;-68.792856;healthy
+2454;"San Rafael";-34.588314;-68.403854;healthy
+2455;"Catamarca";-28.593214;-65.750925;healthy
+2456;"Santiago Del Estero";-27.765617;-64.310122;healthy
+2458;"La Rioja";-29.381636;-66.795839;healthy
+2460;"Tucuman";-26.840861;-65.104944;healthy
+2461;"San Julian";-31.571472;-68.418194;healthy
+2467;"San Luis";-33.273192;-66.356422;healthy
+2469;"Resistencia";-27.449986;-59.056125;healthy
+2470;"Formosa";-26.212722;-58.228111;healthy
+2471;"Iguazu Falls";-25.737281;-54.473444;healthy
+2474;"Posadas";-27.385839;-55.970728;healthy
+2476;"Salta";-24.855978;-65.486169;healthy
+2477;"Jujuy";-24.392778;-65.097778;healthy
+2487;"Comodoro Rivadavia";-45.785347;-67.465508;healthy
+2488;"Esquel";-42.90795;-71.139472;healthy
+2490;"Trelew";-43.2105;-65.270319;healthy
+2491;"Viedma";-40.869222;-63.000389;healthy
+2492;"Puerto Madryn";-42.759161;-65.102725;healthy
+2495;"Rio Grande";-53.777667;-67.749389;healthy
+2496;"Rio Gallegos";-51.608875;-69.312636;healthy
+2497;"Ushuaia";-54.843278;-68.29575;healthy
+2501;"Bahia Blanca";-38.724967;-62.169317;healthy
+2508;"Mar Del Plata";-37.934167;-57.573333;healthy
+2509;"Neuquen";-38.949;-68.155711;healthy
+2512;"Santa Rosa";-36.588322;-64.275694;healthy
+2513;"San Carlos De Bariloche";-41.151172;-71.157542;healthy
+2517;"San Martin Des Andes";-40.075383;-71.137294;healthy
+2518;"Conceicao Do Araguaia";-8.348347;-49.301528;healthy
+2521;"Araracuara";-21.812;-48.133028;healthy
+2522;"Aracaju";-10.984;-37.070333;healthy
+2524;"Alta Floresta";-9.866092;-56.106206;healthy
+2525;"Aracatuba";-21.141342;-50.424722;healthy
+2526;"Belem";-1.37925;-48.476292;healthy
+2528;"Belo Horizonte";-19.851181;-43.950628;healthy
+2531;"Brasilia";-15.8711;-47.918625;healthy
+2533;"Boa Vista";2.846311;-60.690069;healthy
+2535;"Cascavel";-25.000339;-53.500764;healthy
+2537;"Belo Horizonte";-19.63375;-43.968856;healthy
+2538;"Campo Grande";-20.468667;-54.6725;healthy
+2539;"Chapeco";-27.134219;-52.656553;healthy
+2541;"Criciuma";-28.725817;-49.424739;healthy
+2543;"Campos";-21.698333;-41.301669;healthy
+2544;"Corumba";-19.011931;-57.673053;healthy
+2545;"Curitiba";-25.528475;-49.175775;healthy
+2547;"Caxias Do Sul";-29.197064;-51.187536;healthy
+2548;"Cuiaba";-15.652931;-56.116719;healthy
+2549;"Cruzeiro do Sul";-7.599906;-72.769489;healthy
+2550;"President Prudente";-22.175056;-51.424639;healthy
+2551;"Manaus";-3.038611;-60.049721;healthy
+2554;"Foz Do Iguacu";-25.59615;-54.487206;healthy
+2555;"Florianopolis";-27.670489;-48.547181;healthy
+2556;"Fernando Do Noronha";-3.854928;-32.423336;healthy
+2559;"Fortaleza";-3.776283;-38.532556;healthy
+2560;"Rio De Janeiro";-22.808903;-43.243647;healthy
+2562;"Goiania";-16.632033;-49.220686;healthy
+2564;"Sao Paulo";-23.432075;-46.469511;healthy
+2566;"Altamira";-3.253906;-52.253978;healthy
+2569;"Ilheus";-14.815964;-39.033197;healthy
+2570;"Ipatinga";-19.470722;-42.487583;healthy
+2572;"Imperatriz";-5.531292;-47.46005;healthy
+2575;"Joao Pessoa";-7.148381;-34.950681;healthy
+2576;"Joinville";-26.224453;-48.797364;healthy
+2577;"Campina Grande";-7.269917;-35.896364;healthy
+2578;"Campinas";-23.0075;-47.134444;healthy
+2581;"Londrina";-23.333625;-51.130072;healthy
+2582;"Bom Jesus Da Lapa";-13.262086;-43.408114;healthy
+2584;"Maraba";-5.368589;-49.138025;healthy
+2586;"Maringa";-23.476392;-52.016406;healthy
+2587;"Montes Claros";-16.706925;-43.8189;healthy
+2590;"Maceio";-9.510808;-35.791678;healthy
+2591;"Macapa";0.050664;-51.072178;healthy
+2595;"Navegantes";-26.879999;-48.65139;healthy
+2596;"Santo Angelo";-28.281683;-54.169139;healthy
+2597;"Natal";-5.911417;-35.247717;healthy
+2599;"Porto Alegre";-29.994428;-51.171428;healthy
+2602;"Passo Fundo";-28.243989;-52.326558;healthy
+2603;"Pelotas";-31.718353;-52.327689;healthy
+2604;"Petrolina";-9.362411;-40.569097;healthy
+2607;"Porto Velho";-8.709294;-63.902281;healthy
+2609;"Rio Branco";-9.583;-67.4836;healthy
+2610;"Recife";-8.126794;-34.923039;healthy
+2611;"Rio Grande";-32.082617;-52.166542;healthy
+2612;"Rio De Janeiro";-22.910461;-43.163133;healthy
+2613;"Ribeirao Preto";-21.134167;-47.774189;healthy
+2615;"Sao Jose Dos Campos";-23.228172;-45.862739;healthy
+2616;"Sao Luis";-2.585361;-44.234139;healthy
+2618;"Sao Paulo";-23.626692;-46.655375;healthy
+2619;"Sao Jose Do Rio Preto";-20.816567;-49.406511;healthy
+2621;"Salvador";-12.910994;-38.331044;healthy
+2622;"Oriximina";-1.4896;-56.396803;healthy
+2623;"Teresina";-5.059942;-42.823478;healthy
+2624;"Tefe";-3.382944;-64.724056;healthy
+2628;"Tabatinga";-4.255669;-69.935828;healthy
+2629;"Tucurui";-3.786008;-49.720267;healthy
+2631;"Paulo Alfonso";-9.400878;-38.250575;healthy
+2632;"Uruguaiana";-29.782178;-57.038189;healthy
+2633;"Uberlandia";-18.882844;-48.225594;healthy
+2635;"Uberaba";-19.765;-47.964778;healthy
+2637;"Vilhena";-12.694375;-60.098269;healthy
+2638;"Vitoria";-20.258056;-40.286389;healthy
+2641;"Arica";-18.348531;-70.338742;healthy
+2642;"Balmaceda";-45.916058;-71.689475;healthy
+2645;"Calama";-22.498175;-68.903575;healthy
+2647;"Punta Arenas";-53.002642;-70.854586;healthy
+2649;"Iquique";-20.535222;-70.181275;healthy
+2650;"Santiago";-33.392975;-70.785803;healthy
+2651;"Antofagasta";-23.444478;-70.4451;healthy
+2656;"Concepcion";-36.77265;-73.063106;healthy
+2657;"Easter Island";-27.164792;-109.421831;healthy
+2658;"Osorno";-40.611208;-73.061042;healthy
+2662;"La Serena";-29.916233;-71.199522;healthy
+2664;"Temuco";-38.766819;-72.637097;healthy
+2665;"Puerto Montt";-41.438886;-73.093953;healthy
+2667;"Valdivia";-39.649956;-73.086111;healthy
+2670;"Coca";-0.462886;-76.986842;healthy
+2671;"Cuenca";-2.889467;-78.984397;healthy
+2672;"Galapagos";-0.453758;-90.265914;healthy
+2673;"Guayaquil";-2.157419;-79.883558;healthy
+2680;"Macas";-2.299167;-78.12075;healthy
+2683;"Manta";-0.946078;-80.678808;healthy
+2688;"Quito";-0.141144;-78.488214;healthy
+2697;"Tulcan";0.809506;-77.708056;healthy
+2699;"Asuncion";-25.23985;-57.519133;healthy
+2705;"Armenia";4.452775;-75.766447;healthy
+2706;"Puerto Asis";0.505228;-76.500836;healthy
+2708;"Bucaramanga";7.1265;-73.184778;healthy
+2709;"Bogota";4.701594;-74.146947;healthy
+2710;"Barranquilla";10.889589;-74.780819;healthy
+2711;"Bahia Solano";6.202917;-77.394675;healthy
+2712;"Buenaventura";3.819628;-76.989767;healthy
+2713;"Cucuta";7.927567;-72.511547;healthy
+2714;"Cartagena";10.442381;-75.512961;healthy
+2715;"Cali";3.543222;-76.381583;healthy
+2716;"Tumaco";1.814417;-78.749228;healthy
+2717;"Corozal";9.332742;-75.285594;healthy
+2718;"Barrancabermeja";7.024331;-73.8068;healthy
+2719;"Florencia";1.589189;-75.564372;healthy
+2722;"Guapi";2.570133;-77.8986;healthy
+2724;"Ibague";4.421608;-75.1333;healthy
+2725;"Ipiales";0.861925;-77.671764;healthy
+2728;"Leticia";-4.193549;-69.943163;healthy
+2729;"Medellin";6.219958;-75.590519;healthy
+2731;"Monteria";8.823744;-75.825831;healthy
+2732;"Mitu";1.253664;-70.233878;healthy
+2733;"Manizales";5.029597;-75.464708;healthy
+2734;"Neiva";2.95015;-75.294;healthy
+2738;"Puerto Carreno";6.184717;-67.493164;healthy
+2739;"Pereira";4.812675;-75.739519;healthy
+2741;"Popayan";2.4544;-76.609319;healthy
+2742;"Pasto";1.396247;-77.291478;healthy
+2743;"Providencia";13.356944;-81.35833;healthy
+2745;"Rio Negro";6.164536;-75.423119;healthy
+2746;"Rio Hacha";11.526222;-72.925958;healthy
+2747;"San Jose Del Guaviare";2.579694;-72.639358;healthy
+2748;"Santa Marta";11.11965;-74.230647;healthy
+2749;"San Andres Island";12.583594;-81.711192;healthy
+2750;"San Vincente De Caguan";2.152175;-74.76635;healthy
+2751;"Tame";6.451081;-71.760261;healthy
+2752;"Arauca";7.068881;-70.736925;healthy
+2753;"Quibdo";5.690758;-76.641181;healthy
+2755;"Valledupar";10.435042;-73.249506;healthy
+2756;"Villavicencio";4.167875;-73.613761;healthy
+2759;"Cochabamba";-17.421058;-66.177114;healthy
+2761;"Cobija";-11.040436;-68.782972;healthy
+2762;"La Paz";-16.513339;-68.192256;healthy
+2764;"Potosi";-19.543069;-65.723706;healthy
+2767;"Sucre";-19.007083;-65.288747;healthy
+2768;"Tarija";-21.555736;-64.701325;healthy
+2769;"Trinidad";-14.818739;-64.918019;healthy
+2771;"Santa Cruz";-17.644756;-63.135364;healthy
+2772;"Yacuiba";-21.960925;-63.651669;healthy
+2773;"Zandery";5.452831;-55.187783;healthy
+2774;"Cayenne";4.819808;-52.360447;healthy
+2781;"Pucallpa";-8.377939;-74.574297;healthy
+2785;"Chiclayo";-6.787475;-79.828097;healthy
+2786;"Ayacucho";-13.154819;-74.204417;healthy
+2787;"Andahuaylas";-13.706408;-73.350378;healthy
+2788;"Anta";-9.347444;-77.598392;healthy
+2789;"Lima";-12.021889;-77.114319;healthy
+2792;"Juliaca";-15.467103;-70.158169;healthy
+2796;"Tumbes";-3.552528;-80.381356;healthy
+2801;"Iquitos";-3.784739;-73.308806;healthy
+2802;"Arequipa";-16.341072;-71.583083;healthy
+2804;"Trujillo";-8.081411;-79.108761;healthy
+2806;"Tarapoto";-6.508742;-76.373247;healthy
+2807;"Tacna";-18.053333;-70.275833;healthy
+2808;"Puerto Maldonado";-12.613611;-69.228611;healthy
+2809;"Piura";-5.20575;-80.616444;healthy
+2812;"Cuzco";-13.535722;-71.938781;healthy
+2816;"Montevideo";-34.838417;-56.030806;healthy
+2821;"Barcelona";10.107139;-64.689161;healthy
+2822;"Barinas";8.619575;-70.220825;healthy
+2824;"Barquisimeto";10.042747;-69.358619;healthy
+2830;"Canaima";6.231989;-62.854433;healthy
+2833;"Coro";11.414867;-69.681656;healthy
+2835;"Cumana";10.450333;-64.130472;healthy
+2844;"Paraguana";11.780775;-70.151497;healthy
+2846;"La Fria";8.239167;-72.271028;healthy
+2848;"Maracaibo";10.558208;-71.727856;healthy
+2849;"Merida";8.582294;-71.161186;healthy
+2850;"Porlamar";10.912926;-63.967581;healthy
+2851;"Caracas";10.603117;-66.990583;healthy
+2852;"Maturin";9.749067;-63.1534;healthy
+2853;"Puerto Ayacucho";5.619992;-67.606103;healthy
+2854;"Puerto Cabello";10.4805;-68.073025;healthy
+2856;"Guayana";8.288528;-62.760361;healthy
+2858;"San Antonio";7.840831;-72.439742;healthy
+2861;"Santo Domingo";7.565111;-72.035125;healthy
+2864;"San Tome";8.945147;-64.151083;healthy
+2868;"Valencia";10.149733;-67.9284;healthy
+2870;"Valera";9.340797;-70.584089;healthy
+2874;"Antigua";17.136749;-61.792667;healthy
+2875;"Bridgetown";13.074603;-59.492456;healthy
+2877;"Dominica";15.547028;-61.3;healthy
+2878;"Fort-de-france";14.591033;-61.003175;healthy
+2879;"St. Martin";18.099914;-63.047197;healthy
+2881;"Pointe-a-pitre";16.265306;-61.531806;healthy
+2882;"Point Salines";12.004247;-61.786192;healthy
+2883;"St. Thomas";18.337306;-64.973361;healthy
+2884;"St. Croix Island";17.701889;-64.798556;healthy
+2885;"Aguadilla";18.494861;-67.129444;healthy
+2888;"Mayaguez";18.255694;-67.148472;healthy
+2889;"Ponce";18.008306;-66.563028;healthy
+2890;"San Juan";18.439417;-66.001833;healthy
+2891;"Basse Terre";17.311194;-62.718667;healthy
+2893;"Castries";14.020228;-60.992936;healthy
+2894;"Hewandorra";13.733194;-60.952597;healthy
+2895;"Oranjestad";12.501389;-70.015221;healthy
+2896;"Kralendijk";12.131044;-68.268511;healthy
+2897;"Willemstad";12.188853;-68.959803;healthy
+2898;"Oranjestad";17.496492;-62.979439;healthy
+2899;"Philipsburg";18.040953;-63.1089;healthy
+2900;"The Valley";18.204834;-63.055084;healthy
+2901;"Scarborough";11.149658;-60.832194;healthy
+2902;"Port-of-spain";10.595369;-61.337242;healthy
+2903;"Tortola";18.444834;-64.542975;healthy
+2907;"Kingstown";13.144306;-61.210861;healthy
+2908;"Alma-ata";43.352072;77.040508;healthy
+2910;"Tselinograd";51.022222;71.466944;healthy
+2911;"Dzhambul";42.853611;71.303611;healthy
+2912;"Bishkek";43.061306;74.477556;healthy
+2913;"Osh";40.608989;72.793269;healthy
+2914;"Chimkent";42.364167;69.478889;healthy
+2916;"Uralsk";51.150833;51.543056;healthy
+2917;"Pavlodar";52.195;77.073889;healthy
+2918;"Semiplatinsk";50.3513;80.2344;healthy
+2920;"Aktyubinsk";50.245833;57.206667;healthy
+2922;"Baku";40.4675;50.046667;healthy
+2923;"Yakutsk";62.09325;129.770672;healthy
+2925;"Mirnyj";62.534689;114.038928;healthy
+2926;"Blagoveschensk";50.425394;127.412478;healthy
+2927;"Khabarovsk";48.528044;135.188361;healthy
+2930;"Magadan";59.910989;150.720439;healthy
+2931;"Pevek";69.783283;170.597006;healthy
+2932;"Petropavlovsk";53.167889;158.453669;healthy
+2933;"Yuzhno-sakhalinsk";46.888672;142.717531;healthy
+2934;"Vladivostok";43.398953;132.148017;healthy
+2935;"Chita";52.026317;113.305556;healthy
+2936;"Bratsk";56.370556;101.698331;healthy
+2937;"Irkutsk";52.268028;104.388975;healthy
+2938;"Ulan-ude";51.807764;107.437644;healthy
+2939;"Kiev";50.345;30.894722;healthy
+2940;"Donetsk";48.073611;37.739722;healthy
+2941;"Dnepropetrovsk";48.357222;35.100556;healthy
+2942;"Simferopol";45.052222;33.975139;healthy
+2944;"Kiev";50.401694;30.449697;healthy
+2945;"Lvov";49.8125;23.956111;healthy
+2947;"Odessa";46.426767;30.676464;healthy
+2948;"St. Petersburg";59.800292;30.262503;healthy
+2949;"Murmansk";68.781672;32.750822;healthy
+2952;"Kaliningrad";54.89005;20.592633;healthy
+2954;"Minsk 2";53.882469;28.030731;healthy
+2955;"Abakan";53.74;91.385;healthy
+2956;"Barnaul";53.363775;83.538533;healthy
+2957;"Kemorovo";55.270094;86.107208;healthy
+2958;"Omsk";54.967042;73.310514;healthy
+2960;"Krasnodar";45.034689;39.170539;healthy
+2961;"Makhachkala";42.816822;47.652294;healthy
+2962;"Mineralnye Vody";44.225072;43.081889;healthy
+2963;"Stavropol";45.109165;42.112778;healthy
+2964;"Rostov";47.258208;39.818089;healthy
+2965;"Sochi";43.449928;39.956589;healthy
+2966;"Astrakhan";46.283333;48.006278;healthy
+2967;"Volgograd";48.782528;44.345544;healthy
+2968;"Chelyabinsk";55.305836;61.503333;healthy
+2969;"Magnetiogorsk";53.393131;58.755661;healthy
+2972;"Nizhnevartovsk";60.949272;76.483617;healthy
+2973;"Perm";57.914517;56.021214;healthy
+2974;"Surgut";61.343694;73.401842;healthy
+2975;"Yekaterinburg";56.743108;60.802728;healthy
+2976;"Ashkhabad";37.986814;58.360967;healthy
+2979;"Dushanbe";38.543333;68.825;healthy
+2980;"Bukhara";39.775;64.483333;healthy
+2981;"Samarkand";39.700547;66.983829;healthy
+2983;"Tashkent";41.257861;69.281186;healthy
+2985;"Moscow";55.972642;37.414589;healthy
+2987;"Voronezh";51.814211;39.229589;healthy
+2988;"Moscow";55.591531;37.261486;healthy
+2989;"Syktyvkar";61.64705;50.84505;healthy
+2990;"Kazan";55.606186;49.278728;healthy
+2991;"Orenburg";51.795786;55.456744;healthy
+2992;"Ufa";54.557511;55.874417;healthy
+2994;"Ahmedabad";23.077242;72.63465;healthy
+2996;"Aurangabad";19.862728;75.398114;healthy
+2997;"Mumbai";19.088686;72.867919;healthy
+2999;"Bhuj";23.287828;69.670147;healthy
+3000;"Belgaum";15.859286;74.618292;healthy
+3001;"Baroda";22.336164;73.226289;healthy
+3002;"Bhopal";23.287467;77.337375;healthy
+3003;"Bhaunagar";21.752206;72.185181;healthy
+3007;"Goa";15.380833;73.831422;healthy
+3008;"Indore";22.721786;75.801086;healthy
+3009;"Jabalpur";23.177817;80.052047;healthy
+3010;"Jamnagar";22.465522;70.012556;healthy
+3012;"Khajuraho";24.817197;79.918597;healthy
+3015;"Nagpur";21.092192;79.047183;healthy
+3017;"Pune";18.582111;73.919697;healthy
+3018;"Porbandar";21.648675;69.657219;healthy
+3019;"Rajkot";22.309183;70.779525;healthy
+3020;"Raipur";21.180406;81.738753;healthy
+3022;"Surat";21.114061;72.741792;healthy
+3023;"Udaipur";24.617697;73.8961;healthy
+3024;"Colombo";7.180756;79.884117;healthy
+3030;"Trinciomalee";8.538514;81.181853;healthy
+3034;"Phnom-penh";11.546556;104.844139;healthy
+3035;"Siem-reap";13.410666;103.81284;healthy
+3038;"Agartala";23.886978;91.24045;healthy
+3039;"Aizwal";23.746603;92.802767;healthy
+3040;"Baghdogra";26.681206;88.328567;healthy
+3042;"Bhubaneswar";20.244364;85.817781;healthy
+3043;"Kolkata";22.654739;88.446722;healthy
+3050;"Imphal";24.75995;93.896697;healthy
+3055;"Silchar";24.912928;92.978742;healthy
+3061;"Patina";25.591317;85.087992;healthy
+3063;"Ranchi";23.31425;85.321675;healthy
+3066;"Vishakhapatnam";17.721167;83.224483;healthy
+3068;"Cox's Bazar";21.452194;91.963889;healthy
+3069;"Chittagong";22.249611;91.813286;healthy
+3071;"Jessore";23.1838;89.160833;healthy
+3072;"Rajshahi";24.437219;88.616511;healthy
+3073;"Saidpur";25.759228;88.908869;healthy
+3074;"Sylhet Osmani";24.963242;91.866783;healthy
+3076;"Dhaka";23.843333;90.397781;healthy
+3077;"Hong Kong";22.308919;113.914603;healthy
+3079;"Agra";27.155831;77.960892;healthy
+3080;"Allahabad";25.440064;81.733872;healthy
+3081;"Amritsar";31.709594;74.797264;healthy
+3084;"Varanasi";25.452358;82.859342;healthy
+3085;"Kulu";31.876706;77.154367;healthy
+3089;"Chandigarh";30.673469;76.788542;healthy
+3092;"Dehra Dun";30.189689;78.180256;healthy
+3093;"Delhi";28.5665;77.103088;healthy
+3094;"Gwalior";26.293336;78.227753;healthy
+3097;"Jodhpur";26.251092;73.048869;healthy
+3098;"Jaipur";26.824192;75.812161;healthy
+3100;"Jammu";32.689142;74.837389;healthy
+3101;"Kanpur";26.441444;80.364864;healthy
+3103;"Ludhiaha";30.854681;75.952592;healthy
+3104;"Leh";34.135872;77.546514;healthy
+3105;"Lucknow";26.760594;80.889339;healthy
+3112;"Srinagar";33.987139;74.77425;healthy
+3115;"Luang Prabang";19.897914;102.160764;healthy
+3116;"Pakse";15.132053;105.781417;healthy
+3118;"Savannakhet";16.556594;104.759531;healthy
+3120;"Vientiane";17.988322;102.563256;healthy
+3121;"Macau";22.149556;113.591558;healthy
+3122;"Bhairawa";27.505703;83.41625;healthy
+3125;"Kathmandu";27.696583;85.3591;healthy
+3127;"Pokhara";28.200881;83.982056;healthy
+3129;"Biratnagar";26.481453;87.264036;healthy
+3130;"Agatti Island";10.823656;72.176042;healthy
+3131;"Bangalore";12.949986;77.668206;healthy
+3134;"Vijayawada";16.530433;80.796847;healthy
+3135;"Coimbatore";11.030031;77.043383;healthy
+3136;"Kochi";10.155556;76.391389;healthy
+3137;"Calicut";11.136839;75.9553;healthy
+3141;"Hyderabad";17.453117;78.467586;healthy
+3142;"Madurai";9.834508;78.093378;healthy
+3143;"Mangalore";12.961267;74.890069;healthy
+3144;"Madras";12.994414;80.180517;healthy
+3146;"Port Blair";11.641161;92.729744;healthy
+3148;"Rajahmundry";17.110361;81.818208;healthy
+3151;"Tirupeti";13.632492;79.543256;healthy
+3152;"Tiruchirappalli";10.765364;78.709722;healthy
+3153;"Trivandrum";8.482122;76.920114;healthy
+3155;"Thimphu";27.403192;89.424606;healthy
+3156;"Male";4.191833;73.529128;healthy
+3157;"Bangkok";13.912583;100.60675;healthy
+3161;"Pattaya";12.679944;101.005028;healthy
+3163;"Lampang";18.270933;99.504167;healthy
+3164;"Phrae";18.132169;100.164664;healthy
+3170;"Phitsanulok";16.782939;100.279122;healthy
+3173;"Narathiwat";6.519922;101.7434;healthy
+3174;"Krabi";8.095969;98.988764;healthy
+3177;"Ko Samui";9.547794;100.062272;healthy
+3179;"Phuket";8.1132;98.316872;healthy
+3181;"Hat Yai";6.933206;100.392975;healthy
+3182;"Trang";7.508744;99.616578;healthy
+3183;"Udon Thani";17.386436;102.788247;healthy
+3184;"Sakon Nakhon";17.195142;104.118625;healthy
+3186;"Loei";17.439133;101.722064;healthy
+3196;"Danang";16.043917;108.19937;healthy
+3199;"Hanoi";21.221192;105.807178;healthy
+3205;"Ho Chi Minh City";10.818797;106.651856;healthy
+3213;"Heho";20.747036;96.792044;healthy
+3215;"Kengtung";21.301611;99.635997;healthy
+3217;"Kyaukpyu";19.426447;93.534836;healthy
+3222;"Mandalay";21.702156;95.977928;healthy
+3223;"Myeik";12.439797;98.621478;healthy
+3224;"Myitkyina";25.383636;97.351919;healthy
+3232;"Putao";27.329922;97.426269;healthy
+3235;"Sittwe";20.132708;92.872628;healthy
+3236;"Thandwe";18.460731;94.300119;healthy
+3237;"Tachilek";20.483831;99.935353;healthy
+3239;"Yangon";16.907305;96.133222;healthy
+3240;"Ujung Pandang";-5.061631;119.554042;healthy
+3241;"Biak";-1.190017;136.107997;healthy
+3242;"Nabire";-3.368183;135.496406;healthy
+3243;"Timika";-4.528275;136.887375;healthy
+3244;"Jayapura";-2.576953;140.516372;healthy
+3245;"Wamena";-4.102511;138.957372;healthy
+3246;"Merauke";-8.520294;140.418453;healthy
+3247;"Gorontalo";0.637119;122.849858;healthy
+3249;"Palu";-0.918542;119.909642;healthy
+3250;"Manado";1.549447;124.925878;healthy
+3251;"Poso";-1.416753;120.657669;healthy
+3253;"Ternate";0.831414;127.381486;healthy
+3254;"Luwuk";-1.038919;122.771906;healthy
+3256;"Ambon";-3.710264;128.089136;healthy
+3257;"Fak Fak";-2.920192;132.267031;healthy
+3258;"Kaimana";-3.644517;133.695553;healthy
+3259;"Babo";-2.532242;133.438894;healthy
+3260;"Manokwari";-0.891833;134.049183;healthy
+3261;"Sorong";-0.926358;131.121194;healthy
+3262;"Bintulu";3.12385;113.020472;healthy
+3263;"Kuching";1.484697;110.346933;healthy
+3264;"Limbang";4.808303;115.010439;healthy
+3265;"Marudi";4.1775;114.321944;healthy
+3266;"Miri";4.322014;113.986806;healthy
+3267;"Sibu";2.261603;111.985322;healthy
+3268;"Lahad Datu";5.032247;118.324036;healthy
+3269;"Kota Kinabalu";5.937208;116.051181;healthy
+3270;"Labuan";5.300683;115.250181;healthy
+3271;"Tawau";4.313369;118.121953;healthy
+3272;"Bandar Seri Begawan";4.9442;114.928353;healthy
+3273;"Pekanbaru";0.460786;101.444539;healthy
+3275;"Jakarta";-6.125567;106.655897;healthy
+3278;"Padang";-0.874989;100.351881;healthy
+3282;"Ketapang";-1.816639;109.963483;healthy
+3284;"Pontianak";-0.150711;109.403892;healthy
+3287;"Jambi";-1.638017;103.644378;healthy
+3288;"Bengkulu";-3.8637;102.339036;healthy
+3289;"Palembang";-2.89825;104.699903;healthy
+3294;"Banda Aceh";5.523522;95.420372;healthy
+3296;"Alor Setar";6.189667;100.398183;healthy
+3298;"Kota Bahru";6.16685;102.293014;healthy
+3299;"Kuantan";3.775389;103.209056;healthy
+3300;"Kerteh";4.537222;103.426756;healthy
+3302;"Ipoh";4.567972;101.092194;healthy
+3303;"Johor Bahru";1.641308;103.669619;healthy
+3304;"Kuala Lumpur";2.745578;101.709917;healthy
+3305;"Pulau";6.329728;99.728667;healthy
+3307;"Kuala Terengganu";5.382639;103.10336;healthy
+3308;"Penang";5.297139;100.276864;healthy
+3310;"Dili";-8.546553;125.524719;healthy
+3316;"Singapore";1.350189;103.994433;healthy
+3318;"Amberley";-10.950833;142.459444;healthy
+3319;"Alice Springs";-23.806667;133.902222;healthy
+3320;"Brisbane";-27.384167;153.1175;healthy
+3321;"Coolangatta";-28.164444;153.504722;healthy
+3322;"Cairns";-16.885833;145.755278;healthy
+3323;"Charlieville";-26.413334;146.2625;healthy
+3324;"Mount Isa";-20.663889;139.488611;healthy
+3325;"Maroochydore";-26.603333;153.091111;healthy
+3326;"Mackay";-21.171667;149.179722;healthy
+3328;"Prosserpine";-20.495;148.552222;healthy
+3329;"Rockhampton";-23.381944;150.475278;healthy
+3330;"Townsville";-19.2525;146.765278;healthy
+3331;"Weipa";-12.678611;141.925278;healthy
+3332;"Avalon";-38.039444;144.469444;healthy
+3333;"Albury";-36.067778;146.958056;healthy
+3334;"Melbourne";-37.728056;144.901944;healthy
+3336;"Hobart";-42.836111;147.510278;healthy
+3337;"Launceston";-41.545278;147.214167;healthy
+3339;"Melbourne";-37.673333;144.843333;healthy
+3341;"Adelaide";-34.945;138.530556;healthy
+3345;"Karratha";-20.712222;116.773333;healthy
+3346;"Kalgoorlie";-30.789444;121.461667;healthy
+3347;"Kununurra";-15.778056;128.7075;healthy
+3348;"Learmonth";-22.235556;114.088611;healthy
+3349;"Port Hedland";-20.377778;118.626389;healthy
+3351;"Perth";-31.940278;115.966944;healthy
+3353;"Christmas Island";-10.450556;105.690278;healthy
+3355;"Canberra";-35.306944;149.195;healthy
+3356;"Coff's Harbour";-30.320556;153.116389;healthy
+3358;"Dubbo";-32.216667;148.574722;healthy
+3359;"Norfolk Island";-29.041625;167.938742;healthy
+3360;"Richmond";-33.600556;150.780833;healthy
+3361;"Sydney";-33.946111;151.177222;healthy
+3362;"Tamworth";-31.083889;150.846667;healthy
+3363;"Wagga Wagga";-35.165278;147.466389;healthy
+3364;"Beijing";40.080111;116.584556;healthy
+3366;"Hailar";49.204997;119.825;healthy
+3368;"Tianjin";39.124353;117.346183;healthy
+3369;"Taiyuan";37.746897;112.628428;healthy
+3370;"Guangzhou";23.392436;113.298786;healthy
+3371;"Changcha";28.189158;113.219633;healthy
+3372;"Guilin";25.218106;110.039197;healthy
+3373;"Nanning";22.608267;108.172442;healthy
+3374;"Shenzhen";22.639258;113.810664;healthy
+3375;"Zhengzhou";34.519672;113.840889;healthy
+3376;"Wuhan";30.783758;114.2081;healthy
+3377;"Pyongyang";39.224061;125.67015;healthy
+3379;"Xi'an";34.447119;108.751592;healthy
+3380;"Ulan Bator";47.843056;106.766639;healthy
+3382;"Kunming";24.992364;102.743536;healthy
+3383;"Xiamen";24.544036;118.127739;healthy
+3384;"Nanchang";28.865;115.9;healthy
+3385;"Fuzhou";25.935064;119.663272;healthy
+3386;"Hangzhou";30.229503;120.434453;healthy
+3387;"Ninbo";29.826683;121.461906;healthy
+3388;"Nanjing";31.742042;118.862025;healthy
+3389;"Hefei";31.780019;117.298436;healthy
+3390;"Qingdao";36.266108;120.374436;healthy
+3391;"Shanghai";31.197875;121.336319;healthy
+3392;"Yantai";37.401667;121.371667;healthy
+3393;"Chongqing";29.719217;106.641678;healthy
+3394;"Guiyang";26.538522;106.800703;healthy
+3395;"Chengdu";30.578528;103.947086;healthy
+3396;"Xichang";27.989083;102.184361;healthy
+3397;"Kashi";39.542922;76.019956;healthy
+3398;"Hotan";37.038522;79.864933;healthy
+3399;"Urumqi";43.907106;87.474244;healthy
+3400;"Harbin";45.623403;126.250328;healthy
+3404;"Dalian";38.965667;121.5386;healthy
+3406;"Shanghai";31.143378;121.805214;healthy
+3408;"Kuala Lumpur";3.130583;101.549333;healthy
+3409;"Wajima";37.293097;136.961853;healthy
+3410;"Alexandria";30.917669;29.696408;healthy
+3411;"Barter Island";70.133989;-143.581867;healthy
+3413;"Cape Lisburne";68.875133;-166.110022;healthy
+3414;"Point Lay";69.732875;-163.005342;healthy
+3415;"Hilo";19.721375;-155.048469;healthy
+3417;"Bettles";66.913944;-151.529056;healthy
+3420;"Fort Yukon";66.571492;-145.250417;healthy
+3423;"Tatalina";62.894369;-155.976525;healthy
+3426;"St. Paul Island";57.167333;-170.220444;healthy
+3429;"Iliamna";59.754356;-154.910961;healthy
+3430;"Port Moller";59.011356;-161.819664;healthy
+3437;"Fort Smith";35.336583;-94.367444;healthy
+3442;"Grand Forks";47.949256;-97.176111;healthy
+3445;"Hana";20.795636;-156.014439;healthy
+3446;"Prescott";34.654472;-112.419583;healthy
+3447;"Trenton";40.276692;-74.813469;healthy
+3448;"Boston";42.364347;-71.005181;healthy
+3453;"Oakland";37.721278;-122.220722;healthy
+3454;"Omaha";41.303167;-95.894069;healthy
+3456;"Kahului";20.89865;-156.430458;healthy
+3457;"Wichita";37.649944;-97.433056;healthy
+3458;"Kansas City";39.297606;-94.713905;healthy
+3459;"Madison";43.139858;-89.337514;healthy
+3460;"Dillingham";59.044667;-158.5055;healthy
+3461;"Harrison";36.261519;-93.154728;healthy
+3462;"Phoenix";33.434278;-112.011583;healthy
+3463;"Bangor";44.807444;-68.828139;healthy
+3465;"Longview";32.384014;-94.711486;healthy
+3467;"Spokane";47.619861;-117.533833;healthy
+3469;"San Francisco";37.618972;-122.374889;healthy
+3472;"Gainesville";29.690056;-82.271778;healthy
+3473;"Memphis";35.042417;-89.976667;healthy
+3484;"Los Angeles";33.942536;-118.408075;healthy
+3486;"Cleveland";41.411689;-81.849794;healthy
+3488;"Cincinnati";39.048836;-84.667822;healthy
+3491;"Huron";44.3852;-98.228542;healthy
+3492;"Juneau";58.354972;-134.576278;healthy
+3493;"Lafayette";30.205278;-91.987611;healthy
+3494;"Newark";40.6925;-74.168667;healthy
+3495;"Boise";43.564361;-116.222861;healthy
+3497;"Garden City";37.927528;-100.724417;healthy
+3498;"Minot";48.259378;-101.280333;healthy
+3502;"Dallas";32.847111;-96.851778;healthy
+3504;"Helena";46.606806;-111.98275;healthy
+3513;"Lake Charles";30.126112;-93.223335;healthy
+3514;"Kona";19.738767;-156.045631;healthy
+3515;"Myrtle Beach";33.67975;-78.928333;healthy
+3517;"Nantucket";41.253053;-70.060181;healthy
+3520;"Washington";38.852083;-77.037722;healthy
+3524;"Atlantic City";39.457583;-74.577167;healthy
+3527;"Pueblo";38.289085;-104.496572;healthy
+3528;"Presque Isle";46.688958;-68.044797;healthy
+3531;"Kodiak";57.749967;-152.493856;healthy
+3533;"Fort Lauderdale";26.072583;-80.15275;healthy
+3535;"International Falls";48.566186;-93.403067;healthy
+3536;"Salt Lake City";40.788389;-111.977772;healthy
+3542;"Harrisburg";40.193494;-76.763403;healthy
+3543;"Lincoln";40.850971;-96.75925;healthy
+3544;"Lansing";42.7787;-84.587357;healthy
+3545;"Kamuela";20.001328;-155.668108;healthy
+3546;"Massena";44.935833;-74.845547;healthy
+3550;"Houston";29.984433;-95.341442;healthy
+3558;"Bakersfield";35.433598;-119.05677;healthy
+3559;"El Paso";31.80725;-106.377583;healthy
+3560;"Harlingen";26.2285;-97.654389;healthy
+3561;"Columbia";33.938833;-81.119528;healthy
+3564;"Pensacola";30.473425;-87.186611;healthy
+3566;"Houston";29.645419;-95.278889;healthy
+3570;"Pittsburgh";40.491467;-80.232872;healthy
+3571;"Barrow";71.285446;-156.766003;healthy
+3576;"Miami";25.79325;-80.290556;healthy
+3577;"Seattle";47.449;-122.309306;healthy
+3578;"Chattanooga";35.035278;-85.203808;healthy
+3580;"Jackson";32.311167;-90.075889;healthy
+3582;"Long Beach";33.817722;-118.151611;healthy
+3584;"Williamsport";41.241836;-76.921094;healthy
+3585;"Indianapolis";39.717331;-86.294383;healthy
+3589;"White Plains";41.066959;-73.707575;healthy
+3591;"Jonesboro";35.831708;-90.646417;healthy
+3596;"Yuma";32.656578;-114.60598;healthy
+3597;"Carlsbad";32.337472;-104.263278;healthy
+3598;"Duluth";46.842091;-92.193649;healthy
+3599;"Bethel";60.779778;-161.838;healthy
+3602;"Lihue";21.975983;-159.338958;healthy
+3604;"Havre";48.542983;-109.762342;healthy
+3608;"Richmond";37.505167;-77.319667;healthy
+3609;"Shreveport";32.446629;-93.8256;healthy
+3610;"Cordova";60.491778;-145.477556;healthy
+3611;"Norfolk";36.894611;-76.201222;healthy
+3612;"Beaumont";29.950833;-94.020694;healthy
+3613;"Savannah";32.127583;-81.202139;healthy
+3615;"Nome";64.512203;-165.445247;healthy
+3616;"San Luis";45.771028;-122.861833;healthy
+3617;"St. Petersburg";27.910167;-82.687389;healthy
+3620;"Deadhorse";70.19475;-148.465167;healthy
+3621;"San Antonio";29.533694;-98.469778;healthy
+3622;"Rochester";43.118866;-77.672389;healthy
+3624;"Teterboro";40.850103;-74.060837;healthy
+3626;"Raleigh-durham";35.877639;-78.787472;healthy
+3627;"Dayton";39.902375;-84.219375;healthy
+3628;"Kenai";60.573111;-151.245;healthy
+3630;"Niagara Falls";43.107333;-78.946194;healthy
+3633;"Newport News";37.131894;-76.492989;healthy
+3636;"Tucson";32.116083;-110.941028;healthy
+3641;"Providence";41.732581;-71.420383;healthy
+3642;"Salisbury";38.340525;-75.510289;healthy
+3644;"Burbank";34.200667;-118.358667;healthy
+3645;"Detroit";42.212444;-83.353389;healthy
+3646;"Tampa";27.975472;-82.53325;healthy
+3650;"Hibbing";47.3866;-92.838994;healthy
+3652;"Midland";31.942528;-102.201914;healthy
+3653;"Green Bay";44.485072;-88.129589;healthy
+3658;"Bush Field";33.369944;-81.9645;healthy
+3659;"Williston";48.177939;-103.642347;healthy
+3660;"Little Rock";34.729444;-92.224306;healthy
+3661;"Newburgh";41.504094;-74.104839;healthy
+3664;"Homer";59.645556;-151.476583;healthy
+3665;"Fort Leonardwood";37.741631;-92.140736;healthy
+3670;"Dallas-Fort Worth";32.896828;-97.037997;healthy
+3671;"Melbourne";28.102753;-80.645258;healthy
+3673;"Austin";30.194528;-97.669889;healthy
+3674;"Columbus";39.813786;-82.927822;healthy
+3676;"Knoxville";35.810972;-83.994028;healthy
+3678;"St. Louis";38.748697;-90.370028;healthy
+3680;"Wichita Falls";33.988797;-98.491894;healthy
+3681;"Cincinnati";39.103333;-84.418611;healthy
+3682;"Atlanta";33.636719;-84.428067;healthy
+3685;"Grand Rapids";42.880833;-85.522806;healthy
+3687;"Fresno";36.776194;-119.71814;healthy
+3689;"Imperial";32.834219;-115.578744;healthy
+3690;"Nashville";36.124472;-86.678194;healthy
+3691;"Laredo";27.54375;-99.461556;healthy
+3693;"Kotzebue";66.884678;-162.59855;healthy
+3694;"Altoona";40.296372;-78.320022;healthy
+3696;"El Dorado";33.220972;-92.813278;healthy
+3697;"New York";40.777245;-73.872608;healthy
+3698;"Tallahassee";30.396528;-84.350333;healthy
+3700;"Waco";31.611289;-97.230519;healthy
+3701;"Augusta";44.320647;-69.797317;healthy
+3704;"Jackson";35.599889;-88.915611;healthy
+3705;"Molokai";21.152886;-157.096256;healthy
+3708;"San Angelo";31.35775;-100.496306;healthy
+3710;"Chico";39.795383;-121.858422;healthy
+3711;"Burlington";44.471861;-73.153278;healthy
+3712;"Jacksonville";30.494056;-81.687861;healthy
+3713;"Durango";37.151516;-107.75377;healthy
+3714;"Washington";38.944533;-77.455811;healthy
+3715;"College Station";30.588583;-96.363833;healthy
+3717;"Milwaukee";42.947222;-87.896583;healthy
+3718;"Abilene";32.411319;-99.681897;healthy
+3719;"Columbia";38.818094;-92.219631;healthy
+3720;"Portland";45.588722;-122.5975;healthy
+3722;"West Palm Beach";26.683161;-80.095589;healthy
+3724;"Ogdensburg";44.681854;-75.4655;healthy
+3726;"Seattle";47.53;-122.301947;healthy
+3728;"Honolulu";21.318681;-157.922428;healthy
+3729;"Des Moines";41.533972;-93.663083;healthy
+3730;"New Bern";35.072972;-77.042944;healthy
+3731;"San Diego";32.733556;-117.189667;healthy
+3732;"Monroe";32.510864;-92.037689;healthy
+3734;"Ontario";34.056;-117.601194;healthy
+3736;"Roswell";33.301556;-104.530556;healthy
+3738;"Brownsville";25.906833;-97.425861;healthy
+3739;"Dothan";31.321339;-85.449628;healthy
+3743;"Farmington";36.74125;-108.229944;healthy
+3744;"Corpus Christi";27.770361;-97.501222;healthy
+3745;"Syracuse";43.111187;-76.106311;healthy
+3747;"Chicago";41.785972;-87.752417;healthy
+3748;"San Jose";37.3626;-121.929022;healthy
+3749;"Hobbs";32.687528;-103.217028;healthy
+3751;"Denver";39.861656;-104.673178;healthy
+3752;"Philadelphia";39.871944;-75.241139;healthy
+3753;"Sioux City";42.402603;-96.384367;healthy
+3754;"Macon";32.69285;-83.649211;healthy
+3759;"Columbus";39.997972;-82.891889;healthy
+3764;"Galena";64.736178;-156.937417;healthy
+3770;"Texarkana";33.453722;-93.991028;healthy
+3771;"Plattsburgh";44.650944;-73.468139;healthy
+3774;"Anchorage";61.174361;-149.996361;healthy
+3775;"Killeen";31.06725;-97.828917;healthy
+3777;"Bellingham";48.792694;-122.537528;healthy
+3782;"Mobile";30.691231;-88.242814;healthy
+3784;"Santa Fe";35.617108;-106.089422;healthy
+3790;"Belleville";38.545178;-89.835183;healthy
+3793;"Fort Myers";26.536167;-81.755167;healthy
+3794;"King Salmon";58.676778;-156.649278;healthy
+3796;"Lahania-kapalua";20.962936;-156.673031;healthy
+3797;"New York";40.639751;-73.778925;healthy
+3804;"Cheyenne";41.155722;-104.811839;healthy
+3805;"Stockton";37.894167;-121.238306;healthy
+3806;"Charleston";32.898647;-80.040528;healthy
+3807;"Reno";39.499108;-119.768108;healthy
+3808;"Ketchikan";55.355556;-131.71375;healthy
+3811;"Birmingham";33.562942;-86.75355;healthy
+3816;"Modesto";37.625817;-120.954422;healthy
+3817;"Sacramento";38.695417;-121.590778;healthy
+3819;"Colorado Springs";38.805805;-104.700778;healthy
+3820;"Buffalo";42.940525;-78.732167;healthy
+3824;"Cedar City";37.700967;-113.098847;healthy
+3825;"Windsor Locks";41.938889;-72.683222;healthy
+3826;"Mcallen";26.175833;-98.238611;healthy
+3829;"Lubbock";33.663639;-101.822778;healthy
+3830;"Chicago";41.978603;-87.904842;healthy
+3832;"Fairbanks";64.815114;-147.856267;healthy
+3838;"Watertown";43.991922;-76.021739;healthy
+3839;"Palm Springs";33.829667;-116.506694;healthy
+3840;"Amarillo";35.219369;-101.705931;healthy
+3843;"Topeka";38.950944;-95.663611;healthy
+3845;"Wilmington";34.270615;-77.902569;healthy
+3846;"Baton Rouge";30.533167;-91.149639;healthy
+3848;"Tyler";32.354139;-95.402386;healthy
+3849;"Baltimore";39.175361;-76.668333;healthy
+3851;"Lanai";20.785611;-156.951419;healthy
+3852;"Alexandria";31.3274;-92.549833;healthy
+3854;"Cold Bay";55.206061;-162.725436;healthy
+3855;"Tulsa";36.198389;-95.888111;healthy
+3856;"Sitka";57.047138;-135.361611;healthy
+3857;"Islip";40.79525;-73.100222;healthy
+3858;"Minneapolis";44.881956;-93.221767;healthy
+3859;"Wilmington";39.678722;-75.606528;healthy
+3860;"Unalaska";53.900139;-166.5435;healthy
+3861;"New Orleans";29.993389;-90.258028;healthy
+3862;"Portland";43.646161;-70.309281;healthy
+3863;"Oklahoma City";35.393089;-97.600733;healthy
+3864;"Albany";42.748267;-73.801692;healthy
+3865;"Valdez";61.133949;-146.248342;healthy
+3867;"Santa Ana";33.675667;-117.868222;healthy
+3872;"Casper";42.908;-106.464417;healthy
+3873;"Valparaiso";30.48325;-86.5254;healthy
+3875;"Key West";24.556111;-81.759556;healthy
+3876;"Charlotte";35.214;-80.943139;healthy
+3877;"Las Vegas";36.080056;-115.15225;healthy
+3878;"Orlando";28.429394;-81.308994;healthy
+3879;"Florence";34.185361;-79.723889;healthy
+3880;"Great Falls";47.482;-111.370689;healthy
+3881;"Youngstown";41.260736;-80.679097;healthy
+3885;"Bangkok";13.681108;100.747283;healthy
+3886;"Naha";3.683214;125.528019;healthy
+3890;"Kendari";-4.081608;122.418231;healthy
+3894;"Malang";-7.926556;112.714514;healthy
+3896;"Bandung";-6.900625;107.576294;healthy
+3898;"Yogyakarta";-7.788181;110.431758;healthy
+3901;"Semarang";-6.971447;110.374122;healthy
+3903;"Batam";1.121028;104.118753;healthy
+3904;"Tanjung Pandan";-2.745722;107.754917;healthy
+3905;"Pangkal Pinang";-2.1622;106.139064;healthy
+3906;"Tanjung Pinang";0.922683;104.532311;healthy
+3908;"Banjarmasin";-3.442356;114.762553;healthy
+3910;"Pangkalan Bun";-2.705197;111.673208;healthy
+3911;"Palangkaraya";-2.225128;113.942661;healthy
+3913;"Maumere";-8.640647;122.236889;healthy
+3914;"Ende";-8.849294;121.660644;healthy
+3916;"Kupang";-10.171583;123.671136;healthy
+3917;"Labuhan Bajo";-8.486656;119.88905;healthy
+3919;"Balikpapan";-1.268272;116.894478;healthy
+3920;"Taraken";3.326694;117.565569;healthy
+3924;"Bima";-8.539647;118.687322;healthy
+3927;"Waingapu";-9.669217;120.302006;healthy
+3928;"Surabaya";-7.379831;112.786858;healthy
+3929;"Solo City";-7.516089;110.756892;healthy
+3930;"Seoul";37.469075;126.450517;healthy
+3931;"Chiang Mai";18.766847;98.962644;healthy
+3932;"Chiang Rai";19.952342;99.882928;healthy
+3933;"Nakhon Si Thammarat";8.539617;99.944725;healthy
+3936;"Nakhon Phanom";17.383794;104.643022;healthy
+3937;"Ubon Ratchathani";15.251278;104.870231;healthy
+3938;"Khon Kaen";16.466628;102.783661;healthy
+3939;"Sukhothai";17.237992;99.818183;healthy
+3940;"Denpasar";-8.748169;115.167172;healthy
+3941;"Athens";37.936358;23.944467;healthy
+3942;"Nagoya";34.858414;136.805408;healthy
+3943;"Kobe";34.632778;135.223889;healthy
+3944;"Pullman";46.743861;-117.109583;healthy
+3945;"Lewiston";46.3745;-117.015389;healthy
+3946;"Elmira";42.159889;-76.891611;healthy
+3947;"Ithaca";42.491028;-76.458444;healthy
+3948;"Monterey";36.587;-121.842944;healthy
+3949;"Santa Barbara";34.426211;-119.840372;healthy
+3950;"Daytona Beach";29.179917;-81.058056;healthy
+3953;"Riga";56.923611;23.971111;healthy
+3956;"Kaunas";54.963919;24.084778;healthy
+3958;"Palanga";55.973228;21.093856;healthy
+3959;"Vilnius";54.634133;25.285767;healthy
+3964;"Yerevan";40.147275;44.395881;healthy
+3965;"Gyumri";40.750369;43.859342;healthy
+3967;"Asmara";15.291853;38.910667;healthy
+3968;"Massawa";15.669989;39.370103;healthy
+3971;"Batumi";41.610278;41.599694;healthy
+3972;"Kutaisi";42.176653;42.482583;healthy
+3973;"Tbilisi";41.669167;44.954722;healthy
+3974;"Mukalla";14.662639;49.375028;healthy
+3975;"Taiz";13.685964;44.139056;healthy
+3976;"Hodeidah";14.753;42.976336;healthy
+3977;"Aden";12.829542;45.028792;healthy
+3978;"Ataq";14.551322;46.826183;healthy
+3979;"Al Ghaidah Intl";16.191667;52.175;healthy
+3980;"Sanaa";15.476258;44.219739;healthy
+3984;"Socotra";12.630672;53.905778;healthy
+3986;"Memmingen";47.988758;10.2395;healthy
+3987;"Nevsehir";38.771867;34.53455;healthy
+3988;"Buenos Aires";-34.822222;-58.535833;healthy
+3989;"Erbil";36.237611;43.963158;healthy
+3990;"Emerald";-23.5675;148.179167;healthy
+3992;"Osaka";34.4347222;135.244167;healthy
+3994;"Tagbilaran";9.66408056;123.853247;healthy
+3995;"Ilulissat";69.23444;-51.05111;healthy
+3997;"Aasiaat";68.7;-52.75;healthy
+3998;"Palma de Mallorca";39.55361;2.727778;healthy
+3999;"Darwin";-12.4083333;130.87266;healthy
+4000;"Surat Thani";9.1325;99.135556;healthy
+4001;"Nyuang U";21.173833266;94.9246666;healthy
+4002;"Caticlan";11.9214999;121.953;healthy
+4006;"New Haven";41.26375;-72.886806;healthy
+4007;"Asheville";35.436194;-82.541806;healthy
+4008;"Greensboro";36.09775;-79.937306;healthy
+4009;"Sioux Falls";43.582014;-96.741914;healthy
+4010;"Uluru";-25.186111;130.975556;healthy
+4011;"Manchester NH";42.932556;-71.435667;healthy
+4012;"Naples";26.152619;-81.775294;healthy
+4013;"Redang";5.76528;103.007;healthy
+4014;"Louisville";38.1740858;-85.7364989;healthy
+4015;"Charlottesville VA";38.138639;-78.452861;healthy
+4016;"Roanoke VA";37.325472;-79.975417;healthy
+4017;"Lexington KY";38.0365;-84.605889;healthy
+4018;"Evansville";38.036997;-87.532364;healthy
+4019;"Albuquerque";35.0402222;-106.6091944;healthy
+4020;"Bozeman";45.777643;-111.160151;healthy
+4021;"Billings";45.80921;-108.537654;healthy
+4022;"Butte";45.954806;-112.497472;healthy
+4023;"Traverse City";44.741445;-85.582235;healthy
+4024;"Flores";16.913819;-89.866383;healthy
+4025;"Bar Harbor";44.4497689;-68.3615653;healthy
+4026;"Rockland";44.0601111;-69.0992303;healthy
+4027;"Jacksn Hole";43.607333333;-110.73775;healthy
+4028;"Rockford";42.1953611;-89.0972222;healthy
+4029;"Moscow";55.408611;37.906111;healthy
+4030;"Sanya";18.302897;109.412272;healthy
+4033;"Lijiang";26.883333;100.23333;healthy
+4034;"Greenville";34.895556;-82.218889;healthy
+4037;"Bloomington";40.477111;-88.915917;healthy
+4038;"Gulfport";30.407278;-89.070111;healthy
+4039;"Kalamazoo";42.234875;-85.552058;healthy
+4040;"Toledo";41.586806;-83.807833;healthy
+4041;"Fort Wayne";40.978472;-85.195139;healthy
+4042;"Decatur";39.834564;-88.865689;healthy
+4043;"Cedar Rapids";41.884694;-91.710806;healthy
+4044;"La Crosse";43.878986;-91.256711;healthy
+4045;"Wassau";44.772726;-89.646635;healthy
+4046;"Peoria";40.664203;-89.693258;healthy
+4047;"Appleton";44.257526;-88.507576;healthy
+4048;"Rochester";43.908283;-92.500014;healthy
+4049;"Champaign";40.03925;-88.278056;healthy
+4050;"Manhattan";39.140972;-96.670833;healthy
+4051;"Kingscote";-35.713889;137.521389;healthy
+4052;"Hervey Bay";-25.318889;152.880278;healthy
+4053;"Basel";47.59;7.529167;healthy
+4054;"Dali";25.649444;100.319444;healthy
+4055;"Jinghong";21.973914;100.759611;healthy
+4056;"Mulu";4.048333;114.805;healthy
+4057;"Sharm El Sheikh";27.977222;34.394722;healthy
+4058;"Franklin";41.377874;-79.860362;healthy
+4059;"Nairobi";-1.319167;36.9275;healthy
+4061;"El Calafate";-50.280322;-72.053103;healthy
+4062;"Armidale";-30.528056;151.617222;healthy
+4063;"Grand Junction";39.122413;-108.526735;healthy
+4064;"Saint George";37.090583;-113.593056;healthy
+4067;"Sarasota";27.395444;-82.554389;healthy
+4069;"Bermuda";32.364042;-64.678703;healthy
+4072;"Moline";41.448528;-90.507539;healthy
+4074;"Honiara";-9.428;160.054789;healthy
+4075;"Papeete";-17.556667;-149.611389;healthy
+4076;"Nauru";-0.547458;166.9191;healthy
+4077;"Funafuti";-8.525;179.196389;healthy
+4078;"Novosibirsk";55.012622;82.650656;healthy
+4081;"Phon Savan";19.449997;103.158333;healthy
+4082;"Hue";16.401499;107.702614;healthy
+4083;"Bismarck";46.775842;-100.757931;healthy
+4085;"Yinchuan";38.481944;106.009167;healthy
+4086;"Mae Hong Son";19.301667;97.975;healthy
+4087;"Rapid City";44.045278;-103.057222;healthy
+4088;"Carlsbad";33.0742;-117.1648;healthy
+4089;"Flint";42.965424;-83.743629;healthy
+4090;"Davao";7.125522;125.645778;healthy
+4091;"Funchal";32.697889;-16.774453;healthy
+4092;"Santarem";-2.422431;-54.792789;healthy
+4093;"Sihanoukville";10.579686;103.636828;healthy
+4095;"NAPIER";-39.465833;176.87;healthy
+4097;"Lhasa";29.297778;90.911944;healthy
+4098;"Redding";40.509;-122.293389;healthy
+4099;"Eugene";44.124583;-123.211972;healthy
+4100;"Idaho Falls";43.514556;-112.07075;healthy
+4101;"Medford";42.374228;-122.8735;healthy
+4103;"Redmond-Bend";44.254066;-121.149964;healthy
+4105;"Windhoek";-22.486667;17.4625;healthy
+4106;"Victoria";48.422778;-123.3875;healthy
+4107;"Vancouver";49.289722;-123.115833;healthy
+4108;"Jinan";36.857214;117.215992;healthy
+4109;"Changzhou";31.941667;119.711667;healthy
+4110;"Yibin";28.800278;104.544444;healthy
+4111;"Tyumen";57.189567;65.3243;healthy
+4112;"Akron";40.9160833;-81.4421944;healthy
+4113;"Huntsville";34.6371944;-86.7750556;healthy
+4114;"PARKERSBURG";39.3451039;-81.4392031;healthy
+4115;"MONTGOMERY";32.3006389;-86.3939722;healthy
+4116;"BRISTOL";36.4752222;-82.4074167;healthy
+4117;"PADUCAH";37.0602875;-88.7729583;healthy
+4118;"Samara";53.5;50.15;healthy
+4119;"Djibouti";11.5472;43.1594;healthy
+4120;"Haikou";19.934856;110.458961;healthy
+4124;"Page";36.9261;-111.4483;healthy
+4125;"Utila";16.091667;-86.8875;healthy
+4126;"Santa Elena de Uairen";4.554722;-61.144922;healthy
+4127;"Kalispell";48.310472;-114.256;healthy
+4128;"Saginaw";43.532913;-84.079647;healthy
+4129;"Binghamton";42.208689;-75.979839;healthy
+4130;"Baghdad";33.262539;44.234578;healthy
+4131;"Nan";18.807914;100.783419;healthy
+4132;"Roi Et";16.116761;103.773797;healthy
+4133;"Buri Ram";15.229539;103.253231;healthy
+4134;"Ranong";9.777622;98.585483;healthy
+4135;"Trat";12.274572;102.318958;healthy
+4140;"Angeles City";15.185833;120.560278;healthy
+4141;"Sandakan";5.900897;118.059486;healthy
+4142;"Luang Namtha";20.960556;101.4025;healthy
+4143;"Muang Xay";20.6827;101.994;healthy
+4144;"Shenyang";41.3824;123.2901;healthy
+4145;"Dongying";37.2716;118.2819;healthy
+4147;"Petersburg";56.801667;-132.945278;healthy
+4148;"Luoyang";34.41;112.28;healthy
+4149;"Xuzhou";34.16;117.11;healthy
+4150;"Isfahan";32.750836;51.861267;healthy
+4153;"Dalat";11.75;108.367;healthy
+4154;"Dong Hoi";17.515;106.590556;healthy
+4155;"Rach Gia";9.949676;105.133659;healthy
+4156;"Ca Mau";9.188049;105.174721;healthy
+4157;"Chu Lai";15.405944;108.705889;healthy
+4158;"Tuy Hoa";13.04955;109.333706;healthy
+4159;"Pai";19.372;98.437;healthy
+4160;"Brac";43.285719;16.679719;healthy
+4161;"Yaounde";3.722556;11.553269;healthy
+4162;"Conakry";9.576889;-13.611961;healthy
+4166;"Karlsruhe/Baden-Baden";48.7793;8.08048;healthy
+4167;"Sanford";28.777639;-81.237489;healthy
+4168;"Phu Quoc";10.227025;103.967169;healthy
+4169;"Johnstown";40.316111;-78.833889;healthy
+4183;"Tumling Tar";27.315;87.193333;healthy
+4188;"Dhangarhi";28.753333;80.581944;healthy
+4189;"Muan";34.991389;126.382778;healthy
+4190;"Astypalaia";36.579886;26.375822;healthy
+4191;"Ikaria";37.682717;26.347061;healthy
+4192;"Kalymnos";36.963333;26.940556;healthy
+4193;"Milos";36.696111;24.4775;healthy
+4194;"Cyclades Islands";37.080556;25.368056;healthy
+4195;"Paros";37.010278;25.127778;healthy
+4196;"Kastelorizo";36.127777;29.566656;healthy
+4197;"Marsa Alam";25.557111;34.583711;healthy
+4198;"Weeze";51.602222;6.141944;healthy
+4199;"Busuanga";12.121458;120.100031;healthy
+4200;"Butuan";8.951322;125.477972;healthy
+4201;"Dipolog";8.601261;123.334481;healthy
+4202;"Laoag";18.178092;120.531522;healthy
+4203;"Legazpi";13.157064;123.746247;healthy
+4204;"Ozamis";8.178508;123.841731;healthy
+4206;"Cebu";10.307542;123.979439;healthy
+4209;"Porto Seguro";-16.438611;-39.080833;healthy
+4214;"Palmas";-10.241667;-48.35278;healthy
+4215;"Caldas Novas";-17.7267;-48.6114;healthy
+4216;"Missoula";46.916306;-114.090556;healthy
+4217;"Blackall";-24.427778;145.428611;healthy
+4218;"Bundaberg";-24.903889;152.318611;healthy
+4219;"Grand Canyon";35.9523611;-112.1469722;healthy
+4235;"Kaadedhdhoo";0.4880555;72.995556;healthy
+4237;"Deline";65.1833333;-125.41666667;healthy
+4238;"Tulita";64.0833333;-125.5833333;healthy
+4239;"Fort Good Hope";66.26666667;-128.65;healthy
+4242;"Tanna";-19.455198;169.22394;healthy
+4244;"Paulatuk";62.35;-124.3333;healthy
+4247;"Santa Cruz";-17.8;-63.166667;healthy
+4248;"Kulusuk";65.566667;-37.1166667;healthy
+4249;"Saba";17.645278;-63.220556;healthy
+4250;"Vail";39.642556;-106.917694;healthy
+4252;"Stokmarknes";68.580833;15.026111;healthy
+4255;"Columbus";32.5163333;-84.9388611;healthy
+4256;"Lawton";34.5677144;-98.4166367;healthy
+4261;"Flagstaff";35.140318;-111.6692392;healthy
+4263;"Twin Falls";42.481803;-114.487733;healthy
+4264;"Monaco";43.73333333;7.41666666;healthy
+4265;"Vineyard Haven MA";41.391667;-70.615278;healthy
+4271;"Saint Cloud";45.546556;-94.059889;healthy
+4273;"Columbus Mississippi";33.450333;-88.591361;healthy
+4274;"Nizhniy Novgorod";56.230119;43.784042;healthy
+4276;"Erie";42.082022;-80.176217;healthy
+4278;"Barnstable";41.669336;-70.280356;healthy
+4279;"San Pedro";17.913936;-87.971075;healthy
+4284;"Morgantown";39.642908;-79.916314;healthy
+4285;"Charleston";38.373147;-81.593189;healthy
+4286;"Scranton";41.338478;-75.723403;healthy
+4287;"Bemidji";47.510722;-94.934722;healthy
+4291;"Ballina Byron Bay";-28.833889;153.5625;healthy
+4292;"Fargo";46.92065;-96.8157639;healthy
+4296;"Gillette";44.3489167;-105.5393611;healthy
+4297;"Tomsk";56.380278;85.208333;healthy
+4300;"Chumphon";10.7112;99.361706;healthy
+4301;"Jiuzhaigou";32.857;103.683;healthy
+4302;"Shantou";23.4;116.683;healthy
+4304;"Georgetown";6.498553;-58.254119;healthy
+4305;"Ciudad del Este";-25.4555;-54.843592;healthy
+4306;"Georgetown";6.806944;-58.104444;healthy
+4308;"Dunhuang";40.094;94.4818;healthy
+4309;"Ancona";43.616389;13.362222;healthy
+4312;"Copiapo";-27;-70;healthy
+4314;"Little Cayman";19.6591666667;-80.09083333;healthy
+4315;"Bodrum";37.249;27.667;healthy
+4317;"Istanbul";40.898553;29.309219;healthy
+4318;"State College Pennsylvania";40.849278;-77.848694;healthy
+4319;"Broome";-17.8;122.2;healthy
+4320;"Newcastle";-32.78;151.83;healthy
+4322;"Klagenfurt";46.642514;14.337739;healthy
+4325;"Hammerfest";70.679722;23.668889;healthy
+4326;"Honningsvag";70.99;25.83;healthy
+4327;"Mehamn";71.029722;27.826667;healthy
+4328;"Vadso";70.065;29.844;healthy
+4330;"Tehran";35.416111;51.152222;healthy
+4331;"Mashhad";36.234;59.643;healthy
+4334;"Mudanjiang";44.523889;129.568889;healthy
+4335;"Meridian";32.332624;-88.751868;healthy
+4336;"Springfield";39.8441;-89.677889;healthy
+4338;"Cortez";37.303;-108.628056;healthy
+4339;"Hayden";40.481181;-107.21766;healthy
+4341;"Liberal";37.044222;-100.95986;healthy
+4344;"Cody";44.520194;-109.023806;healthy
+4345;"Orsta-Volda";62.18;6.0742;healthy
+4347;"ST MARY\\'S";49.919;-6.3075;healthy
+4348;"Springfield";37.245667;-93.388639;healthy
+4349;"Narvik";68.435833;17.388056;healthy
+4350;"Berlevag";70.866667;29;healthy
+4352;"Norilsk";69.311053;87.332183;healthy
+4353;"Anapa";45.002097;37.347272;healthy
+4354;"Joplin";37.151814;-94.498269;healthy
+4355;"Allentown";40.652083;-75.440806;healthy
+4356;"Bentonville";36.2818694;-94.3068111;healthy
+4357;"Atyrau";47.121944;51.821389;healthy
+4358;"Kzyl-Orda";44.709;65.591;healthy
+4359;"South Bend";41.708661;-86.31725;healthy
+4362;"Arkhangelsk";64.360281;40.430167;healthy
+4363;"Saratov";51.334366;46.022952;healthy
+4364;"Novy Urengoy";66.041811;76.313938;healthy
+4365;"Noyabrsk";63.110079;75.162243;healthy
+4367;"Aktau";43.86005;51.091978;healthy
+4368;"Ukhta";63.340297;53.482592;healthy
+4369;"Usinsk";66.00077;57.221113;healthy
+4371;"Naryan-Mar";67.380537;53.051016;healthy
+4373;"Kogalym";62.18;74.53;healthy
+4374;"Krasnoyarsk";56.18;92.475;healthy
+4375;"Karaganda";49.670833;73.334444;healthy
+4377;"Uraj";60.1;64.83;healthy
+4380;"Changchun";43.5412;125.1201;healthy
+4381;"Niigata";37.5711;139.0646;healthy
+4384;"Arcata CA";40.978111;-124.108611;healthy
+4385;"Austin TX";30.31666;-97.7666;healthy
+4386;"Jacksonville NC";34.829164;-77.612139;healthy
+4388;"Dubuque IA";42.402;-90.709472;healthy
+4389;"Forde";61.392;5.763;healthy
+5404;"Atoifi";-8.87333;161.011;healthy
+5407;"Fera Island";-8.1075;159.577;healthy
+5409;"Kirakira";-10.4497;161.898;healthy
+5410;"Santa Cruz/Graciosa Bay/Luova";-10.7203;165.795;healthy
+5411;"Munda";-8.32797;157.263;healthy
+5412;"Gizo";-8.09778;156.864;healthy
+5414;"Rennell Island";-11.5339;160.063;healthy
+5415;"Marau";-9.86167;160.825;healthy
+5416;"Suavanao";-7.58556;158.731;healthy
+5417;"Kagau Island";-7.333;157.583;healthy
+5418;"Ramata";-8.16806;157.643;healthy
+5419;"Buka Island";-5.42232;154.673;healthy
+5420;"Kundiawa";-6.02429;144.971;healthy
+5421;"Daru";-9.08676;143.208;healthy
+5422;"Gurney";-10.3115;150.334;healthy
+5423;"Girua";-8.80454;148.309;healthy
+5424;"Hoskins";-5.46217;150.405;healthy
+5425;"Kiunga";-6.12571;141.282;healthy
+5428;"Kavieng";-2.5794;150.808;healthy
+5429;"Mendi";-6.14774;143.657;healthy
+5430;"Momote";-2.06189;147.424;healthy
+5431;"Moro";-6.36333;143.238;healthy
+5432;"Misima Island";-10.6892;152.838;healthy
+5433;"Tari";-5.845;142.948;healthy
+5434;"Tabubil";-5.27861;141.226;healthy
+5435;"Tokua";-4.34046;152.38;healthy
+5436;"Vanimo";-2.69717;141.302;healthy
+5437;"Wapenamanda";-5.6433;143.895;healthy
+5438;"Alluitsup Paa";60.4644;-45.5778;healthy
+5439;"Neerlerit Inaat";70.7433;-22.6606;healthy
+5440;"Paamiut";61.9922;-49.6625;healthy
+5442;"Qaqortoq";60.7158;-46.0294;healthy
+5443;"Maniitsoq";65.4125;-52.9394;healthy
+5444;"Nanortalik";60.14;-45.2317;healthy
+5445;"Narsaq";60.9167;-46.0586;healthy
+5446;"Qaanaaq";77.4886;-69.3887;healthy
+5447;"Sisimiut";66.9513;-53.7293;healthy
+5448;"Upernavik";72.7902;-56.1306;healthy
+5449;"Uummannaq";70.7342;-52.6962;healthy
+5454;"Caye Caulker";17.7347;-88.0325;healthy
+5455;"Punta Gorda";16.1024;-88.8083;healthy
+5457;"Anahim Lake";52.4525;-125.303;healthy
+5461;"Rigolet";54.1797;-58.4575;healthy
+5463;"Whatì";63.1317;-117.246;healthy
+5464;"Summer Beaver";52.7086;-88.5419;healthy
+5465;"Angling Lake";53.8492;-89.5794;healthy
+5466;"Wunnumin Lake";52.8939;-89.2892;healthy
+5467;"North Spirit Lake";52.49;-92.9711;healthy
+5468;"Bearskin Lake";53.9656;-91.0272;healthy
+5469;"Kingfisher Lake";53.0125;-89.8553;healthy
+5470;"Ogoki Post";51.6586;-85.9017;healthy
+5471;"Poplar Hill";52.1133;-94.2556;healthy
+5472;"Chisasibi";53.8056;-78.9169;healthy
+5473;"Tête-à-la-Baleine";50.6744;-59.3836;healthy
+5474;"La Tabatière";50.8308;-58.9756;healthy
+5475;"Nantong";32.0708;120.976;healthy
+5476;"Apartadó";7.033;-77.2;healthy
+5477;"Tarapacá";-2.867;-69.733;healthy
+5478;"Cat Lake";51.7272;-91.8244;healthy
+5479;"Fort Frances";48.6542;-93.4397;healthy
+5480;"Kasabonika";53.5247;-88.6428;healthy
+5481;"Kangirsuk";60.0272;-69.9992;healthy
+5482;"Attawapiskat";52.9275;-82.4319;healthy
+5485;"Lourdes-De-Blanc-Sablon";51.4436;-57.1853;healthy
+5487;"Chesterfield Inlet";63.3469;-90.7311;healthy
+5488;"Nain";56.5492;-61.6803;healthy
+5489;"Fort Severn";56.0189;-87.6761;healthy
+5490;"Fort Albany";52.2014;-81.6969;healthy
+5491;"Fort Hope";51.5619;-87.9078;healthy
+5492;"Makkovik";55.0769;-59.1864;healthy
+5495;"Igloolik";69.3647;-81.8161;healthy
+5496;"Kuujjuarapik";55.2819;-77.7653;healthy
+5497;"Gillam";56.3575;-94.7106;healthy
+5498;"Grise Fiord";76.4261;-82.9092;healthy
+5499;"Quaqtaq";61.0464;-69.6178;healthy
+5501;"Nemiscau";51.6911;-76.1356;healthy
+5502;"Hopedale";55.4483;-60.2286;healthy
+5503;"Chevery";50.4689;-59.6367;healthy
+5504;"Ivujivik";62.4173;-77.9253;healthy
+5506;"Akulivik";60.8186;-78.1486;healthy
+5507;"Waskaganish";51.4733;-78.7583;healthy
+5508;"Aupaluk";59.2967;-69.5997;healthy
+5509;"Kimmirut";62.85;-69.8833;healthy
+5510;"Lansdowne House";52.1956;-87.9342;healthy
+5511;"Lutselk'e";62.4183;-110.682;healthy
+5512;"Kangiqsualujjuaq";58.7114;-65.9928;healthy
+5514;"Chibougamau";49.7719;-74.5281;healthy
+5515;"Umiujaq";56.5361;-76.5183;healthy
+5516;"Wemindji";53.0106;-78.8311;healthy
+5520;"Inukjuak";58.4719;-78.0769;healthy
+5521;"Pikangikum";51.8197;-93.9733;healthy
+5522;"Peawanuck";54.9881;-85.4433;healthy
+5523;"Powell River";49.8342;-124.5;healthy
+5524;"The Pas";53.9714;-101.091;healthy
+5526;"Gamètì";64.1161;-117.31;healthy
+5527;"Red Lake";51.0669;-93.7931;healthy
+5529;"Sanikiluaq";56.5378;-79.2467;healthy
+5531;"Big Trout Lake";53.8178;-89.8969;healthy
+5532;"Deer Lake";52.6558;-94.0614;healthy
+5533;"Webequie";52.9597;-87.3689;healthy
+5534;"Whale Cove";62.24;-92.5981;healthy
+5535;"Salluit";62.1794;-75.6672;healthy
+5538;"Bathurst";47.6297;-65.7389;healthy
+5539;"Eastmain River";52.2264;-78.5225;healthy
+5543;"Kashechewan";52.2825;-81.6778;healthy
+5544;"Muskrat Dam";53.4414;-91.7628;healthy
+5545;"Masset";54.0275;-132.125;healthy
+5546;"Sachigo Lake";53.8911;-92.1964;healthy
+5547;"Round Lake";52.9436;-91.3128;healthy
+5548;"Sandy Lake";53.0642;-93.3444;healthy
+5550;"Churchill Falls";53.5619;-64.1064;healthy
+5552;"Batna";35.752106;6.308589;healthy
+5553;"Béchar";31.6457;-2.26986;healthy
+5554;"Bordj Badji Mokhtar";21.375;0.923889;healthy
+5555;"Guemar";33.5114;6.77679;healthy
+5556;"Kumasi";6.71456;-1.59082;healthy
+5557;"Heringsdorf";53.878706;14.152347;healthy
+5562;"Doncaster - Sheffield";53.474722;-1.004444;healthy
+5563;"Campbeltown";55.4372;-5.68639;healthy
+5564;"Eday";59.1906;-2.77222;healthy
+5566;"North Ronaldsay";59.3675;-2.43444;healthy
+5567;"Papa Westray";59.3517;-2.90028;healthy
+5568;"Stronsay";59.1553;-2.64139;healthy
+5569;"Sanday";59.2503;-2.57667;healthy
+5571;"Westray";59.3503;-2.95;healthy
+5572;"Land's End";50.1028;-5.67056;healthy
+5575;"Barra";57.0228;-7.44306;healthy
+5577;"Dongloe";55.044192;-8.341;healthy
+5580;"Leknes";68.1525;13.6094;healthy
+5581;"Namsos";64.4722;11.5786;healthy
+5582;"Mo i Rana";66.3639;14.3014;healthy
+5583;"Rørvik";64.8383;11.1461;healthy
+5584;"Røst";67.5278;12.1033;healthy
+5585;"Sandane";61.83;6.10583;healthy
+5586;"Sogndal";61.1561;7.13778;healthy
+5587;"Svolvær";68.2433;14.6692;healthy
+5588;"Sorkjosen";69.7868;20.9594;healthy
+5589;"Vardø";70.355392;31.044889;healthy
+5591;"Bydgoszcz";53.0968;17.9777;healthy
+5593;"Östersund";63.1944;14.5003;healthy
+5594;"Hagfors";60.020064;13.578908;healthy
+5595;"Karlstad";59.4447;13.3374;healthy
+5596;"Torsby";60.157622;12.991269;healthy
+5597;"Ängelholm";56.2961;12.8471;healthy
+5599;"Hemavan";65.806111;15.082778;healthy
+5601;"Shire Indasilase";14.0781;38.2725;healthy
+5604;"Mpumalanga";-25.3832;31.1056;healthy
+5612;"Chipata";-13.5583;32.5872;healthy
+5613;"Solwesi";-12.1737;26.3651;healthy
+5630;"Catumbela";-12.4792;13.4869;healthy
+5632;"Ondjiva";-17.043464;15.683822;healthy
+5633;"Mocamedes";-15.261222;12.146756;healthy
+5637;"Chimoio";-19.151267;33.428958;healthy
+5641;"Luderitz";-26.6874;15.2429;healthy
+5642;"Ondangwa";-17.8782;15.9526;healthy
+5643;"Oranjemund";-28.5847;16.4467;healthy
+5645;"Windhoek";-22.6122;17.0804;healthy
+5652;"Tshikapa";-6.43833;20.7947;healthy
+5653;"Lodja";-3.417;23.45;healthy
+5659;"La Gomera";28.0296;-17.2146;healthy
+5665;"Bissau";11.89485;-15.653681;healthy
+5670;"Dakhla";23.7183;-15.932;healthy
+5671;"Essadouira";31.3975;-9.681667;healthy
+5672;"El Aaiún";27.1517;-13.2192;healthy
+5673;"El Aroui";34.9888;-3.02821;healthy
+5674;"Praia - Santiago Island";14.9245;-23.4935;healthy
+5675;"Sao Filipe - Fogo Island";14.885;-24.48;healthy
+5680;"Gode";5.935128;43.578567;healthy
+5686;"Bosaso";11.2753;49.1494;healthy
+5687;"Mogadishu";2.01444;45.3047;healthy
+5688;"Galcaio";6.78083;47.4547;healthy
+5691;"Asyut";27.046508;31.011983;healthy
+5692;"Amboseli National Park";-2.64505;37.2531;healthy
+5693;"Lokichoggio";4.204117;34.348186;healthy
+5694;"Malindi";-3.22931;40.1017;healthy
+5695;"Nanyuki";-0.067;37.033;healthy
+5696;"Sirt";31.0635;16.595;healthy
+5697;"Tobruk";31.861;23.907;healthy
+5699;"Al Bayda'";32.788673;21.964333;healthy
+5701;"Nyala";12.0535;24.9562;healthy
+5702;"Port Sudan";19.4336;37.2341;healthy
+5703;"Bukoba";-1.3;31.8;healthy
+5709;"Arua";3.05;30.917;healthy
+5711;"Diu";20.7131;70.9211;healthy
+5712;"Gheshm";26.9487;56.2688;healthy
+5714;"Aberdeen";45.4491;-98.4218;healthy
+5715;"Albany";31.5355;-84.1945;healthy
+5716;"Athens";33.9486;-83.3263;healthy
+5718;"Waterloo";42.5571;-92.4003;healthy
+5719;"Walla Walla";46.0949;-118.288;healthy
+5720;"Alpena";45.0781;-83.5603;healthy
+5721;"Watertown";44.914;-97.1547;healthy
+5722;"Bradford";41.8031;-78.6401;healthy
+5723;"Scottsbluff";41.874;-103.596;healthy
+5724;"Beckley";37.7873;-81.1242;healthy
+5725;"Brunswick";31.2588;-81.4665;healthy
+5726;"Burlington";40.7832;-91.1255;healthy
+5727;"Crescent City";41.7802;-124.237;healthy
+5728;"Cape Girardeau";37.2253;-89.5708;healthy
+5729;"Sault Ste Marie";46.2508;-84.4724;healthy
+5730;"Clarksburg";39.2966;-80.2281;healthy
+5731;"Port Angeles";48.1202;-123.5;healthy
+5732;"Hancock";47.1684;-88.4891;healthy
+5733;"Dodge City";37.7634;-99.9656;healthy
+5734;"Du Bois";41.1783;-78.8987;healthy
+5735;"Eau Claire";44.8658;-91.4843;healthy
+5736;"Elko";40.8249;-115.792;healthy
+5737;"New Bedford";41.6761;-70.9569;healthy
+5738;"Fayetteville";34.9912;-78.8803;healthy
+5739;"Glasgow";48.2125;-106.615;healthy
+5740;"Grand Island";40.9675;-98.3096;healthy
+5741;"Hot Springs";34.478;-93.0962;healthy
+5742;"Huntington";38.3667;-82.558;healthy
+5744;"Kirksville";40.0935;-92.5449;healthy
+5746;"Laramie";41.3121;-105.675;healthy
+5747;"Latrobe";40.2759;-79.4048;healthy
+5748;"North Platte";41.1262;-100.684;healthy
+5749;"Lebanon";43.6261;-72.3042;healthy
+5750;"Klamath Falls";42.1561;-121.733;healthy
+5751;"Lancaster";40.1217;-76.2961;healthy
+5753;"Lynchburg";37.3267;-79.2004;healthy
+5754;"Muskegon";43.1695;-86.2382;healthy
+5756;"Muscle Shoals";34.7453;-87.6102;healthy
+5757;"North Bend";43.4171;-124.246;healthy
+5758;"Owensboro";37.7401;-87.1668;healthy
+5759;"Hattiesburg/Laurel";31.4671;-89.3371;healthy
+5760;"Pocatello";42.9098;-112.596;healthy
+5761;"Pierre";44.3827;-100.286;healthy
+5762;"Pellston";45.5709;-84.7967;healthy
+5763;"Portsmouth";43.0779;-70.8233;healthy
+5765;"Rhinelander";45.6312;-89.4675;healthy
+5766;"Rock Springs";41.5942;-109.065;healthy
+5767;"Rutland";43.5294;-72.9496;healthy
+5768;"San Luis Obispo";35.2368;-120.642;healthy
+5769;"Sheridan";44.7692;-106.98;healthy
+5770;"Saranac Lake";44.3853;-74.2062;healthy
+5771;"Salina";38.791;-97.6522;healthy
+5772;"Santa Maria";34.8989;-120.457;healthy
+5773;"Tupelo";34.2681;-88.7699;healthy
+5774;"Quincy";39.9427;-91.1946;healthy
+5775;"Victoria";28.8526;-96.9185;healthy
+5776;"Valdosta";30.7825;-83.2767;healthy
+5777;"Worland";43.9657;-107.951;healthy
+5779;"Yakima";46.5682;-120.544;healthy
+5780;"Nicosia";35.1547;33.4961;healthy
+5781;"Logroño-Agoncillo";42.4542;-2.32083;healthy
+5787;"Syros Island";37.422792;24.950936;healthy
+5793;"Corvo";39.6715;-31.1136;healthy
+5794;"Banja Luka";44.941444;17.297501;healthy
+5796;"Kars";40.562222;43.115002;healthy
+5798;"Kahramanmaras";37.539;36.9534;healthy
+5799;"Agri";39.6546;43.0271;healthy
+5800;"Adiyaman";37.7314;38.4689;healthy
+5801;"Isparta";37.8554;30.3684;healthy
+5802;"Balikesir Korfez";39.5546;27.0138;healthy
+5804;"Misratah";32.325;15.061;healthy
+5805;"Ubari";26.5675;12.8231;healthy
+5807;"Cockburn Town";21.4445;-71.1423;healthy
+5809;"Salt Cay";21.333;-71.2;healthy
+5810;"Samana";19.267;-69.742;healthy
+5811;"La Isabela";18.5725;-69.9856;healthy
+5832;"Puerto Lempira";15.2622;-83.7812;healthy
+5837;"Jalapa";19.475083;-96.797506;healthy
+5840;"Jaqué";7.51778;-78.1572;healthy
+5842;"Roxana";10.569;-83.5148;healthy
+5844;"Nicoya";10.3557;-85.852892;healthy
+5847;"Puerto Jimenez";8.53333;-83.3;healthy
+5848;"San Jose";9.957053;-84.139797;healthy
+5852;"Cayo Coco";22.5132;-78.511;healthy
+5855;"Long Banga";3.18495;115.454;healthy
+5857;"Arthur's Town";24.629417;-75.673775;healthy
+5859;"Colonel Hill";22.745561;-74.182353;healthy
+5861;"Atiu Island";-19.9678;-158.119;healthy
+5862;"Mangaia Island";-21.8956;-157.905;healthy
+5864;"Mauke Island";-20.1361;-157.345;healthy
+5865;"Mitiaro Island";-19.8425;-157.703;healthy
+5867;"Cicia";-17.7433;-179.342;healthy
+5869;"Vunisea";-19.0581;178.157;healthy
+5873;"Lakeba Island";-18.1992;-178.817;healthy
+5874;"Lambasa";-16.466749;179.33986;healthy
+5875;"Matei";-16.6906;-179.877;healthy
+5877;"Rotuma";-12.4825;177.071;healthy
+5878;"Savusavu";-16.8028;179.341;healthy
+5883;"Vanua Balavu";-17.269;-178.976;healthy
+5884;"Alofi";-19.080028;-169.925639;healthy
+5885;"Futuna Island";-14.3114;-178.066;healthy
+5889;"Ahe";-14.4281;-146.257;healthy
+5890;"Hiva-oa";-9.768794;-139.011256;healthy
+5891;"Ua Pou";-9.35167;-140.078;healthy
+5892;"Ua Huka";-8.93611;-139.552;healthy
+5893;"Ablow";-13.666;167.712;healthy
+5894;"Sola";-13.8517;167.537;healthy
+5895;"Loh/Linua";-13.328;166.638;healthy
+5896;"Sangafa";-17.0903;168.343;healthy
+5897;"Craig Cove";-16.265;167.924;healthy
+5898;"Longana";-15.3067;167.967;healthy
+5899;"Pentecost Island";-15.4708;168.152;healthy
+5900;"Paama Island";-16.439;168.257;healthy
+5901;"Lamap";-16.454;167.823;healthy
+5902;"Lamen Bay";-16.5842;168.159;healthy
+5903;"Maewo Island";-15;168.083;healthy
+5904;"Lonorore";-15.8656;168.172;healthy
+5905;"Norsup";-16.0797;167.401;healthy
+5906;"Gaua Island";-14.2181;167.587;healthy
+5908;"Santo";-15.505033;167.219742;healthy
+5909;"Tongoa Island";-16.8911;168.551;healthy
+5910;"Ambryn Island";-16.333;168.283;healthy
+5911;"Valesdir";-16.7961;168.177;healthy
+5912;"Malekula Island";-16.495;167.438;healthy
+5914;"Anelghowhat";-20.2492;169.771;healthy
+5915;"Aniwa";-19.24;169.605;healthy
+5916;"Dillon's Bay";-18.7694;169.001;healthy
+5917;"Futuna Island";-19.5164;170.232;healthy
+5918;"Ipota";-18.8783;169.308;healthy
+5919;"Tiga";-21.0961;167.804;healthy
+5920;"Waala";-19.7206;163.661;healthy
+5921;"Île des Pins";-22.5889;167.456;healthy
+5924;"Dawadmi";24.5;44.4;healthy
+5925;"Al-Jawf";29.785133;40.100006;healthy
+5927;"Khorram Abad";33.435378;48.282889;healthy
+5928;"Bam";29.084169;58.450042;healthy
+5930;"Bojnourd";37.492958;57.308219;healthy
+5931;"Sabzevar";36.168083;57.595183;healthy
+5932;"Noshahr";36.663333;51.464722;healthy
+5933;"Dasht-e-naz";36.635833;53.193611;healthy
+5934;"Lar";27.674725;54.383278;healthy
+5935;"Ardabil";38.325678;48.424356;healthy
+5936;"Uromiyeh";37.6681;45.0687;healthy
+5937;"Al Ain";24.261667;55.609167;healthy
+5939;"Bahawalpur";29.3481;71.717981;healthy
+5940;"Chitral";35.886592;71.800578;healthy
+5941;"Dalbandin";28.8783;64.3998;healthy
+5942;"Dera Ghazi Khan";29.961011;70.485925;healthy
+5943;"Dera Ismael Khan";31.909422;70.896639;healthy
+5949;"Skardu";35.335508;75.536047;healthy
+5951;"Turbat";25.986369;63.030167;healthy
+5952;"Sulaymaniyah";35.5608;45.3147;healthy
+5954;"Sayun Intl";15.966111;48.7883;healthy
+5955;"Bahia Piña";7.583;-78.2;healthy
+5957;"Contadora Island";8.62876;-79.0347;healthy
+5958;"Boca de Sábalo";8.017;-78.2;healthy
+5959;"Adak Island";51.878;-176.646;healthy
+5960;"Gustavus";58.4253;-135.707;healthy
+5961;"Skagway";59.4601;-135.316;healthy
+5962;"Holy Cross";62.1883;-159.775;healthy
+5963;"Haines";59.2438;-135.524;healthy
+5964;"Kalskag";61.5363;-160.341;healthy
+5965;"Mcgrath";62.9529;-155.606;healthy
+5966;"Mountain Village";62.0954;-163.682;healthy
+5967;"Aniak";61.5816;-159.543;healthy
+5968;"Chevak";61.5338;-165.584;healthy
+5969;"Wrangell";56.4843;-132.37;healthy
+5979;"Londolovit";-3.04361;152.629;healthy
+5980;"Losuia";-8.50582;151.081;healthy
+5984;"Tufi";-9.07595;149.32;healthy
+5994;"Kushiro";43.041;144.193;healthy
+5996;"Saga";33.1497;130.302;healthy
+5997;"Nagoya";35.255;136.924;healthy
+5998;"Iwami";34.6764;131.79;healthy
+5999;"Fukushima";37.2274;140.431;healthy
+6000;"Odate Noshiro";40.1919;140.371;healthy
+6001;"Shonai";38.812222;139.787222;healthy
+6003;"Kunsan";35.903756;126.615906;healthy
+6005;"Wonju";37.438081;127.960383;healthy
+6006;"Sokcho / Gangneung";38.061311;128.669164;healthy
+6007;"Sacheon";35.088543;128.07037;healthy
+6008;"Chongju";36.7166;127.499119;healthy
+6011;"General Santos City";6.106439;125.2353;healthy
+6012;"Camiguin";9.25352;124.707;healthy
+6013;"Jolo";6.05367;121.011;healthy
+6016;"Sangley Point";9.757567;125.479328;healthy
+6018;"Naga";13.584886;123.270239;healthy
+6019;"Basco";20.451322;121.979883;healthy
+6021;"Tuguegarao";17.638311;121.730614;healthy
+6022;"Virac";13.576439;124.205672;healthy
+6023;"Calbayog City";12.072706;124.545092;healthy
+6024;"Catarman";12.502417;124.635778;healthy
+6025;"Masbate";12.3694;123.629;healthy
+6026;"Roxas City";11.597669;122.751669;healthy
+6034;"Juazeiro Do Norte";-7.218958;-39.2701;healthy
+6036;"Lençóis";-12.4823;-41.277;healthy
+6037;"Macaé";-22.343;-41.766;healthy
+6038;"Marília";-22.196892;-49.9264;healthy
+6039;"Vitória Da Conquista";-14.862761;-40.863106;healthy
+6040;"Santa Maria";-29.711358;-53.688153;healthy
+6045;"San Cristóbal";-0.910206;-89.61745;healthy
+6046;"La Toma (Catamayo)";-3.99589;-79.3719;healthy
+6047;"Esmeraldas";0.978519;-79.6266;healthy
+6051;"Puerto Leguízamo";-0.18;-74.77;healthy
+6052;"La Pedrera";-1.33;-69.58;healthy
+6053;"Nuquí";5.7;-77.28;healthy
+6054;"Puerto Inírida";3.85;-67.91;healthy
+6055;"Yopal";5.319114;-72.383975;healthy
+6056;"Guayaramerín";-10.8206;-65.3456;healthy
+6058;"Riberalta";-11;-66;healthy
+6066;"Cajamarca";-7.139183;-78.4894;healthy
+6067;"Huánuco";-9.878811;-76.204797;healthy
+6069;"Santa Rosa";-27.9067;-54.5204;healthy
+6072;"El Vigía";8.6241;-71.672819;healthy
+6073;"Ji-Paraná";-10.8708;-61.8465;healthy
+6079;"Charlestown";17.205678;-62.589869;healthy
+6080;"Spanish Town";18.4464;-64.4275;healthy
+6083;"Kokshetau";53.3291;69.5946;healthy
+6084;"Petropavlosk";54.7747;69.1839;healthy
+6085;"Zhezkazgan";47.708333;67.733333;healthy
+6086;"Ust Kamenogorsk";50.0366;82.4942;healthy
+6088;"Kostanay";53.206944;63.550278;healthy
+6089;"Ganja";40.7377;46.3176;healthy
+6090;"Nakhchivan";39.1888;45.4584;healthy
+6092;"Yakutia";66.400431;112.030325;healthy
+6093;"Chokurdah";70.6231;147.902;healthy
+6094;"Cherskiy";68.7406;161.338;healthy
+6095;"Tiksi";71.6977;128.903;healthy
+6098;"Anadyr";64.73495;177.741483;healthy
+6103;"Zaporozhye";47.867;35.3157;healthy
+6105;"Kharkov";49.924786;36.289986;healthy
+6106;"Ivano-Frankivsk";48.884167;24.686111;healthy
+6109;"Uzhgorod";48.634278;22.263356;healthy
+6110;"Solovetsky Islands";65.03;35.7333;healthy
+6111;"Cherepovets";59.2736;38.0158;healthy
+6114;"Petrozavodsk";61.8852;34.1547;healthy
+6118;"Kyzyl";51.6694;94.4006;healthy
+6119;"Novokuznetsk";53.8114;86.8772;healthy
+6121;"Igarka";67.4372;86.6219;healthy
+6122;"Grozny";43.2981;45.7841;healthy
+6124;"Beslan";43.2051;44.6066;healthy
+6125;"Elista";46.3739;44.3309;healthy
+6129;"Kearney";40.727;-99.0068;healthy
+6130;"Greenville";33.4829;-90.9856;healthy
+6132;"Kingman";35.2595;-113.938;healthy
+6133;"Pasco";46.2647;-119.119;healthy
+6134;"Akutan";54.1325;-165.785;healthy
+6135;"Silver City";32.6365;-108.156;healthy
+6136;"Lopez";48.4839;-122.938;healthy
+6137;"Salekhard";66.590753;66.611042;healthy
+6138;"Khanty-Mansiysk";61.028479;69.086067;healthy
+6139;"Nyagan";62.11;65.615;healthy
+6140;"Sovetskiy";61.32;63.6044;healthy
+6141;"Izhevsk";56.8281;53.4575;healthy
+6142;"Kirov";58.5033;49.3483;healthy
+6143;"Nadym";65.4809;72.6989;healthy
+6146;"Kurgan";55.4753;65.4156;healthy
+6147;"Khudzhand";40.2154;69.6947;healthy
+6148;"Andizhan";40.7277;72.294;healthy
+6149;"Fergana";40.3588;71.745;healthy
+6150;"Namangan";40.9846;71.5567;healthy
+6151;"Nukus";42.4884;59.6233;healthy
+6152;"Urgench";41.5843;60.6417;healthy
+6153;"Khanabad";38.8336;65.9215;healthy
+6154;"Termez";37.286667;67.31;healthy
+6156;"Belgorod";50.6438;36.5901;healthy
+6157;"Kursk";51.7506;36.2956;healthy
+6159;"Vorkuta";67.4886;63.9931;healthy
+6160;"Bugulma";54.64;52.8017;healthy
+6162;"Cheboksary";56.0903;47.3473;healthy
+6164;"Orsk";51.0725;58.5956;healthy
+6165;"Penza";53.1106;45.0211;healthy
+6166;"Saransk";54.1251;45.2123;healthy
+6168;"Hubli";15.3617;75.0849;healthy
+6169;"Koggala";5.99368;80.3203;healthy
+6172;"Shillong";25.7036;91.9787;healthy
+6173;"Guwahati";26.106092;91.585939;healthy
+6174;"Dimapur";25.8839;93.7711;healthy
+6176;"Barisal";22.801;90.3012;healthy
+6179;"Bharatpur";27.6781;84.4294;healthy
+6180;"Chandragarhi";26.570822;88.079578;healthy
+6182;"Nepalgunj";28.103633;81.667006;healthy
+6183;"Gan Island";-0.693342;73.1556;healthy
+6184;"Haa Dhaalu Atoll";6.74423;73.1705;healthy
+6185;"Laamu Atoll";1.85917;73.5219;healthy
+6186;"Tak";16.699856;98.545056;healthy
+6187;"Buonmethuot";12.668311;108.120272;healthy
+6188;"Haiphong";20.819386;106.724989;healthy
+6189;"Nha Trang";11.998153;109.219372;healthy
+6190;"Conson";8.731831;106.632589;healthy
+6191;"Can Tho";10.085119;105.711922;healthy
+6192;"Dienbienphu";21.397481;103.007831;healthy
+6193;"Phucat";13.954986;109.042267;healthy
+6194;"Pleiku";14.004522;108.017158;healthy
+6195;"Vinh";18.737569;105.670764;healthy
+6197;"Dawei";14.103886;98.203636;healthy
+6198;"Kawthoung";10.049258;98.538006;healthy
+6204;"Waikabubak-Sumba Island";-9.409717;119.244494;healthy
+6209;"Tanjung Redep-Borneo Island";2.155497;117.432256;healthy
+6212;"Langgur-Kei Islands";-5.661619;132.731431;healthy
+6215;"Long Datih";3.421;115.154;healthy
+6216;"Long Seridan";3.967;115.05;healthy
+6217;"Mukah";2.90639;112.08;healthy
+6218;"Bakalalan";3.974;115.618;healthy
+6219;"Lawas";4.84917;115.408;healthy
+6220;"Bario";3.73389;115.479;healthy
+6222;"Kudat";6.9225;116.836;healthy
+6223;"Bandar Lampung-Sumatra Island";-5.242339;105.178939;healthy
+6225;"Ranai-Natuna Besar Island";3.908714;108.387897;healthy
+6231;"Laut Island";-3.29472;116.165;healthy
+6235;"Albany";-34.9433;117.809;healthy
+6237;"Aurukun";-13.3539;141.721;healthy
+6238;"Barcaldine";-23.5653;145.307;healthy
+6240;"Birdsville";-25.8975;139.348;healthy
+6241;"Broken Hill";-32.0014;141.472;healthy
+6242;"Hamilton Island";-20.3581;148.952;healthy
+6243;"Bedourie";-24.3461;139.46;healthy
+6245;"Burketown";-17.7486;139.534;healthy
+6248;"Boulia";-22.9133;139.9;healthy
+6249;"Bathurst";-33.4094;149.652;healthy
+6253;"Coober Pedy";-29.04;134.721;healthy
+6255;"Cloncurry";-20.6686;140.504;healthy
+6256;"Ceduna";-32.1306;133.71;healthy
+6258;"Cunnamulla";-28.03;145.622;healthy
+6260;"Coen";-13.7608;143.114;healthy
+6262;"Doomadgee";-17.9403;138.822;healthy
+6264;"Devonport";-41.1697;146.43;healthy
+6265;"Elcho Island";-12.0194;135.571;healthy
+6266;"Esperance";-33.6844;121.823;healthy
+6267;"Flinders Island";-40.0917;147.993;healthy
+6268;"Geraldton";-28.7961;114.707;healthy
+6269;"Gladstone";-23.8697;151.223;healthy
+6270;"Groote Eylandt";-13.975;136.46;healthy
+6271;"Griffith";-34.2508;146.067;healthy
+6272;"Horn Island";-10.5864;142.29;healthy
+6276;"Julia Creek";-20.6683;141.723;healthy
+6278;"King Island";-39.8775;143.878;healthy
+6281;"Kowanyama";-15.4856;141.751;healthy
+6285;"Lord Howe Island";-31.5383;159.077;healthy
+6286;"Lockhart River";-12.7869;143.305;healthy
+6287;"Lismore";-28.8303;153.26;healthy
+6289;"Longreach";-23.4342;144.28;healthy
+6294;"Merimbula";-36.9086;149.901;healthy
+6295;"Milingimbi";-12.0944;134.894;healthy
+6296;"Maningrida";-12.0561;134.234;healthy
+6297;"McArthur River Mine";-16.4425;136.084;healthy
+6298;"Mildura";-34.2292;142.086;healthy
+6300;"Moree";-29.4989;149.845;healthy
+6301;"Moranbah";-22.0578;148.077;healthy
+6302;"Moruya";-35.8978;150.144;healthy
+6303;"Mount Gambier";-37.7456;140.785;healthy
+6304;"Mornington Island";-16.6625;139.178;healthy
+6307;"Narrandera";-34.7022;146.512;healthy
+6309;"Normanton";-17.6836;141.07;healthy
+6310;"Newman";-23.4178;119.803;healthy
+6311;"Olympic Dam";-30.485;136.877;healthy
+6312;"Argyle";-32.506944;137.716667;healthy
+6314;"Paraburdoo";-23.1711;117.745;healthy
+6315;"Cocos Keeling Island";-12.1883;96.8339;healthy
+6316;"Gove";-12.2694;136.818;healthy
+6317;"Parkes";-33.1314;148.239;healthy
+6318;"Port Lincoln";-34.6053;135.88;healthy
+6319;"Pormpuraaw";-14.8967;141.609;healthy
+6320;"Port Macquarie";-31.4358;152.863;healthy
+6321;"Portland";-38.3181;141.471;healthy
+6322;"Quilpie";-26.6122;144.253;healthy
+6324;"Roma";-26.545;148.775;healthy
+6325;"St George";-28.0497;148.595;healthy
+6329;"Thargomindah";-27.9864;143.811;healthy
+6333;"Windorah";-25.4131;142.667;healthy
+6334;"Whyalla";-33.0589;137.514;healthy
+6337;"Winton";-22.3636;143.086;healthy
+6338;"Burnie";-40.9989;145.731;healthy
+6341;"Beijing";39.7825;116.387778;healthy
+6342;"Chifeng";42.235;118.908;healthy
+6343;"Changzhi";36.2475;113.126;healthy
+6344;"Datong";40.0603;113.482;healthy
+6345;"Hohhot";40.851422;111.824103;healthy
+6346;"Baotou";40.56;109.997;healthy
+6347;"Shijiazhuang";38.280686;114.6973;healthy
+6348;"Tongliao";43.5567;122.2;healthy
+6349;"Ulanhot";46.083;122.017;healthy
+6350;"Xilinhot";43.9156;115.964;healthy
+6351;"Beihai";21.5394;109.294;healthy
+6352;"Changde";28.9189;111.64;healthy
+6353;"Dayong";29.1028;110.443;healthy
+6354;"Meixian";24.35;116.133;healthy
+6355;"Zhuhai";22.0064;113.376;healthy
+6356;"Liuzhou";24.2075;109.391;healthy
+6357;"Zhanjiang";21.2144;110.358;healthy
+6358;"Enshi";30.3203;109.485;healthy
+6359;"Nanyang";32.9808;112.615;healthy
+6360;"Xiangfan";32.1506;112.291;healthy
+6361;"Yichang";30.671;111.441;healthy
+6363;"Golmud";34.633;98.867;healthy
+6365;"Qingyang";35.7997;107.603;healthy
+6366;"Xining";36.5275;102.043;healthy
+6367;"Yan'an";36.6369;109.554;healthy
+6368;"Yulin";38.2692;109.731;healthy
+6370;"Altai";46.3764;96.2211;healthy
+6371;"Bayankhongor";46.1633;100.704;healthy
+6372;"Dalanzadgad";43.5917;104.43;healthy
+6373;"Khovd";47.9541;91.6282;healthy
+6374;"Muren";49.6633;100.099;healthy
+6375;"Shangri-La";27.7936;99.6772;healthy
+6376;"Luxi";24.4011;98.5317;healthy
+6377;"Simao";22.7933;100.959;healthy
+6378;"Zhaotong";27.3256;103.755;healthy
+6379;"Ganzhou";25.8258;114.912;healthy
+6380;"Jingdezhen";29.3386;117.176;healthy
+6381;"Jiujiang";29.733;115.983;healthy
+6382;"Quzhou";28.9658;118.899;healthy
+6383;"Lianyungang";34.55;119.25;healthy
+6384;"Huangyan";28.5622;121.429;healthy
+6385;"Linyi";35.0461;118.412;healthy
+6386;"Quanzhou";24.7964;118.59;healthy
+6387;"Huangshan";29.7333;118.256;healthy
+6388;"Weifang";36.6467;119.119;healthy
+6390;"Wuxi";31.4944;120.429;healthy
+6391;"Wuyishan";27.7019;118.001;healthy
+6392;"Wenzhou";27.9122;120.852;healthy
+6393;"Yancheng";33.3856;120.125;healthy
+6394;"Yiwu";29.3447;120.032;healthy
+6395;"Zhoushan";29.9342;122.362;healthy
+6396;"Bangda";30.5536;97.1083;healthy
+6397;"Dazhou";31.3;107.5;healthy
+6398;"Guangyuan";32.3911;105.702;healthy
+6399;"Luzhou";28.8522;105.393;healthy
+6400;"Mianyang";31.4281;104.741;healthy
+6401;"Nanchong";30.754;106.062;healthy
+6402;"Nyingchi";29.3033;94.3353;healthy
+6403;"Wanxian";30.8361;108.406;healthy
+6404;"Aksu";41.2625;80.2917;healthy
+6406;"Kuqa";41.7181;82.9869;healthy
+6407;"Korla";41.6978;86.1289;healthy
+6408;"Karamay";45.617;84.883;healthy
+6409;"Yining";43.9558;81.3303;healthy
+6410;"Heihe";50.25;127.3;healthy
+6411;"Jiamusi";46.843394;130.465389;healthy
+6412;"Jinzhou";41.1014;121.062;healthy
+6413;"Qiqihar";47.239628;123.918131;healthy
+6414;"Yanji";42.8828;129.451258;healthy
+6426;"Worcester";42.2673;-71.8757;healthy
+6427;"Anqing";30.5822;117.0502;healthy
+6428;"Ji An";26.8997;114.7375;healthy
+6429;"Qinhuangdao";39.9681;119.731;healthy
+6430;"Yuncheng";35.018;110.993;healthy
+6431;"Lanzhou";36.117;103.617;healthy
+6432;"Jiayuguan";39.8569;98.3414;healthy
+6433;"Dandong";40.0255;124.2866;healthy
+6434;"Dongsheng";39.85;110.033;healthy
+6435;"Panzhihua";26.54;101.799;healthy
+6443;"Dibrugarh";27.4839;95.0169;healthy
+6448;"Grand Canyon West";35.5925;-113.4859;healthy
+6449;"Boulder City";35.5651;-114.514;healthy
+6456;"Provincetown";42.071945;-70.22139;healthy
+6457;"Seattle";47.629;-122.339;healthy
+6460;"Gustavia";17.9023;-62.8324;healthy
+6463;"Belize";17.5344;-88.298;healthy
+6466;"Tambow";52.81;41.48;healthy
+6476;"Shizuoka";34.796111;138.189444;healthy
+6477;"Erechim";-27.6619;-52.2683;healthy
+6485;"Navoi";40.1172;65.1708;healthy
+6492;"Setif";36.1781;5.32449;healthy
+6493;"La Rochelle";46.1792;-1.19528;healthy
+6505;"Mesa";33.307833;-111.655;healthy
+6510;"Zweibruecken";49.209445;7.401323;healthy
+6712;"Anaktuvuk Pass";68.1336;-151.743;healthy
+6713;"Anvik";62.6467;-160.191;healthy
+6714;"Atqasuk";70.4673;-157.436;healthy
+6715;"Gambell";63.7668;-171.733;healthy
+6716;"Hooper Bay";61.5239;-166.147;healthy
+6717;"Kaltag";64.3191;-158.741;healthy
+6718;"St Mary's";62.0605;-163.302;healthy
+6719;"Kivalina";67.7362;-164.563;healthy
+6720;"Mekoryuk";60.3714;-166.271;healthy
+6721;"Point Hope";68.3488;-166.799;healthy
+6722;"Ruby";64.7272;-155.47;healthy
+6723;"Shishmaref";66.2496;-166.089;healthy
+6724;"Savoonga";63.6864;-170.493;healthy
+6725;"Noatak";67.5661;-162.975;healthy
+6727;"Puvirnituq";60.0506;-77.2869;healthy
+6728;"Tasiujaq";58.6678;-69.9558;healthy
+6729;"Arctic Village";68.1147;-145.579;healthy
+6730;"Imo";5.42706;7.20603;healthy
+6731;"La Fortuna/San Carlos";10.478;-84.6345;healthy
+6732;"Nicoya";9.73852;-85.0138;healthy
+6733;"Cauayan";16.929861;121.753036;healthy
+6734;"Apatity";67.4633;33.5883;healthy
+6735;"Governador Valadares";-18.8952;-41.9822;healthy
+6737;"Pajala";67.2456;23.0689;healthy
+6738;"Bella Coola";52.3875;-126.596;healthy
+6739;"Hagerstown";39.7079;-77.7295;healthy
+6740;"Araracuara";-0.58;-72.41;healthy
+6741;"Gorakhpur";26.739708;83.449708;healthy
+6742;"Sand Point";55.315;-160.523;healthy
+6743;"Hami";42.8414;93.6692;healthy
+6744;"Wuzhou";23.4567;111.248;healthy
+6747;"Gorgan";36.909381;54.401339;healthy
+6748;"Ilam";33.586606;46.404842;healthy
+6749;"Parsabad";39.603606;47.8815;healthy
+6750;"Lago Agrio";0.093056;-76.8675;healthy
+6752;"Tacheng";46.6725;83.3408;healthy
+6753;"Mardin";37.2233;40.6317;healthy
+6755;"Deering";66.0696;-162.766;healthy
+6756;"Leon";42.589;-5.655556;healthy
+6757;"Burgos";42.357628;-3.620764;healthy
+6758;"Sege";-8.57889;157.876;healthy
+6760;"Kangra";32.1651;76.2634;healthy
+6763;"Igiugig";59.324;-155.902;healthy
+6765;"King Cove";55.1163;-162.266;healthy
+6766;"Port Heiden";56.9591;-158.633;healthy
+6767;"Togiak Village";59.0528;-160.397;healthy
+6768;"Geneina";13.4817;22.4672;healthy
+6769;"Long Akah";3.3;114.783;healthy
+6770;"Tanjung Manis";2.17784;111.202;healthy
+6771;"Walaha";-15.412;167.691;healthy
+6772;"Chaoyang";41.5381;120.435;healthy
+6773;"Samburu South";0.530583;37.5342;healthy
+6775;"Bonaventure";48.0711;-65.4603;healthy
+6776;"Sialkot";32.5356;74.3639;healthy
+6777;"Punta del Este";-34.855139;-55.094278;healthy
+6778;"Walvis Bay";-22.9799;14.6453;healthy
+6779;"Mpacha";-17.6344;24.1767;healthy
+6780;"Eskissehir";39.809858;30.519378;healthy
+6781;"Canakkale";40.137722;26.426777;healthy
+6782;"Mus";38.747769;41.661236;healthy
+6783;"Sinop";42.0158;35.0664;healthy
+6784;"Çorlu";41.13825;27.919094;healthy
+6788;"Vieques Island";18.1158;-65.4227;healthy
+6789;"St-Augustin";51.2117;-58.6583;healthy
+6790;"Hamadan";34.869167;48.5525;healthy
+6792;"Grafton";-29.7594;153.03;healthy
+6793;"Orange";-33.3817;149.133;healthy
+6794;"Taree";-31.8886;152.514;healthy
+6795;"Choibalsan";48.1357;114.646;healthy
+6800;"Escanaba";45.722778;-87.093611;healthy
+6803;"Yakutat";59.3012;-139.3937;healthy
+6814;"Culebra Island";18.3127;-65.3034;healthy
+6825;"Marion";37.7549569;-89.0110936;healthy
+6837;"Iron Mountain";45.8183611;-88.1145556;healthy
+6838;"Marquette";46.353611;-87.395278;healthy
+6839;"Allakaket";66.5519;-152.6222;healthy
+6880;"Montrose CO";38.509794;-107.894242;healthy
+6881;"Riverton WY";43.064167;-108.459722;healthy
+6883;"Pendleton";45.695;-118.841389;healthy
+6916;"Wenatchee";47.398;-120.206;healthy
+6919;"Bellona";-11.302;159.8;healthy
+6924;"Ust-Kut";56.85;105.7167;healthy
+6926;"Rimatara";-22.637253;-152.805192;healthy
+6940;"Yaroslavl";57.560666676667;40.157369454444;healthy
+6943;"Mohe County";52.915;122.427;healthy
+6944;"Jining";35.417;116.533;healthy
+6945;"Puntarenas";8.71889;-83.6417;healthy
+6946;"Altay";47.866667;88.116667;healthy
+6954;"Manzhouli";49.566667;117.329444;healthy
+6955;"Wuhai";39.794444;106.799444;healthy
+6957;"Brainerd";46.398308;-94.138078;healthy
+6958;"Lewisburg";37.858333;-80.399444;healthy
+6959;"Greenville";35.635278;-77.385278;healthy
+6960;"Chefornak";60.149167;-164.285556;healthy
+6962;"Branson";36.531994;-93.200556;healthy
+6963;"Tongren";27.884;109.31;healthy
+6969;"Nizhnekamsk";55.34;52.06;healthy
+6972;"Osubi";5.31;5.45;healthy
+6989;"St. Augustine Airport";29.959167;-81.339722;healthy
+6992;"Santa Rosa";38.508978;-122.81288;healthy
+7001;"Aspen";39.2232;-106.869;healthy
+7002;"Hilton Head";32.216;-80.752;healthy
+7003;"Ulyanovsk";54.268299;48.2267;healthy
+7018;"Thief River Falls";48.065556;-96.185;healthy
+7029;"Corozal";18.3822;-88.4119;healthy
+7041;"Gelendzik";44.566666666667;38.016666666667;healthy
+7051;"Gunnison";38.533889;-106.933056;healthy
+7054;"Manistee";44.2725;-86.246944;healthy
+7056;"Punta Gorda";26.919722;-81.990556;healthy
+7059;"Jamestown";42.153333;-79.258056;healthy
+7062;"Weyers Cave";38.263889;-78.896389;healthy
+7064;"Dickinson";46.7975;-102.801944;healthy
+7065;"Sidney";47.706944;-104.1925;healthy
+7066;"Chadron";42.8375;-103.095556;healthy
+7067;"Alliance";42.053333;-102.803889;healthy
+7068;"McCook";40.206389;-100.592222;healthy
+7070;"Glendive";47.138611;-104.807222;healthy
+7071;"Wolf Point";48.094444;-105.575;healthy
+7073;"Alamosa";37.435;-105.866667;healthy
+7074;"Moab";38.755;-109.754722;healthy
+7076;"Vernal";40.440833;-109.51;healthy
+7078;"Show Low";34.265556;-110.005556;healthy
+7081;"Mammoth Lakes";37.624049;-118.837772;healthy
+7082;"Friday Harbor";48.521944;-123.024444;healthy
+7083;"Eastsound";48.708056;-122.910556;healthy
+7087;"Emmonak";62.786111;-164.490833;healthy
+7088;"Unalakleet";63.888333;-160.798889;healthy
+7090;"Shageluk";62.692222;-159.569167;healthy
+7091;"Chuathbaluk";61.579167;-159.215556;healthy
+7092;"Nuiqsut";70.21;-151.005556;healthy
+7093;"Eek";60.213611;-162.043889;healthy
+7094;"Kasigluk";60.873333;-162.524444;healthy
+7095;"Kwethluk";60.790278;-161.443611;healthy
+7096;"Kwigillingok";59.876389;-163.168611;healthy
+7097;"Marshall";61.8646418;-162.026111;healthy
+7098;"Russian Mission";61.775;-161.319444;healthy
+7099;"Tuntutuliak";60.335278;-162.666944;healthy
+7102;"Levelock";59.128056;-156.858611;healthy
+7105;"Chalkyitsik";66.645;-143.74;healthy
+7107;"Hughes";66.039167;-154.264722;healthy
+7108;"Huslia";65.697778;-156.351389;healthy
+7110;"Minto";65.143611;-149.37;healthy
+7111;"Nulato";64.729444;-158.074167;healthy
+7112;"Rampart";65.507778;-150.140833;healthy
+7113;"Tanana";65.179556;-152.075833;healthy
+7114;"Venetie";67.008611;-146.366389;healthy
+7115;"Beaver";66.362222;-147.406667;healthy
+7116;"Central";65.573889;-144.780833;healthy
+7117;"Shungnak";66.888056;-157.1625;healthy
+7118;"Brich Creek";66.256708;-145.815319;healthy
+7119;"Coldfoot";67.251389;-150.176111;healthy
+7121;"Visalia";36.318611;-119.392778;healthy
+7122;"Merced";37.284722;-120.513889;healthy
+7128;"Toowoomba";-27.542778;151.916389;healthy
+7135;"Angoon";57.503611;-134.585;healthy
+7136;"Elfin Cove";58.195278;-136.3475;healthy
+7137;"Tenakee Springs";57.779722;-135.218333;healthy
+7138;"Pelican";57.955278;-136.236389;healthy
+7141;"Excursion Inlet";58.420556;-135.449167;healthy
+7142;"Hoonah";58.096111;-135.409722;healthy
+7144;"Craig";55.478889;-133.147778;healthy
+7145;"Hollis";55.481667;-132.646111;healthy
+7146;"Metakatla";55.131111;-131.578056;healthy
+7147;"Thorne Bay";55.688056;-132.536667;healthy
+7148;"Hydaburg";55.206389;-132.828333;healthy
+7150;"Point Baker";56.351944;-133.6225;healthy
+7151;"Port Protection";56.328889;-133.61;healthy
+7152;"North Whale Pass";56.116389;-133.121667;healthy
+7153;"Chignik Lake";56.255;-158.775278;healthy
+7154;"Egegik";58.185556;-157.375556;healthy
+7155;"Chignik Lagoon";56.311111;-158.534167;healthy
+7157;"Perryville";55.906667;-159.160833;healthy
+7158;"Pilot Point";57.585393;-157.571944;healthy
+7159;"South Naknek";58.702222;-157.0025;healthy
+7160;"Akhiok";56.938611;-154.1825;healthy
+7161;"Karluk";57.566944;-154.450278;healthy
+7162;"Larsen Bay";57.535;-153.976667;healthy
+7163;"Old Harbor";57.218056;-153.269722;healthy
+7164;"Ouzinkie";57.922876;-152.500511;healthy
+7165;"Port Lions";57.885278;-152.846111;healthy
+7167;"Amook Bay";57.471389;-153.815278;healthy
+7168;"Kitoi Bay";58.190833;-152.370556;healthy
+7172;"Port Williams";58.49;-152.582222;healthy
+7173;"Seal Bay";58.166667;-152.5;healthy
+7176;"Zachar Bay";57.55;-153.75;healthy
+7177;"Ambler";67.106389;-157.8575;healthy
+7178;"Buckland";65.981667;-161.149167;healthy
+7179;"Kiana";66.975833;-160.436667;healthy
+7180;"Kobuk";66.912222;-156.897222;healthy
+7181;"Noorvik";66.8175;-161.022222;healthy
+7182;"Selawik";66.6;-159.985833;healthy
+7183;"Brevig Mission";65.331389;-166.465833;healthy
+7184;"Elim";64.615;-162.270556;healthy
+7185;"Golovin";64.550556;-163.007222;healthy
+7186;"Teller";65.240278;-166.339444;healthy
+7187;"Wales";65.6225;-168.095;healthy
+7188;"White Mountain";64.689167;-163.412778;healthy
+7190;"Koyuk";64.939444;-161.154167;healthy
+7191;"St. Michael";63.49;-162.110278;healthy
+7192;"Shaktoolik";64.371111;-161.223889;healthy
+7193;"Stebbins";63.515833;-162.278056;healthy
+7194;"Tin City";65.563056;-167.921667;healthy
+7195;"Atka";52.220278;-174.206389;healthy
+7196;"Nikolski";52.941667;-168.848889;healthy
+7199;"Alakanuk";62.68;-164.66;healthy
+7200;"Nunam Iqua";62.520556;-164.847778;healthy
+7201;"Kipnuk";59.933056;-164.030556;healthy
+7202;"False Pass";54.8475;-163.410278;healthy
+7203;"Nelson Lagoon";56.0075;-161.160278;healthy
+7205;"Klawock";55.579167;-133.076111;healthy
+7206;"Quinhagak";59.755;-161.845278;healthy
+7207;"Kotlik";63.030556;-163.532778;healthy
+7208;"Koyukuk";64.875833;-157.730556;healthy
+7209;"Scammon Bay";61.845278;-165.571389;healthy
+7212;"Nunapitchuk";60.905833;-162.439167;healthy
+7213;"Kongiganak";59.960833;-162.881111;healthy
+7214;"Nikolai";63.010833;-154.383889;healthy
+7215;"Takotna";62.971944;-156.082778;healthy
+7216;"Pilot Station";61.934444;-162.899444;healthy
+7217;"Akiak";60.902778;-161.230556;healthy
+7218;"Tuluksak";61.096944;-160.969444;healthy
+7219;"Grayling";62.894444;-160.065;healthy
+7220;"Wainwright";70.638056;-159.994722;healthy
+7236;"Circle";65.827778;-144.076111;healthy
+7237;"Coffman Cove";56.014722;-132.833889;healthy
+7238;"Crooked Creek";61.867778;-158.135;healthy
+7239;"Red Devil";61.788056;-157.350278;healthy
+7240;"Sleetmute";61.700566;-157.165833;healthy
+7241;"Stony River";61.7875;-156.591111;healthy
+7242;"Healy";63.8675;-148.968889;healthy
+7243;"Kake";56.973056;-133.945556;healthy
+7246;"Manley Hot Springs";64.9975;-150.644167;healthy
+7247;"St. George";56.577222;-169.663611;healthy
+7252;"Postville";54.910278;-59.785278;healthy
+7253;"Kangiqsujuaq";61.588611;-71.929444;healthy
+7255;"Havre-Saint-Pierre";50.281944;-63.611389;healthy
+7266;"Rainbow Lake";58.491389;-119.407778;healthy
+7275;"Bella Bella";52.139722;-128.063611;healthy
+7287;"Dangriga";16.966667;-88.216667;healthy
+7288;"Placencia";16.536944;-88.361667;healthy
+7310;"Christiansted";17.747222;-64.705;healthy
+7313;"Uyuni";-20.466667;-66.833333;healthy
+7317;"Rerrenabaque";-14.4275;-67.498056;healthy
+7355;"Saravena";6.916667;-71.9;healthy
+7356;"La Chorrera";-0.733333;-73.016667;healthy
+7358;"La Macarena";2.179167;-73.7875;healthy
+7359;"Villa Garzon";0.978889;-76.605556;healthy
+7364;"Cabo Frio";-22.921667;-42.074167;healthy
+7367;"Sinop";-11.885;-55.586;healthy
+7368;"Gurupi";-11.728889;-49.068889;healthy
+7369;"Santana do Araguaia";-9.505;-50.625;healthy
+7370;"Breves";-1.681944;-50.48;healthy
+7372;"Parintins";-2.627778;-56.735833;healthy
+7373;"Barreiras";-12.083333;-45;healthy
+7374;"Santa Terezinha";-10.47;-50.502778;healthy
+7375;"Minacu";-13.526944;-48.220556;healthy
+7376;"Araguaina";-7.228333;-48.240833;healthy
+7380;"Dourados";-22.220833;-54.805833;healthy
+7382;"Rondonopolis";-16.466667;-54.633333;healthy
+7383;"Guarapuava";-25.383333;-51.45;healthy
+7384;"Joacaba";-27.172778;-51.500833;healthy
+7394;"Rio Verde";-17.790278;-50.918333;healthy
+7395;"Araxa";-19.563056;-46.960278;healthy
+7398;"Coari";-4.085;-63.140833;healthy
+7399;"Barcelos";-0.975;-62.923889;healthy
+7407;"Guanambi";-14.216667;-42.783333;healthy
+7417;"Jijiga";9.359722;42.7875;healthy
+7424;"Masai Mara";-1.406111;35.008056;healthy
+7447;"Enfidha";36.075833;10.438611;healthy
+7450;"Pakuba";2.3275;31.5;healthy
+7453;"Hatay";36.362778;36.282222;healthy
+7456;"Raivavae";-23.87;-147.67;healthy
+7457;"Foshan";23.133333;113.28333;healthy
+7459;"Lleida";41.727778;0.535833;healthy
+7470;"Olgii";48.991667;89.919722;healthy
+7478;"Iturup Island";44.92;147.621667;healthy
+7479;"Okha";53.583333;142.933333;healthy
+7490;"Najaf";31.991667;44.404167;healthy
+7503;"Fuyang";32.9;115.816667;healthy
+7504;"Longyan";25.674167;116.746389;healthy
+7505;"Baoshan";25.053333;99.168333;healthy
+7506;"Xingyi";25.0882;104.9587;healthy
+7508;"Liping";26.206;109.039;healthy
+7519;"Zhijiang";27.441389;109.699722;healthy
+7527;"Lincang";23.738333;100.025;healthy
+7528;"Wenshan";23.375833;104.243056;healthy
+7530;"Sao Gabriel da Cachoeira";-0.148056;-66.9858;healthy
+7532;"Parauapebas";-6.11781;-50.0035;healthy
+7534;"Itaituba";-4.2446;-56.00384;healthy
+7546;"Khalije Fars";27.379444;52.7375;healthy
+7547;"Yasuj";30.700556;51.545;healthy
+7558;"Ulaangom";49.973333;92.079722;healthy
+7562;"Dickwella";5.966667;80.683333;healthy
+7563;"Kulyab";37.981667;69.799444;healthy
+7577;"Ravensthorpe";-33.797222;120.208056;healthy
+7579;"Provo";40.21805555;-111.72222222;healthy
+7584;"Los Alamos";35.8798019;-106.2694153;healthy
+7616;"Ulawa";-9.854722;161.979167;healthy
+7617;"Choiseul Bay";-6.711944;156.396111;healthy
+7618;"Santa Ana";-10.848056;162.454167;healthy
+7634;"Rundu";-17.956461;19.719439;healthy
+7642;"Angmagssalik";65.612222;-37.618333;healthy
+7657;"Morristown";40.79935;-74.4148747;healthy
+7669;"Panama City";30.3417;-85.7973;healthy
+7695;"Latacunga";-0.5425;-78.3657;healthy
+7774;"Mysore";12.3072;76.6497;healthy
+7798;"Marktoberdorf";47.78;10.627;healthy
+7821;"Zonguldak";41.506111;32.088611;healthy
+7862;"Tengchong";24.938651;98.483591;healthy
+7863;"Sevastopol";44.691431;33.57567;healthy
+7894;"Yushu";32.825;97.125;healthy
+7895;"Playon Chico";9.303333;-78.236111;healthy
+7898;"Huai An";33.7772;119.1478;healthy
+7901;"El Porvenir";9.559167;-78.971111;healthy
+7932;"Shiquanhe";32.10027;80.052778;healthy
+7962;"Puerto Obaldia";8.68333;-77.5333;healthy
+7976;"Ukunda";-4.29694;39.5714;healthy
+7987;"Mackenzie British Columbia";55.29944;-123.08333;healthy
+8043;"Zhongwei";37.5728;105.1544;healthy
+8076;"Dubai";24.55056;55.103174;healthy
+8082;"Baise";23.72;106.96;healthy
+8130;"NAYPYITAW";19.374;96.121;healthy
+8170;"Roche Harbor";48.608056;-123.159722;healthy
+8173;"Westsound";48.617778;-122.952778;healthy
+8174;"Friday Harbor";48.537222;-123.009722;healthy
+8180;"Juiz de Fora";-21.5130558014;-43.1730575562;healthy
+8199;"Nightmute";60.471111;-164.700833;healthy
+8200;"Toksook Bay";60.541389;-165.087222;healthy
+8201;"Tununak";60.575556;-165.271667;healthy
+8202;"Goodnews Bay";59.1175;-161.5775;healthy
+8203;"Newtok";60.939167;-164.641111;healthy
+8204;"Achutupo";9.2;-77.98;healthy
+8206;"Garachine";8.06;-78.36;healthy
+8207;"Mulatupo";8.95;-77.75;healthy
+8208;"Ittoqqortoormiit";70.485278;-21.966667;healthy
+8209;"Vinnitsa";49.2433;28.6063;healthy
+8217;"Kegaska";50.195833;-61.265833;healthy
+8223;"Trail";49.055556;-117.609167;healthy
+8225;"Arctic Bay";73.006389;-85.047222;healthy
+8227;"Belmopan";17.269444;-88.776111;healthy
+8235;"Sohag";26.341189;31.742983;healthy
+8237;"Patos de Minas";-18.672778;-46.491111;healthy
+8238;"Bauru";-22.157778;-49.068333;healthy
+8239;"Ourilandia do Norte";-6.763056;-51.05;healthy
+8240;"Redencao";-8.033333;-49.98;healthy
+8241;"Sao Felix do Xingu";-6.641389;-51.952222;healthy
+8242;"Bointo";-21.247222;-56.4525;healthy
+8243;"Sao Felix do Araguaia";-11.6325;-50.689444;healthy
+8244;"Cacador";-26.788333;-50.939722;healthy
+8247;"Eirunepe";-6.639444;-69.879722;healthy
+8256;"Sao Paulo de Olivenca";-3.465556;-68.918889;healthy
+8258;"Santa Isabel do Rio Negro";-0.416944;-65.033889;healthy
+8259;"Oriximina";-1.714167;-55.836111;healthy
+8266;"Alanya";36.2993;32.3014;healthy
+8355;"Keewaywin";52.991111;-92.836389;healthy
+8381;"Al-Ula";26.636718;37.908018;healthy
+8401;"Praya";-8.7573222;116.276675;healthy
+8407;"Handan";36.524;114.43;healthy
+8414;"Warsaw";52.451111;20.651667;healthy
+8417;"Jixi";45.30611;130.99667;healthy
+8428;"Beloyarsky";63.683056;66.683056;healthy
+8492;"Lephalale";-23.666667;27.75;healthy
+8628;"Uummannaq";70.4047;52.0702;healthy
+8630;"Bayannur";40.926389;107.738889;healthy
+8735;"Pomalaa";-4.183333;121.61667;healthy
+8740;"Gorno-Altaysk";51.966667;85.833333;healthy
+8774;"Lankaran";38.746389;48.817778;healthy
+8775;"Qabala";40.826667;47.7125;healthy
+8781;"Qianjiang";29.515;108.83;healthy
+8782;"Yuzhno-Kurilsk";43.5739;145.4107;healthy
+8826;"Baishan";42.088056;127.548889;healthy
+8832;"Lublin";51.239333;22.714083;healthy
+8845;"Yongzhou";26.345556;111.612222;healthy
+8858;"Tangshan";39.717444;118.002389;healthy
+8876;"Yangzhou";32.5617;119.715;healthy
+8892;"Kooddoo";0.7308;73.433;healthy
+8914;"Rio Hondo";-27.509946;-64.936666;healthy
+8921;"Kangding";30.1575;101.734722;healthy
+8924;"Veliky Ustyug";60.788333;46.26;healthy
+8944;"Bodaibo";57.5137;114.1348;healthy
+8949;"Mattala";6.284467;81.124128;healthy
+8961;"Sir Bani Yas Island";24.2856083;52.5783472;healthy
+8962;"Dalma Island";24.5033833;52.3360528;healthy
+8979;"Jiagedaqi District";50.375;124.117;healthy
+9025;"Bijie";27.253;105.426;healthy
+9026;"Lensk";60.723;114.825;healthy
+9043;"Igdir";39.983056;43.866389;healthy
+9044;"Sanliurfa";37.45;38.9;healthy
+9045;"Kutahya";39.111389;30.13;healthy
+9090;"Brusselton";-33.687222;115.400278;healthy
+9107;"Yichun";27.8033;114.3081;healthy
+9135;"Thanh Hoa";19.90167;105.46778;healthy
+9181;"Mamuju";-2.583333;119.033333;healthy
+9229;"Sigiriya";7.57212;80.43412;healthy
+9272;"Bingol";38.86111;40.5925;healthy
+9273;"Kastamonu";41.316944;33.796111;healthy
+9310;"Daocheng";29.3231;100.0533;healthy
+9311;"Xiahe city";34.4909;102.3719;healthy
+9327;"Comiso";37;14.6144;healthy

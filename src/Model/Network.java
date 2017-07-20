@@ -21,14 +21,14 @@ import java.util.Random;
  */
 public class Network {
 
-    private int infected;                           // Number of infected nodes
-    private int healthy;                            // Number of healthy nodes
-    private int recovered;                          // Number of recovered nodes
-    private HashMap<String, Node> airports;         // All the Nodes
-    private ArrayList<String> quarantine;           // Nodes that may go into Quarantine
-    private ArrayList<String> nodesWithBigDegree;   // Nodes with a lot of neighbors
-    private ArrayList<String> nodesWithSmallDegree; // Nodes with few neighbors
-    private ArrayList<String> healthyNodesLeft;     // Nodes That Hasn't Been Infected
+    private int infected;                                   // Number of infected nodes
+    private int healthy;                                    // Number of healthy nodes
+    private int recovered;                                  // Number of recovered nodes
+    private final HashMap<String, Node> airports;           // All the Nodes
+    private final ArrayList<String> quarantine;             // Nodes that may go into Quarantine
+    private final ArrayList<String> nodesWithBigDegree;     // Nodes with a lot of neighbors
+    private final ArrayList<String> nodesWithSmallDegree;   // Nodes with few neighbors
+    private final ArrayList<String> healthyNodesLeft;       // Nodes That Hasn't Been Infected
 
     public Network() {
         this.infected = 0;
@@ -56,8 +56,20 @@ public class Network {
         initializeQuarantineList(numberOfDays);
         initializeOtherLists();
 
-        // Begin Spread - First Day
-        pickUnfortunate(null);
+        // First Infected
+        switch (firstInfected) {
+            case "HUB":
+                pickUnfortunate(nodesWithBigDegree);
+                break;
+            case "ANTI-HUB":
+                pickUnfortunate(nodesWithSmallDegree);
+                break;
+            default:
+                pickUnfortunate(null);
+                break;
+        }
+
+        // Epidemic Started
         healthyPeople.add(healthy);
         infectedPeople.add(infected);
         recoveredPeople.add(recovered);
@@ -70,10 +82,10 @@ public class Network {
                 activateQuarantine();
             }
 
-            transmission((double) ((double)infectionRate / 100));
+            transmission((double) ((double) infectionRate / 100));
 
             if (!model.equals("SI")) {
-                recovery(model);
+                recovery(model, (double) ((double) recoveryRate / 100));
             }
 
             if (RW && daysPassed % rwFrequency == 0) {
@@ -84,10 +96,10 @@ public class Network {
             infectedPeople.add(infected);
             recoveredPeople.add(recovered);
 
-            if((healthy == 0 && model.equals("SI")) || infected == 0){
+            if ((healthy == 0 && model.equals("SI")) || infected == 0) {
                 break;
             }
-            
+
             daysPassed++;
         }
 
@@ -223,8 +235,26 @@ public class Network {
         }
     }
 
-    private void recovery(String model) {
-        //ABSTRACT
+    private void recovery(String model, double rate) {
+        for (Entry<String, Node> entry : airports.entrySet()) {
+            String id = entry.getKey();
+            Node node = airports.get(id);
+            if (node.getState().equals(State.INFECTED) && luck(rate)) {
+                if (model.equals("SIS")) {
+                    node = airports.get(id);
+                    node.setState(State.HEALTHY);
+                    airports.put(id, node);
+                    infected--;
+                    healthy++;
+                } else {
+                    node = airports.get(id);
+                    node.setState(State.REMOVED);
+                    airports.put(id, node);
+                    infected--;
+                    recovered++;
+                }
+            }
+        }
     }
 
     private void initializeOtherLists() {
