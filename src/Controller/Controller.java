@@ -88,11 +88,11 @@ public class Controller {
             try {
                 int aux = Integer.parseInt(infectionRate);
                 if (aux < 1 || aux > 100) {
-                    log += "* The Infection Rate Input must be an integer between 1 and 100, both included.\n";
+                    log += "* The Infection Rate Input must be an integer between 1 and 100.\n";
                 }
                 this.infectionRate = aux;
             } catch (NumberFormatException e) {
-                log += "* The Infection Rate Input must be an integer between 1 and 100, both included.\n";
+                log += "* The Infection Rate Input must be an integer between 1 and 100.\n";
             }
         }
         return log;
@@ -133,12 +133,12 @@ public class Controller {
         } else {
             try {
                 int aux = Integer.parseInt(numberOfDays);
-                if (aux < 1 || aux > 999) {
-                    log += "* The Number of Days must be an integer between 1 and 999.\n";
+                if (aux < 2 || aux > 999) {
+                    log += "* The Number of Days must be an integer between 2 and 999.\n";
                 }
                 this.numberOfDays = aux;
             } catch (NumberFormatException e) {
-                log += "* The Number of Days must be an integer between 1 and 999.\n";
+                log += "* The Number of Days must be an integer between 2 and 999.\n";
             }
         }
         return log;
@@ -222,9 +222,8 @@ public class Controller {
     }
 
     public Graph beginSimulation() {
-
         Network net = new Network();
-        return net.startEpidemic(epidemicModel, nodesFile, edgesFile, infectionRate,
+        return net.startPandemic(epidemicModel, nodesFile, edgesFile, infectionRate,
                 recoveryRate, numberOfDays, randomWalks, rwFrequency,
                 quarantine, quarantineSchedule, firstInfected);
     }

@@ -91,10 +91,8 @@
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" alignment="2" groupAlignment="2" attributes="0">
-                              <Component id="jButton1" alignment="2" min="-2" pref="133" max="-2" attributes="0"/>
-                              <Component id="jScrollPane1" alignment="2" min="-2" pref="355" max="-2" attributes="0"/>
-                          </Group>
+                          <Component id="jButton1" alignment="2" min="-2" pref="133" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" alignment="2" min="-2" pref="355" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jPanel2" alignment="2" max="32767" attributes="0"/>
                               <Component id="jPanel1" alignment="2" max="32767" attributes="0"/>
@@ -726,9 +724,10 @@
       <SubComponents>
         <Component class="javax.swing.JTextArea" name="jTextArea1">
           <Properties>
+            <Property name="editable" type="boolean" value="false"/>
             <Property name="columns" type="int" value="20"/>
             <Property name="rows" type="int" value="5"/>
-            <Property name="enabled" type="boolean" value="false"/>
+            <Property name="text" type="java.lang.String" value="Welcome to Pandemic Simulator!&#xa;&#xa;- This is a really basic program can &apos;simulate&apos; 3 different&#xa;types of epidemic models.&#xa;- The user can choose between these 3 models, and also other &#xa;variables, like the infection/recovery rate, what kind of node &#xa;should be the first infected, etc"/>
           </Properties>
         </Component>
       </SubComponents>

@@ -41,7 +41,7 @@ public class Network {
         this.healthyNodesLeft = new ArrayList<>();
     }
 
-    public Graph startEpidemic(String model, String nodesFile, String edgesFile,
+    public Graph startPandemic(String model, String nodesFile, String edgesFile,
             int infectionRate, int recoveryRate, int numberOfDays, boolean RW,
             int rwFrequency, boolean quarantine, int quarantineSchedule,
             String firstInfected) {

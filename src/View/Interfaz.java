@@ -379,9 +379,10 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel22.setText("(?)");
         jLabel22.setToolTipText("<html>\n<strong>Number of Days</strong> -  This number indicates how many days should the program simulate the transmission.<br>\n<ul>\n<li><strong>The simulation will automatically stop once the whole network gets infected, regardless of how many days the user entered. </strong></li>\n<li><strong>If the number of days entered is low, the simulation may end before all the nodes become infected/recovered. </strong></li>\n</ul>");
 
+        jTextArea1.setEditable(false);
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
-        jTextArea1.setEnabled(false);
+        jTextArea1.setText("Welcome to Pandemic Simulator!\n\n- This is a really basic program can 'simulate' 3 different\ntypes of epidemic models.\n- The user can choose between these 3 models, and also other \nvariables, like the infection/recovery rate, what kind of node \nshould be the first infected, etc");
         jScrollPane1.setViewportView(jTextArea1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -438,9 +439,8 @@ public class Interfaz extends javax.swing.JFrame {
                                 .addComponent(jLabel4))))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.CENTER, layout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
-                                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 355, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jButton1, javax.swing.GroupLayout.Alignment.CENTER, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.CENTER, javax.swing.GroupLayout.PREFERRED_SIZE, 355, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(jPanel2, javax.swing.GroupLayout.Alignment.CENTER, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.CENTER, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -557,26 +557,27 @@ public class Interfaz extends javax.swing.JFrame {
         // First Infection
         controller.setFirstInfected(jComboBox2.getSelectedIndex());
 
-//        final String error = errorLog;
-//        
-//        if (errorLog.isEmpty() || errorLog.equals("")) {
-//            errorLog = "Some of the Inputs are invalid. Please check:\n" + errorLog;
-//           // jTextArea1.append(errorLog);
-//            SwingUtilities.invokeLater(new Runnable() {
-//                public void run() {
-//                    jTextArea1.setText(error);
-//                    jTextArea1.append(error);
-//                }
-//            });
-//
-//        } else {
-//
-//        }
         if (errorLog.equals("")) {
-            System.out.println("Everything is OK");
-            drawGraph(controller.beginSimulation());
+            Graph graph = controller.beginSimulation();
+            drawGraph(graph);
+
+            double total = graph.getHealthyPeople().get(0) + graph.getInfectedPeople().get(0);
+            int daysOfSimulation = graph.getInfectedPeople().size();
+
+            String result = "After " + daysOfSimulation + " days of Simulation:\n";
+            result += " --> " + ((double) graph.getHealthyPeople().get(daysOfSimulation - 1) / total) * 100
+                    + "% of the network is healthy.\n";
+            result += " --> " + ((double) graph.getInfectedPeople().get(daysOfSimulation - 1) / total) * 100
+                    + "% of the network is infected.\n";
+            result += " --> " + ((double) graph.getRecoveredPeople().get(daysOfSimulation - 1) / total) * 100
+                    + "% of the network is recovered/removed.\n";
+            jTextArea1.setForeground(Color.BLUE);
+            jTextArea1.setText(result);
+
         } else {
-            System.out.println(errorLog);
+            errorLog = "Some of the Inputs are invalid. Please check:\n" + errorLog;
+            jTextArea1.setForeground(Color.red);
+            jTextArea1.setText(errorLog);
         }
 
     }//GEN-LAST:event_jButton1ActionPerformed
@@ -626,12 +627,9 @@ public class Interfaz extends javax.swing.JFrame {
 
         for (int i = 0; i < g.getCount(); i++) {
             x[i] = i;
-//            healthy[i] = g.getHealthyPeople().get(i);
-//            infected[i] = g.getInfectedPeople().get(i);
-//            removed[i] = g.getRecoveredPeople().get(i);
-            healthy[i] = (double)g.getHealthyPeople().get(i)/total;
-            infected[i] = (double)g.getInfectedPeople().get(i)/total;
-            removed[i] = (double)g.getRecoveredPeople().get(i)/total;
+            healthy[i] = (double) g.getHealthyPeople().get(i) / total;
+            infected[i] = (double) g.getInfectedPeople().get(i) / total;
+            removed[i] = (double) g.getRecoveredPeople().get(i) / total;
         }
 
         // create your PlotPanel (you can use it as a JPanel)
