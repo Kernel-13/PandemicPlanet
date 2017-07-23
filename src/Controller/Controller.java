@@ -88,11 +88,11 @@ public class Controller {
             try {
                 int aux = Integer.parseInt(infectionRate);
                 if (aux < 1 || aux > 100) {
-                    log += "* The Infection Rate Input must be an integer between 1 and 100.\n";
+                    log += "* The Infection Rate Input must be an integer between 1 and\n 100.\n";
                 }
                 this.infectionRate = aux;
             } catch (NumberFormatException e) {
-                log += "* The Infection Rate Input must be an integer between 1 and 100.\n";
+                log += "* The Infection Rate Input must be an integer between 1 and\n 100.\n";
             }
         }
         return log;
@@ -111,11 +111,11 @@ public class Controller {
             try {
                 int aux = Integer.parseInt(recoveryRate);
                 if (aux < 1 || aux > 100) {
-                    log += "* The Recovery Rate Input must be an integer between 1 and 100.\n";
+                    log += "* The Recovery Rate Input must be an integer between 1 and\n 100.\n";
                 }
                 this.recoveryRate = aux;
             } catch (NumberFormatException e) {
-                log += "* The Recovery Rate Input must be an integer between 1 and 100.\n";
+                log += "* The Recovery Rate Input must be an integer between 1 and\n 100.\n";
             }
         }
         return log;
@@ -164,11 +164,11 @@ public class Controller {
             try {
                 int aux = Integer.parseInt(rwFrequency);
                 if (aux < 1 || aux >= this.numberOfDays) {
-                    log += "* The Frequency of the Random Walks must be an integer between 1 and the Number of Days.\n";
+                    log += "* The Frequency of the Random Walks must be an integer\n between 1 and the Number of Days.\n";
                 }
                 this.rwFrequency = aux;
             } catch (NumberFormatException e) {
-                log += "* The Frequency of the Random Walks must be an integer between 1 and the Number of Days.\n";
+                log += "* The Frequency of the Random Walks must be an integer\n between 1 and the Number of Days.\n";
             }
         }
         return log;
@@ -194,11 +194,11 @@ public class Controller {
             try {
                 int aux = Integer.parseInt(quarantineSchedule);
                 if (aux < 1 || aux >= this.numberOfDays) {
-                    log += "* The Day to apply quarantine must be an integer between 1 and the Number of Days.\n";
+                    log += "* The Day to apply quarantine must be an integer between 1 and\n the Number of Days.\n";
                 }
                 this.quarantineSchedule = aux;
             } catch (NumberFormatException e) {
-                log += "* The Day to apply quarantine must be an integer between 1 and the Number of Days.\n";
+                log += "* The Day to apply quarantine must be an integer between 1 and\n the Number of Days.\n";
             }
         }
         return log;

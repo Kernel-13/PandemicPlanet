@@ -29,6 +29,7 @@ public class Network {
     private final ArrayList<String> nodesWithBigDegree;     // Nodes with a lot of neighbors
     private final ArrayList<String> nodesWithSmallDegree;   // Nodes with few neighbors
     private final ArrayList<String> healthyNodesLeft;       // Nodes That Hasn't Been Infected
+    private String simulationLog;
 
     public Network() {
         this.infected = 0;
@@ -39,6 +40,7 @@ public class Network {
         this.nodesWithBigDegree = new ArrayList<>();
         this.nodesWithSmallDegree = new ArrayList<>();
         this.healthyNodesLeft = new ArrayList<>();
+        this.simulationLog = "";
     }
 
     public Graph startPandemic(String model, String nodesFile, String edgesFile,
@@ -46,15 +48,18 @@ public class Network {
             int rwFrequency, boolean quarantine, int quarantineSchedule,
             String firstInfected) {
 
+        int totalNodes;
+
         ArrayList<Integer> infectedPeople = new ArrayList<>();
         ArrayList<Integer> healthyPeople = new ArrayList<>();
         ArrayList<Integer> recoveredPeople = new ArrayList<>();
-        int daysPassed = 0;
+        int daysPassed = 1;
 
         // Lists Initialization
         initializeNetwork(nodesFile, edgesFile);
         initializeQuarantineList(numberOfDays);
         initializeOtherLists();
+        totalNodes = healthy;
 
         // First Infected
         switch (firstInfected) {
@@ -69,6 +74,9 @@ public class Network {
                 break;
         }
 
+        simulationLog += "---> Day 1:\n";
+        printNetworkStatues(model, totalNodes);
+
         // Epidemic Started
         healthyPeople.add(healthy);
         infectedPeople.add(infected);
@@ -76,8 +84,9 @@ public class Network {
         daysPassed++;
 
         // Rest of Days
-        while (daysPassed < numberOfDays) {
+        while (daysPassed <= numberOfDays) {
 
+            simulationLog += "\n---> Day " + daysPassed + ":\n";
             if (quarantine && daysPassed == quarantineSchedule) {
                 activateQuarantine();
             }
@@ -96,6 +105,8 @@ public class Network {
             infectedPeople.add(infected);
             recoveredPeople.add(recovered);
 
+            printNetworkStatues(model, totalNodes);
+
             if ((healthy == 0 && model.equals("SI")) || infected == 0) {
                 break;
             }
@@ -103,7 +114,7 @@ public class Network {
             daysPassed++;
         }
 
-        return new Graph(infectedPeople, healthyPeople, recoveredPeople);
+        return new Graph(infectedPeople, healthyPeople, recoveredPeople, simulationLog);
     }
 
     /**
@@ -167,6 +178,7 @@ public class Network {
      * which haven't been infected yet.
      */
     private void activateQuarantine() {
+        simulationLog += "Quarantine Activated!";
         for (int i = 0; i < quarantine.size(); i++) {
             if (airports.get(quarantine.get(i)).getState() != State.INFECTED
                     && airports.get(quarantine.get(i)).getState() != State.REMOVED) {
@@ -341,4 +353,11 @@ public class Network {
         return ok;
     }
 
+    private void printNetworkStatues(String model, int totalNodes) {
+        simulationLog += " Healthy: " + ((double) healthy / totalNodes) * 100 + "%\n";
+        simulationLog += " Infected: " + ((double) infected / totalNodes) * 100 + "%\n";
+        if (model.equals("SIR")) {
+            simulationLog += " Recovered: " + ((double) recovered / totalNodes) * 100 + "%\n";
+        }
+    }
 }

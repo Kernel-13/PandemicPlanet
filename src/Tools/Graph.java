@@ -17,13 +17,16 @@ public class Graph {
     private ArrayList<Integer> healthyPeople;
     private ArrayList<Integer> recoveredPeople;
     private int count;
+    private String log;
 
     public Graph(ArrayList<Integer> infectedPeople,
-            ArrayList<Integer> healthyPeople, ArrayList<Integer> recoveredPeople) {
+            ArrayList<Integer> healthyPeople, ArrayList<Integer> recoveredPeople,
+            String log) {
         this.infectedPeople = infectedPeople;
         this.healthyPeople = healthyPeople;
         this.recoveredPeople = recoveredPeople;
         this.count = healthyPeople.size();
+        this.log = log;
     }
 
     /**
@@ -53,5 +56,12 @@ public class Graph {
     public int getCount() {
         return count;
     }
-    
+
+    /**
+     * @return the log
+     */
+    public String getLog() {
+        return log;
+    }
+
 }
